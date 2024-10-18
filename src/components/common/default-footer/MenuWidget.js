@@ -3,33 +3,33 @@ import React from "react";
 const MenuWidget = () => {
   const menuSections = [
     {
-      title: "Popular Search",
+      title: "Lo más buscado",
       links: [
-        { label: "Apartment for Rent", href: "#" },
-        { label: "Apartment Low to Hide", href: "#" },
-        { label: "Offices for Buy", href: "#" },
-        { label: "Offices for Rent", href: "#" },
+        { label: "Pisos en Renta", href: "#" },
+        { label: "Apartmentos de lujo", href: "#" },
+        { label: "Oficinas para comprar", href: "#" },
+        { label: "Oficinas para alquilar", href: "#" },
       ],
     },
     {
-      title: "Quick Links",
+      title: "Enlaces de ayuda",
       links: [
-        { label: "Terms of Use", href: "#" },
-        { label: "Privacy Policy", href: "#" },
-        { label: "Pricing Plans", href: "#" },
-        { label: "Our Services", href: "#" },
-        { label: "Contact Support", href: "#" },
-        { label: "Careers", href: "#" },
-        { label: "FAQs", href: "#" },
+        { label: "Terminos de Uso", href: "#" },
+        { label: "Políticas de Privacidad", href: "#" },
+        { label: "Planes de Barcelona", href: "#" },
+        { label: "Nuestros Servicios", href: "#" },
+        { label: "Soporte y Contacto", href: "#" },
+        { label: "Trabaja con nosotros", href: "#" },
+        { label: "Preguntas Frequentes", href: "#" },
       ],
     },
     {
-      title: "Discover",
+      title: "Descubre",
       links: [
-        { label: "Miami", href: "#" },
-        { label: "Los Angeles", href: "#" },
-        { label: "Chicago", href: "#" },
-        { label: "New York", href: "#" },
+        { label: "Barcelona", href: "#" },
+        { label: "Mexico", href: "#" },
+        { label: "Chihuahua", href: "#" },
+        { label: "Londres", href: "#" },
       ],
     },
   ];

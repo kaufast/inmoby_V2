@@ -7,11 +7,11 @@ const getCurrentYear = () => {
 const Footer = () => {
   const footerMenuItems = [
     {
-      label: "Privacy",
+      label: "Polîticas",
       link: "#",
     },
     {
-      label: "Terms",
+      label: "de Privacidad",
       link: "#",
     },
     {
@@ -26,16 +26,16 @@ const Footer = () => {
         <div className="col-sm-6">
           <div className="text-center text-lg-start">
             <p className="copyright-text text-gray ff-heading">
-              © Homez {getCurrentYear()}{" "}
+              © Inmobi {getCurrentYear()}{" "}
               <a
                 href="https://themeforest.net/user/ib-themes"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white"
               >
-                ib-themes
+                kaufast seo
               </a>{" "}
-              - All rights reserved
+              - Todos los derechos reservados
             </p>
           </div>
         </div>
