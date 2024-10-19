@@ -73,13 +73,13 @@ const Header = () => {
                     role="button"
                   >
                     <i className="far fa-user-circle fz16 me-2" />{" "}
-                    <span className="d-none d-xl-block">Login / Register</span>
+                    <span className="d-none d-xl-block">Acceder / Registro</span>
                   </a>
                   <Link
                     className="ud-btn add-property menu-btn bdrs60 mx-2 mx-xl-4"
                     href="/dashboard-add-property"
                   >
-                    Add Property
+                    Anunciate gratis
                     <i className="fal fa-arrow-right-long" />
                   </Link>
                   <a
