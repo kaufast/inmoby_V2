@@ -42,7 +42,7 @@ const Header = () => {
                       <Image
                         width={138}
                         height={44}
-                        src="/images/header-logo2.svg"
+                        src="/images/inmobi-black-txt.png"
                         alt="Header Logo"
                       />
                     </Link>
@@ -50,7 +50,7 @@ const Header = () => {
                       <Image
                         width={138}
                         height={44}
-                        src="/images/header-logo2.svg"
+                        src="/images/inmobi-black-txt.png"
                         alt="Header Logo"
                       />
                     </Link>
@@ -73,13 +73,13 @@ const Header = () => {
                     role="button"
                   >
                     <i className="far fa-user-circle fz16 me-2" />{" "}
-                    <span className="d-none d-xl-block">Login / Register</span>
+                    <span className="d-none d-xl-block">Acceder / Registro</span>
                   </a>
                   <Link
                     className="ud-btn btn-dark mx-2 mx-xl-4"
                     href="/dashboard-add-property"
                   >
-                    Add Property
+                    Anunciate gratis
                     <i className="fal fa-arrow-right-long" />
                   </Link>
                   <a

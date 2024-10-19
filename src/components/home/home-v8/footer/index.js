@@ -19,7 +19,7 @@ const Footer = () => {
                   width={138}
                   height={44}
                   className="mb40"
-                  src="/images/header-logo.svg"
+                  src="/images/inmobi-white-txt.png"
                   alt=""
                 />
               </Link>

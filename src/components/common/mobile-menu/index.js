@@ -30,7 +30,7 @@ const MobileMenu = () => {
                 <Image
                   width={138}
                   height={44}
-                  src="/images/header-logo2.svg"
+                  src="/images/inmobi-black-txt.png"
                   alt="logo"
                 />
               </Link>
