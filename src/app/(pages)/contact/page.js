@@ -39,7 +39,7 @@ const Contact = () => {
             <div className="col-lg-5 position-relative">
               <div className="home8-contact-form default-box-shadow1 bdrs12 bdr1 p30 mb30-md bgc-white">
                 <h4 className="form-title mb25">
-                  Have questions? Get in touch!
+                  ¿Tienes preguntas? ¡Ponte en contacto!
                 </h4>
                 <Form />
               </div>
@@ -48,13 +48,11 @@ const Contact = () => {
 
             <div className="col-lg-5 offset-lg-2">
               <h2 className="mb30 text-capitalize">
-                We’d love to hear <br className="d-none d-lg-block" />
-                from you.
+                Nos encantaría <br className="d-none d-lg-block" />
+                saber de ti.
               </h2>
               <p className="text">
-                We are here to answer any question you may have. As a partner of
-                corporates, realton has more than 9,000 offices of all sizes and
-                all potential of session.
+               Estamos aquí para responder cualquier pregunta que puedas tener. Como socio de corporaciones, Realton cuenta con más de 9,000 oficinas de todos los tamaños y con todo el potencial de gestión.
               </p>
             </div>
             {/* End .col */}
@@ -73,10 +71,10 @@ const Contact = () => {
               data-aos-delay="300"
             >
               <div className="main-title text-center">
-                <h2 className="title">Visit Our Office</h2>
+                <h2 className="title">Visita Nuestra Oficina
+                </h2>
                 <p className="paragraph">
-                  Realton has more than 9,000 offices of all sizes and all
-                  potential of session.
+                cuenta con oficinas con todo el potencial de gestión integral adaptado a tus necesidades.
                 </p>
               </div>
             </div>

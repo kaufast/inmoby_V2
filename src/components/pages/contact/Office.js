@@ -5,23 +5,23 @@ const Office = () => {
   const offices = [
     {
       id: 1,
-      city: "Paris",
+      city: "Barcelona",
       icon: "/images/icon/paris.svg",
-      address: "1301 2nd Ave, Seattle, WA 98101",
+      address: "Calle de la Ribera 14, 08003,Barcelona, España",
       phoneNumber: "(315) 905-2321",
     },
     {
       id: 2,
-      city: "London",
+      city: "Londres",
       icon: "/images/icon/london.svg",
-      address: "1301 2nd Ave, Seattle, WA 98101",
+      address: "1301 2nd Ave, S7 8HK, London, Reino Unido ",
       phoneNumber: "(315) 905-2321",
     },
     {
       id: 3,
-      city: "New York",
+      city: "Mexico",
       icon: "/images/icon/new-york.svg",
-      address: "1301 2nd Ave, Seattle, WA 98101",
+      address: "Maria Luisa 1107, Chihuahua, México.",
       phoneNumber: "(315) 905-2321",
     },
     // Add more office objects here...
@@ -40,7 +40,7 @@ const Office = () => {
               <p className="text mb-1">{office.address}</p>
               <h6 className="mb10">{office.phoneNumber}</h6>
               <a className="text-decoration-underline" href="#">
-                Open Google Map
+                Abrir en  Google Maps
               </a>
             </div>
           </div>
