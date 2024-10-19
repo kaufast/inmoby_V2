@@ -11,9 +11,9 @@ const HeroContent = () => {
   };
 
   const tabs = [
-    { id: "buy", label: "Buy" },
-    { id: "rent", label: "Rent" },
-    { id: "sold", label: "Sold" },
+    { id: "buy", label: "Comprar" },
+    { id: "rent", label: "Alquilar" },
+    { id: "sold", label: "Vendido" },
   ];
 
   return (
