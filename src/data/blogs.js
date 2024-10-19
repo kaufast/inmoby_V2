@@ -3,34 +3,34 @@ export const blogs = [
     id: 1,
     image: "/images/blog/blog-1.jpg",
     date: {
-      month: "July",
-      day: "28",
+      month: "Dic",
+      day: "15",
     },
-    tag: "Living Room",
-    title: "Private Contemporary Home Balancing Openness",
+    tag: "Inmobiliaria",
+    title: "Noticias Propiedades Inmobiliarias en Cataluña: Lo que neceistas saber",
   },
   {
     id: 2,
     image: "/images/blog/blog-2.jpg",
-
     date: {
-      month: "July",
-      day: "28",
+      month: "Dic",
+      day: "22",
     },
-    tag: "Living Room",
-    title: "Contemporary Home Private Balancing Openness",
+    tag: "Inmobiliaria",
+    title: "Últimos Desarrollos Inmobiliarios Generales en Cataluña y España",
   },
   {
     id: 3,
     image: "/images/blog/blog-3.jpg",
     date: {
-      month: "July",
-      day: "28",
+      month: "Dic",
+      day: "30",
     },
-    tag: "Living Room",
-    title: "Balancing Private Contemporary Home  Openness",
+    tag: "Inmobiliaria",
+    title: "Regulaciones Recientes en Cataluña y España: Actualización Inmobiliaria",
   },
 ];
+
 
 export const blogData = [
   {
