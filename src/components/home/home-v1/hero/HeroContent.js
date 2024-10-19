@@ -11,9 +11,9 @@ const HeroContent = () => {
   };
 
   const tabs = [
-    { id: "buy", label: "Buy" },
-    { id: "rent", label: "Rent" },
-    { id: "sold", label: "Sold" },
+    { id: "buy", label: "Compra" },
+    { id: "rent", label: "Renta" },
+    { id: "sold", label: "" },
   ];
 
   return (
@@ -48,7 +48,7 @@ const HeroContent = () => {
                           className="form-control bgc-f7 bdrs12"
                           type="text"
                           name="search"
-                          placeholder={`Enter an address, neighborhood, city, or ZIP code for ${tab.label}`}
+                          placeholder={`Introduce una dirección, ciudad o código postal para ${tab.label}`}
                         />
                       </div>
                     </form>
