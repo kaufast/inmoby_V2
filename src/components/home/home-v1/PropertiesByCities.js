@@ -50,11 +50,11 @@ const PropertiesByCities = () => {
                 <div className="feature-content">
                   <div className="top-area">
                     <h6 className="title mb-1">{city.name}</h6>
-                    <p className="text">{city.propertyCount} Properties</p>
+                    <p className="text">{city.propertyCount} Propiedades</p>
                   </div>
                   <div className="bottom-area">
                     <Link className="ud-btn2" href="/grid-full-1-col-v1">
-                      See All Cities
+                      Ver Todas las Ciudades
                       <i className="fal fa-arrow-right-long" />
                     </Link>
                   </div>

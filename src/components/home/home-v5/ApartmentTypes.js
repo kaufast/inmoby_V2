@@ -63,7 +63,7 @@ const ApartmentTypes = () => {
               </div>
               <div className="bottom-area">
                 <Link className="ud-btn2" href="/map-v4">
-                  See All Cities
+                  Ver todas las ciudades
                   <i className="fal fa-arrow-right-long" />
                 </Link>
               </div>

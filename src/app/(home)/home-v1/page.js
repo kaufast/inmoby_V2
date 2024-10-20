@@ -17,8 +17,9 @@ import Link from "next/link";
 import PopulerProperty from "@/components/home/home-v1/PopulerProperty";
 
 export const metadata = {
-  title: "Home v1 || Homez - Real Estate NextJS Template",
+  title: "Inicio v1 || Inmobi - Plantilla de Bienes Raíces",
 };
+
 
 const Home_V1 = () => {
   return (
@@ -67,10 +68,11 @@ const Home_V1 = () => {
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
-                <h2 className="title">Explore Apartment Types</h2>
+                <h2 className="title">Explora Tipos de Apartamentos</h2>
                 <p className="paragraph">
-                  Get some Inspirations from 1800+ skills
+                  Inspírate con nuestra amplia selección de más de 1800 propiedades que se adaptan a todos los estilos de vida.
                 </p>
+
               </div>
             </div>
             {/* End header */}
@@ -126,10 +128,11 @@ const Home_V1 = () => {
               data-aos-delay="300"
             >
               <div className="main-title text-center">
-                <h2 className="title">See How Realton Can Help</h2>
+                <h2 className="title">Descubre Cómo Inmobi Puede Ayudarte</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  En Inmobi, te ofrecemos soluciones personalizadas para comprar, vender o alquilar propiedades. Nuestro equipo experto está aquí para guiarte en cada paso del proceso.
                 </p>
+
               </div>
             </div>
           </div>
@@ -148,16 +151,17 @@ const Home_V1 = () => {
           <div className="row align-items-center" data-aos="fade-up">
             <div className="col-lg-9">
               <div className="main-title2">
-                <h2 className="title">Discover Our Featured Listings</h2>
+                <h2 className="title">Descubre Nuestras Propiedades Destacadas</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Explora una selección única de inmuebles diseñados para inspirar tu próxima inversión
                 </p>
+
               </div>
             </div>
             <div className="col-lg-3">
               <div className="text-start text-lg-end mb-3">
                 <Link className="ud-btn2" href="/grid-full-3-col">
-                  See All Properties
+                  Ver todas las propiedades
                   <i className="fal fa-arrow-right-long" />
                 </Link>
               </div>
@@ -186,10 +190,11 @@ const Home_V1 = () => {
           >
             <div className="col-lg-9">
               <div className="main-title2">
-                <h2 className="title">Properties by Cities</h2>
+                <h2 className="title">Propiedades por Ciudades</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Explora nuestras mejores propiedades disponibles en las principales ciudades de España y encuentra la ubicación perfecta para ti.
                 </p>
+
               </div>
             </div>
             {/* End col-lg-9 */}
@@ -197,7 +202,7 @@ const Home_V1 = () => {
             <div className="col-lg-3">
               <div className="text-start text-lg-end mb-3">
                 <a className="ud-btn2" href="#">
-                  See All Cities
+                  Ver todas las ciudades
                   <i className="fal fa-arrow-right-long" />
                 </a>
               </div>
@@ -240,10 +245,11 @@ const Home_V1 = () => {
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
-                <h2 className="title">People Love Living with Realton</h2>
+                <h2 className="title">A la Gente le Encanta Vivir con Inmobi</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Descubre por qué nuestros clientes eligen Inmobi para encontrar su hogar ideal. Nos enorgullece ofrecer una experiencia de vida incomparable.
                 </p>
+
               </div>
             </div>
             {/* End header */}

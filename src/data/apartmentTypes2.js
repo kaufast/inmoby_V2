@@ -1,52 +1,53 @@
 module.exports = [
   {
-    title: "House",
+    title: "Casa",
     imageSrc: "/images/listings/as-1.jpg",
-    properties: 22,
+    properties: 19,
   },
   {
-    title: "Apartments",
+    title: "Apartamentos",
     imageSrc: "/images/listings/as-2.jpg",
-    properties: 22,
+    properties: 10,
   },
   {
-    title: "Office",
+    title: "Oficina",
     imageSrc: "/images/listings/as-3.jpg",
-    properties: 22,
+    properties: 18,
   },
   {
     title: "Villa",
     imageSrc: "/images/listings/as-4.jpg",
-    properties: 22,
+    properties: 11,
   },
   {
-    title: "House",
+    title: "Casa",
     imageSrc: "/images/listings/as-5.jpg",
-    properties: 22,
+    properties: 14,
   },
   {
-    title: "Apartments",
+    title: "Apartamentos",
     imageSrc: "/images/listings/as-2.jpg",
-    properties: 22,
+    properties: 16,
   },
   {
-    title: "Office",
+    title: "Oficina",
     imageSrc: "/images/listings/as-3.jpg",
-    properties: 22,
+    properties: 4,
   },
   {
     title: "Villa",
     imageSrc: "/images/listings/as-4.jpg",
-    properties: 22,
+    properties: 8,
   },
   {
-    title: "Townhome",
+    title: "Casa Adosada",
     imageSrc: "/images/listings/as-5.jpg",
-    properties: 22,
+    properties: 14,
   },
   {
-    title: "Townhome",
+    title: "Casa Adosada",
     imageSrc: "/images/listings/as-5.jpg",
-    properties: 22,
+    properties: 8,
   },
 ];
+

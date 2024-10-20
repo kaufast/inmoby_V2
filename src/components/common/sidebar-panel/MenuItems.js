@@ -1,12 +1,13 @@
 const MenuItems = () => {
   const menuItems = [
-    { id: 1, title: "Apartments" },
+    { id: 1, title: "Apartamentos" },
     { id: 2, title: "Bungalow" },
-    { id: 3, title: "Houses" },
+    { id: 3, title: "Casas" },
     { id: 4, title: "Loft" },
-    { id: 5, title: "Office" },
-    { id: 6, title: "Townhome" },
+    { id: 5, title: "Oficina" },
+    { id: 6, title: "Casa Adosada" },
     { id: 7, title: "Villa" },
+    
   ];
 
   return (

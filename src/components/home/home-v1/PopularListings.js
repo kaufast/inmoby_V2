@@ -43,7 +43,7 @@ const PopularListings = ({data = listings }) => {
                     {listing.featured && (
                       <div className="list-tag fz12">
                         <span className="flaticon-electricity me-2" />
-                        FEATURED
+                        DESTACADO
                       </div>
                     )}
                   </div>
@@ -59,18 +59,18 @@ const PopularListings = ({data = listings }) => {
                   <p className="list-text">{listing.location}</p>
                   <div className="list-meta d-flex align-items-center">
                     <a href="#">
-                      <span className="flaticon-bed" /> {listing.bed} bed
+                      <span className="flaticon-bed" /> {listing.bed} camas
                     </a>
                     <a href="#">
-                      <span className="flaticon-shower" /> {listing.bath} bath
+                      <span className="flaticon-shower" /> {listing.bath} baños
                     </a>
                     <a href="#">
-                      <span className="flaticon-expand" /> {listing.sqft} sqft
+                      <span className="flaticon-expand" /> {listing.sqft} mts2
                     </a>
                   </div>
                   <hr className="mt-2 mb-2" />
                   <div className="list-meta2 d-flex justify-content-between align-items-center">
-                    <span className="for-what">For Rent</span>
+                    <span className="for-what">Renta</span>
                     <div className="icons d-flex align-items-center">
                       <a href="#">
                         <span className="flaticon-fullscreen" />

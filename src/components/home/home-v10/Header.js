@@ -79,7 +79,7 @@ const Header = () => {
                     className="ud-btn btn-white add-property bdrs60 mx-2 mx-xl-4"
                     href="/dashboard-add-property"
                   >
-                    Anunciate gratis
+                    Anunciarse
                     <i className="fal fa-arrow-right-long" />
                   </Link>
                   <a

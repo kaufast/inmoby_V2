@@ -1,7 +1,7 @@
 import React from "react";
 
 const Category = () => {
-  const categories = ["Houses", "Apartments", "Office", "Villa", "Townhome"];
+  const categories = ["Casas", "Pisos", "Oficina", "Villas", "Casas de Campo"];
 
   return (
     <div className="sidebar-widget mb30">

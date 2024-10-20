@@ -7,25 +7,26 @@ const Explore = () => {
     {
       id: 1,
       icon: "/images/icon/property-buy.svg",
-      title: "Buy a property",
-      text: "Nullam sollicitudin blandit eros eu pretium. Nullam maximus ultricies auctor.",
-      linkText: "Find a home",
+      title: "Comprar una propiedad",
+      text: "Agentes Exclusivos",
+      linkText: "Encuentra una vivienda",
     },
     {
       id: 2,
       icon: "/images/icon/property-sell.svg",
-      title: "Sell a property",
-      text: "Nullam sollicitudin blandit eros eu pretium. Nullam maximus ultricies auctor.",
-      linkText: "Place an ad",
+      title: "Vender una propiedad",
+      text: "Agentes Exclusivos",
+      linkText: "Publica un anuncio",
     },
     {
       id: 3,
       icon: "/images/icon/property-rent.svg",
-      title: "Rent a property",
-      text: "Nullam sollicitudin blandit eros eu pretium. Nullam maximus ultricies auctor.",
-      linkText: "Find a rental",
+      title: "Alquilar una propiedad",
+      text: "Agentes Exclusivos",
+      linkText: "Encuentra un alquiler",
     },
   ];
+  
 
   return (
     <>
