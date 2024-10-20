@@ -1,42 +1,42 @@
 module.exports = [
   {
     id: 1,
-    title: "Great Work",
+    title: "Trabajo Impecable",
     quote:
-      "Amazing design, easy to customize and a design quality superlative account on its cloud platform for the optimized performance. And we didn’t on our original designs.",
+      "El equipo de Inmobi nos ayudó a mejorar nuestro proyecto con un diseño innovador y una atención al cliente impecable. ¡Totalmente recomendados!",
     stars: 5,
     image: "/images/testimonials/testimonial-1.png",
-    name: "Leslie Alexander",
-    company: "Nintendo",
+    name: "Carlos García",
+    company: "Grupo Telefónica",
   },
   {
     id: 2,
-    title: "Great Work",
+    title: "Servicio Excepcional",
     quote:
-      "Amazing design, easy to customize and a design quality superlative account on its cloud platform for the optimized performance. And we didn’t on our original designs.",
+      "Desde el primer momento, supimos que estábamos en buenas manos. Su experiencia en el mercado inmobiliario fue clave para lograr nuestro objetivo.",
     stars: 5,
     image: "/images/testimonials/testimonial-2.png",
-    name: "Floyd Miles",
-    company: "Bank of America",
+    name: "María Rodríguez",
+    company: "BBVA",
   },
   {
     id: 3,
-    title: "Great Work",
+    title: "Experiencia Increíble",
     quote:
-      "Amazing design, easy to customize and a design quality superlative account on its cloud platform for the optimized performance. And we didn’t on our original designs.",
+      "Inmobi nos ofreció una solución personalizada que superó nuestras expectativas. El nivel de detalle y la dedicación son insuperables.",
     stars: 5,
     image: "/images/testimonials/testimonial-3.png",
-    name: "Leslie Alexander",
-    company: "Nintendo",
+    name: "Javier Fernández",
+    company: "Santander",
   },
   {
     id: 4,
-    title: "Great Work",
+    title: "Profesionalismo y Calidad",
     quote:
-      "Amazing design, easy to customize and a design quality superlative account on its cloud platform for the optimized performance. And we didn’t on our original designs.",
+      "Gracias a Inmobi pudimos cerrar una venta importante. Su equipo es profesional, confiable y conoce a fondo el mercado.",
     stars: 5,
     image: "/images/testimonials/testimonial-4.png",
-    name: "Floyd Miles",
-    company: "Bank of America",
+    name: "Ana Martínez",
+    company: "CaixaBank",
   },
 ];

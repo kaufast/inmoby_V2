@@ -3,9 +3,10 @@ import Link from "next/link";
 
 const About = () => {
   const featureList = [
-    "Find excellent deals",
-    "Friendly host & Fast support",
-    "List your own property",
+   "Encuentra excelentes ofertas",
+"Anfitrión amigable y soporte rápido",
+"Publica tu propia propiedad",
+
   ];
   return (
     <>
@@ -16,25 +17,25 @@ const About = () => {
             data-aos="fade-left"
           >
             <h2 className="title mb30">
-              Let’s find the right selling option for you
-            </h2>
-            <p className="text mb25 fz15">
-              As the complexity of buildings to increase, the field of
-              architecture
-            </p>
-            <div className="list-style1 mb50">
-              <ul>
-                {featureList.map((list, index) => (
-                  <li key={index}>
-                    <i className="far fa-check text-white bgc-dark fz15"></i>
-                    {list}
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <Link href="/grid-gull-3-col" className="ud-btn btn-white2">
-              Learn More<i className="fal fa-arrow-right-long"></i>
-            </Link>
+  Encuentra la opción de venta adecuada para ti
+</h2>
+<p className="text mb25 fz15">
+  A medida que aumenta la complejidad de los edificios, el campo de la arquitectura
+</p>
+<div className="list-style1 mb50">
+  <ul>
+    {featureList.map((list, index) => (
+      <li key={index}>
+        <i className="far fa-check text-white bgc-dark fz15"></i>
+        {list}
+      </li>
+    ))}
+  </ul>
+</div>
+<Link href="/grid-gull-3-col" className="ud-btn btn-white2">
+  Más información<i className="fal fa-arrow-right-long"></i>
+</Link>
+
           </div>
         </div>
         {/* End .col-6 */}

@@ -28,12 +28,12 @@ export default function PopulerProperty() {
           <div className="row " data-aos="fade-up">
             <div className="col-lg-9">
               <div className="main-title2">
-                <h2 className="title text-white">
-                  Discover Popular Properties
-                </h2>
-                <p className="paragraph text-white">
-                  Aliquam lacinia diam quis lacus euismod
-                </p>
+              <h2 className="title text-white">
+                Descubre Propiedades Populares
+              </h2>
+              <p className="paragraph text-white">
+                Explora una selección única de propiedades diseñadas para inspirar tu próxima inversión.
+              </p>
               </div>
             </div>
             {/* End .col */}
@@ -42,10 +42,10 @@ export default function PopulerProperty() {
               <div className="dark-light-navtab text-start text-lg-end mt-0 mt-lg-4 mb-4">
                 <ul className="nav nav-pills justify-content-start justify-content-lg-end">
                   <li className="nav-item" onClick={()=>setCurrentType('rent')}>
-                    <button  className={`nav-link ${currentType== 'rent' ? 'active':''} `}>For Rent</button>
+                    <button  className={`nav-link ${currentType== 'rent' ? 'active':''} `}>Para Renta</button>
                   </li>
                   <li className="nav-item" onClick={()=>setCurrentType('sale')}>
-                    <button className={`nav-link me-0 ${currentType== 'sale' ? 'active':''} `}>For Sale</button>
+                    <button className={`nav-link me-0 ${currentType== 'sale' ? 'active':''} `}>Para Venta</button>
                   </li>
                 </ul>
               </div>
@@ -59,7 +59,7 @@ export default function PopulerProperty() {
               <PopularListings data={pageData} />
               <div className="d-grid d-md-block text-center mt30 mt0-md">
                 <Link href="/grid-full-4-col" className="ud-btn btn-thm">
-                  See All Properties<i className="fal fa-arrow-right-long"></i>
+                  Ver todas las propiedades<i className="fal fa-arrow-right-long"></i>
                 </Link>
               </div>
             </div>

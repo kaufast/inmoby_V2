@@ -277,7 +277,7 @@ const Home_V8 = () => {
       </section>
       {/* End Featured Properties */}
 
-      {/* Our Exclusive Agetns */}
+      {/* Agentes Exclusivos */}
       <section className="pb80 pb30-md">
         <div className="container">
           <div className="row">
@@ -287,7 +287,7 @@ const Home_V8 = () => {
               data-aos-delay="100"
             >
               <div className="main-title mb30">
-                <h2 className="title mb20">Our Exclusive Agetns</h2>
+                <h2 className="title mb20">Agentes Exclusivos</h2>
                 <p className="text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse varius enim in eros elementum{" "}
@@ -310,7 +310,7 @@ const Home_V8 = () => {
           {/* End row */}
         </div>
       </section>
-      {/* End  Our Exclusive Agetns */}
+      {/* End  Agentes Exclusivos */}
 
       {/* Explore Blog */}
       <section className="pt-0 mb0-md pb90 pb30-md">
