@@ -5,8 +5,8 @@ import DefaultHeader from "@/components/common/DefaultHeader";
 import Footer from "@/components/common/default-footer";
 import MobileMenu from "@/components/common/mobile-menu";
 
-export const  = {
-  title: "Blog List v1  || Homez - Real Estate NextJS Template",
+export const metadata = {
+  title: "Blog List v1  || Inmobi - Real Estate ",
 };
 
 const BlogV1 = () => {

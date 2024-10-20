@@ -18,7 +18,7 @@ const MainMenu = () => {
   useEffect(() => {
     homeItems.forEach((elm) => {
       if (elm.href.split("/")[1] == pathname.split("/")[1]) {
-        setTopMenu("home");
+        setTopMenu("Inmobi");
       }
     });
     blogItems.forEach((elm) => {
@@ -28,13 +28,13 @@ const MainMenu = () => {
     });
     pageItems.forEach((elm) => {
       if (elm.href.split("/")[1] == pathname.split("/")[1]) {
-        setTopMenu("pages");
+        setTopMenu("contacto");
       }
     });
     propertyItems.forEach((item) =>
       item.subMenuItems.forEach((elm) => {
         if (elm.href.split("/")[1] == pathname.split("/")[1]) {
-          setTopMenu("property");
+          setTopMenu("propiedad");
           setSubmenu(item.label);
         }
       })
@@ -42,7 +42,7 @@ const MainMenu = () => {
     listingItems.forEach((item) =>
       item.submenu.forEach((elm) => {
         if (elm.href.split("/")[1] == pathname.split("/")[1]) {
-          setTopMenu("listing");
+          setTopMenu("lista");
           setSubmenu(item.title);
         }
       })
@@ -58,8 +58,8 @@ const MainMenu = () => {
     <ul className="ace-responsive-menu">
       <li className="visible_list dropitem">
         <a className="list-item" href="#">
-          <span className={topMenu == "home" ? "title menuActive" : "title"}>
-            Home
+          <span className={topMenu == "Inmobi" ? "title menuActive" : "title"}>
+            Inmobi
           </span>
           <span className="arrow"></span>
         </a>
@@ -79,7 +79,7 @@ const MainMenu = () => {
       <li className="megamenu_style dropitem">
         <a className="list-item" href="#">
           <span className={topMenu == "listing" ? "title menuActive" : "title"}>
-            Listing
+            Lista
           </span>
           <span className="arrow"></span>
         </a>
@@ -110,7 +110,7 @@ const MainMenu = () => {
           <span
             className={topMenu == "property" ? "title menuActive" : "title"}
           >
-            Property
+            Propiedades
           </span>
           <span className="arrow"></span>
         </a>
@@ -167,7 +167,7 @@ const MainMenu = () => {
       <li className="visible_list dropitem">
         <a className="list-item" href="#">
           <span className={topMenu == "pages" ? "title menuActive" : "title"}>
-            Pages
+            Contacto
           </span>
           <span className="arrow"></span>
         </a>
