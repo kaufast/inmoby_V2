@@ -66,7 +66,7 @@ const Form = () => {
         <div className="col-md-12">
           <div className="d-grid">
             <button type="submit" className="ud-btn btn-thm">
-              Enviar mensaje
+              Enviar mensaje  
               <i className="fal fa-arrow-right-long" />
             </button>
           </div>
