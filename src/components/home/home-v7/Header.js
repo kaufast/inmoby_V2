@@ -69,7 +69,7 @@ const Header = () => {
                     className="ud-btn btn-dark add-property bdrs0 mx-2 mx-xl-4"
                     href="/dashboard-add-property"
                   >
-                    Anunciarse
+                    Anuncio
                     <i className="fal fa-arrow-right-long" />
                   </Link>
                   <a
