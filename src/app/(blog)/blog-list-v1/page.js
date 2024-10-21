@@ -48,7 +48,7 @@ const BlogV1 = () => {
                 <div className="mbp_pagination text-center">
                   <Pagination />
                   <p className="mt10 pagination_page_count text-center">
-                    1 – 20 of 300+ property available
+                    1 – 20 de más de 100 propiedades disponibles
                   </p>
                 </div>
               </div>

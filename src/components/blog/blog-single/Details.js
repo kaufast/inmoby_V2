@@ -10,8 +10,7 @@ export default function Details({id}) {
           <div className="row" data-aos="fade-up" data-aos-delay="100">
             <div className="col-lg-12">
               <h2 className="blog-title">
-                {data.title ||  data.content || `7 Simple Ways to Keep Your Kid&apos;s Toys From Taking Over Your
-                Home`}
+                {data.title ||  data.content || `7 formas simples de evitar que los juguetes de tus hijos invadan tu hogar`}
                 
               </h2>
               <div className="blog-single-meta">
@@ -24,13 +23,13 @@ export default function Details({id}) {
                     alt="blog"
                   />
                   <a className="pr15 bdrr1" href="#">
-                    Leslie Alexander
+                    Alexandra R.
                   </a>
                   <a className="ml15 pr15 bdrr1" href="#">
-                    Home Improvement
+                    Mejoras en Casa 
                   </a>
                   <a className="ml15" href="#">
-                    {data.date.month} {data.date.day}, {data.date.year || 2022}
+                    {data.date.month} {data.date.day}, {data.date.year || 2024}
                   </a>
                 </div>
               </div>

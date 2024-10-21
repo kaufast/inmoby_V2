@@ -8,7 +8,7 @@ const LatestPost = () => {
 
   return (
     <div className="sidebar-widget mb30">
-      <h6 className="widget-title">Latest Posts</h6>
+      <h6 className="widget-title">Últimas Publicaciones</h6>
       {posts.map((post, index) => (
         <div
           className="list-news-style d-flex align-items-center mt20 mb20"

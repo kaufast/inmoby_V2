@@ -1,12 +1,13 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 
 const reviews = [
   {
     name: "Bessie Cooper",
-    date: "12 March 2022",
+    date: "12 Octubre 2024", // Fecha actualizada
     rating: 5,
-    text: "Every single thing we tried with John was delicious! Found some awesome places we would definitely go back to on our trip. John was also super friendly and passionate about Beşiktaş and Istanbul.",
+    text: "Cada propiedad que visitamos con Inmonbi superó nuestras expectativas. Encontramos algunas opciones increíbles y definitivamente volveríamos. El equipo de Inmonbi fue muy amable y conocedor del mercado inmobiliario local.",
     images: [
       "/images/blog/blog-single-3.jpg",
       "/images/blog/blog-single-4.jpg",
@@ -16,9 +17,9 @@ const reviews = [
   },
   {
     name: "Darrell Steward",
-    date: "12 March 2022",
+    date: "12 Octubre 2024", // Fecha actualizada
     rating: 5,
-    text: "Every single thing we tried with John was delicious! Found some awesome places we would definitely go back to on our trip. John was also super friendly and passionate about Beşiktaş and Istanbul.",
+    text: "La experiencia con Inmonbi fue fantástica. Nos ayudaron a encontrar propiedades increíbles y nos brindaron una excelente atención durante todo el proceso de compra. Altamente recomendados para cualquier persona interesada en el mercado inmobiliario.",
     images: [
       "/images/blog/blog-single-3.jpg",
       "/images/blog/blog-single-4.jpg",
@@ -39,7 +40,7 @@ const SingleReview = () => {
               height={60}
               src="/images/blog/comments-2.png"
               className="mr-3"
-              alt="comments-2.png"
+              alt="comentarios"
             />
             <div className="ml20">
               <h6 className="mt-0 mb-0">{review.name}</h6>
@@ -70,7 +71,7 @@ const SingleReview = () => {
                   height={90}
                   className="bdrs6"
                   src={image}
-                  alt="review-img"
+                  alt="imagen de reseña"
                 />
               </li>
             ))}
@@ -79,11 +80,11 @@ const SingleReview = () => {
           <div className="review_cansel_btns d-flex bdrb1 pb30">
             <a href="#">
               <i className="fas fa-thumbs-up" />
-              Helpful
+              Útil
             </a>
             <a href="#">
               <i className="fas fa-thumbs-down" />
-              Not helpful
+              No útil
             </a>
           </div>
         </div>
@@ -92,7 +93,7 @@ const SingleReview = () => {
       <div className="col-md-12">
         <div className="position-relative bdrb1 pt30 pb20">
           <a href="#" className="ud-btn btn-white2">
-            Show all 134 reviews
+            Mostrar las 134 reseñas
             <i className="fal fa-arrow-right-long" />
           </a>
         </div>

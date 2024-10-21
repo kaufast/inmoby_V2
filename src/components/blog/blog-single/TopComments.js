@@ -4,10 +4,11 @@ import React from "react";
 const topComments = [
   {
     name: "Brooklyn Simmons",
-    role: "Medical Assistant",
-    text: "Etiam vitae leo et diam pellentesque porta. Sed eleifend ultricies risus, vel rutrum erat commodo ut. Praesent finibus congue euismod.",
+    role: "Agente Inmobiliario",
+    text: "Trabajar con Inmonbi ha sido una experiencia excepcional. Su equipo nos ayudó a encontrar la propiedad perfecta de acuerdo a nuestras necesidades, brindando un servicio personalizado y profesional en cada etapa del proceso.",
     image: "/images/blog/comments-1.png",
-  },
+  }
+  
 
   // Add more comment objects as needed
 ];
