@@ -26,10 +26,10 @@ const Faq = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="breadcumb-style1">
-                <h2 className="title">Frequently Asked Questions</h2>
+                <h2 className="title">Preguntas Frequentes (FAQ)</h2>
                 <div className="breadcumb-list">
-                  <a href="#">Home</a>
-                  <a href="#">For Rent</a>
+                  <a href="#">Casas</a>
+                  <a href="#">para Rentar</a>
                 </div>
               </div>
             </div>
@@ -44,7 +44,7 @@ const Faq = () => {
           <div className="row wow fadeInUp" data-wow-delay="300ms">
             <div className="col-lg-12">
               <div className="ui-content">
-                <h4 className="title">Question About Selling</h4>
+                <h4 className="title">Pregunta sobre pisos en venta</h4>
                 <div className="accordion-style1 faq-page mb-4 mb-lg-5">
                   <Faq1 />
                 </div>
@@ -52,7 +52,7 @@ const Faq = () => {
               {/* End ui-content */}
 
               <div className="ui-content">
-                <h4 className="title">Question About Renting</h4>
+                <h4 className="title">Pregunta sobre pisos en alquiler</h4>
                 <div className="accordion-style1 faq-page mb-4 mb-lg-5">
                   <Faq2 />
                 </div>
