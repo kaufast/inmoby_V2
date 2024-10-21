@@ -28,8 +28,10 @@ const Agency = () => {
               <div className="breadcumb-style1">
                 <h2 className="title">Agencies</h2>
                 <div className="breadcumb-list">
-                  <a href="#">Home</a>
-                  <a href="#">For Rent</a>
+                                                      <a href="#">Inicio</a>
+<a href="#">En Alquiler</a>
+
+
                 </div>
               </div>
             </div>

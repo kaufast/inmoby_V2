@@ -75,7 +75,7 @@ const ComapareTable = () => {
       <tbody className="t-body">
         <tr>
           <th className="text-end" scope="row">
-            Property Type
+            Tipo de Propiedad
           </th>
           <td>Apartment</td>
           <td>Studio</td>
@@ -185,7 +185,7 @@ const ComapareTable = () => {
 
         <tr>
           <th className="text-end" scope="row">
-            Aire Acondicionado
+            Aire Acond...
           </th>
           <td>
             <a className="check_circle" href="#">

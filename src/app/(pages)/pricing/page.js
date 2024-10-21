@@ -27,7 +27,7 @@ const PricingPlan = () => {
               <div className="breadcumb-style1">
                 <h2 className="title">Membership Plans</h2>
                 <div className="breadcumb-list">
-                  <a href="#">Home</a>
+                  Para Renta
                   <a href="#">Plans</a>
                 </div>
               </div>

@@ -3,13 +3,14 @@ import Select from "react-select";
 
 const SelectDropdown = () => {
   const catOptions = [
-    { value: "Apartments", label: "Apartments" },
-    { value: "Bungalow", label: "Bungalow" },
-    { value: "Houses", label: "Houses" },
-    { value: "Loft", label: "Loft" },
-    { value: "Office", label: "Office" },
-    { value: "Townhome", label: "Townhome" },
-    { value: "Villa", label: "Villa" },
+{ value: "Apartments", label: "Apartamentos" },
+{ value: "Bungalow", label: "Bungalow" },
+{ value: "Houses", label: "Casas" },
+{ value: "Loft", label: "Loft" },
+{ value: "Office", label: "Oficina" },
+{ value: "Townhome", label: "Casa Adosada" },
+{ value: "Villa", label: "Villa" },
+
   ];
 
   const customStyles = {

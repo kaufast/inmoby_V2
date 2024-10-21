@@ -52,7 +52,7 @@ const FeaturedListings = () => {
                     {listing.forRent && (
                       <div className="list-tag rounded-0 fz12">
                         <span className="flaticon-electricity" />
-                        FEATURED
+                        DESTACADO
                       </div>
                     )}
                     <div className="list-tag2 rounded-0 fz12">FOR SALE</div>
@@ -77,7 +77,7 @@ const FeaturedListings = () => {
 
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="list-price">
-                      {listing.price} / <span>mo</span>
+                      {listing.price} / <span>mes</span>
                     </div>
                     <div className="list-meta2 d-flex align-items-center">
                       <a href="#" className="mr10">

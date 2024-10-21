@@ -14,7 +14,7 @@ const SquareFeet = ({ filterFunctions }) => {
               ])
             }
             className="form-control filterInput"
-            placeholder="Min."
+            placeholder="Mín"
             id="minFeet"
           />
         </div>
@@ -30,7 +30,7 @@ const SquareFeet = ({ filterFunctions }) => {
               ])
             }
             className="form-control filterInput"
-            placeholder="Max"
+            placeholder="Máx"
           />
         </div>
       </div>

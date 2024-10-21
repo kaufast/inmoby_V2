@@ -6,19 +6,20 @@ import { useState } from "react";
 const FilterItems = () => {
   const [price, setPrice] = useState([20, 70987]);
 
-  // price range handler
+  // Rango de Precio handler
   const handleOnChange = (value) => {
     setPrice(value);
   };
 
   const catOptions = [
-    { value: "Apartments", label: "Apartments" },
-    { value: "Bungalow", label: "Bungalow" },
-    { value: "Houses", label: "Houses" },
-    { value: "Loft", label: "Loft" },
-    { value: "Office", label: "Office" },
-    { value: "Townhome", label: "Townhome" },
-    { value: "Villa", label: "Villa" },
+{ value: "Apartments", label: "Apartamentos" },
+{ value: "Bungalow", label: "Bungalow" },
+{ value: "Houses", label: "Casas" },
+{ value: "Loft", label: "Loft" },
+{ value: "Office", label: "Oficina" },
+{ value: "Townhome", label: "Casa Adosada" },
+{ value: "Villa", label: "Villa" },
+
   ];
   const locationOptions = [
     { value: "California", label: "California" },
@@ -71,7 +72,7 @@ const FilterItems = () => {
             data-bs-toggle="dropdown"
             data-bs-auto-close="outside"
           >
-            Price <i className="fas fa-caret-down float-end fz11" />
+            Precio <i className="fas fa-caret-down float-end fz11" />
           </div>
           <div className="dropdown-menu">
             <div className="widget-wrapper pb20 mb0 pl20 pr20">

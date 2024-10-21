@@ -34,8 +34,10 @@ const ListV1 = () => {
               <div className="breadcumb-style1">
                 <h2 className="title">All List Style</h2>
                 <div className="breadcumb-list">
-                  <a href="#">Home</a>
-                  <a href="#">For Rent</a>
+                                                      <a href="#">Inicio</a>
+<a href="#">En Alquiler</a>
+
+
                 </div>
               </div>
             </div>

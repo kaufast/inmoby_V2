@@ -45,7 +45,7 @@ const AdvanceFilterModal = ({ filterFunctions }) => {
       <div className="modal-content">
         <div className="modal-header pl30 pr30">
           <h5 className="modal-title" id="exampleModalLabel">
-            More Filter
+            Más Filtros
           </h5>
           <button
             type="button"
@@ -72,7 +72,7 @@ const AdvanceFilterModal = ({ filterFunctions }) => {
           <div className="row">
             <div className="col-sm-6">
               <div className="widget-wrapper">
-                <h6 className="list-title">Type</h6>
+                <h6 className="list-title">Tipo</h6>
                 <div className="form-style2 input-group">
                   <Select
                     defaultValue={[catOptions[1]]}
@@ -120,7 +120,7 @@ const AdvanceFilterModal = ({ filterFunctions }) => {
 
             <div className="col-sm-6">
               <div className="widget-wrapper">
-                <h6 className="list-title">Baños</h6>
+                <h6 className="list-title">Recámaras</h6>
                 <div className="d-flex">
                   <Bathroom filterFunctions={filterFunctions} />
                 </div>
@@ -156,7 +156,7 @@ const AdvanceFilterModal = ({ filterFunctions }) => {
 
             <div className="col-sm-6">
               <div className="widget-wrapper">
-                <h6 className="list-title">Mts2</h6>
+                <h6 className="list-title">Tamaño</h6>
                 <div className="space-area">
                   <div className="d-flex align-items-center justify-content-between">
                     <div className="form-style1">
@@ -169,7 +169,7 @@ const AdvanceFilterModal = ({ filterFunctions }) => {
                             document.getElementById("maxFeet3").value / 1,
                           ])
                         }
-                        placeholder="Min."
+                        placeholder="Mín"
                         id="minFeet3"
                       />
                     </div>
@@ -178,7 +178,7 @@ const AdvanceFilterModal = ({ filterFunctions }) => {
                       <input
                         type="number"
                         className="form-control filterInput"
-                        placeholder="Max"
+                        placeholder="Máx"
                         id="maxFeet3"
                         onChange={(e) =>
                           filterFunctions?.handlesquirefeet([

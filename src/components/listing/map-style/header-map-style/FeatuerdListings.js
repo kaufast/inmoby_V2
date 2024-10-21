@@ -21,7 +21,7 @@ const FeaturedListings = ({data,colstyle}) => {
                 {listing.forRent && (
                   <div className="list-tag rounded-0 fz12">
                     <span className="flaticon-electricity" />
-                    FEATURED
+                    DESTACADO
                   </div>
                 )}
                 <div className="list-tag2 rounded-0 fz12">FOR SALE</div>

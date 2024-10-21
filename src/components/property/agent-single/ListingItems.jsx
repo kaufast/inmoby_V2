@@ -50,7 +50,7 @@ export default function ListingItemsContainer({data}) {
                           
                           onClick={()=>setCurrentCategory('All')}
                         >
-                          All
+                          Todo
                         </button>
                       </li>
                       <li className="nav-item" role="presentation">
@@ -59,7 +59,7 @@ export default function ListingItemsContainer({data}) {
                           
                           onClick={()=>setCurrentCategory('rent')}
                         >
-                          For Rent
+                          Para Renta
                         </button>
                       </li>
                       <li className="nav-item" role="presentation">
@@ -69,7 +69,7 @@ export default function ListingItemsContainer({data}) {
                           
                           onClick={()=>setCurrentCategory('sale')}
                         >
-                          For Sale
+                          Para Renta
                         </button>
                       </li>
                     </ul>
@@ -98,7 +98,7 @@ export default function ListingItemsContainer({data}) {
 
                   <div className="d-grid pb30 bdrb1">
                     <Link href="/single-v1/4" className="ud-btn btn-white2">
-                      Show all 134 property
+                      Ver todas las 134 Propieaddes
                       <i className="fal fa-arrow-right-long" />
                     </Link>
                   </div>

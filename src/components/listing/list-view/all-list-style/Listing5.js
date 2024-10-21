@@ -21,7 +21,7 @@ const Listing5 = () => {
                 {listing.forRent && (
                   <div className="list-tag rounded-0 fz12">
                     <span className="flaticon-electricity" />
-                    FEATURED
+                    DESTACADO
                   </div>
                 )}
                 <div className="list-tag2 rounded-0 fz12">FOR SALE</div>
@@ -57,7 +57,7 @@ const Listing5 = () => {
                   </a>
                 </div>
                 <div className="list-price">
-                  {listing.price} / <span>mo</span>
+                  {listing.price} / <span>mes</span>
                 </div>
               </div>
             </div>

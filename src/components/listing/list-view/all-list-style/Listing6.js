@@ -21,7 +21,7 @@ const Listing6 = () => {
                 {listing.forRent && (
                   <div className="list-tag rounded-0 fz12">
                     <span className="flaticon-electricity" />
-                    FEATURED
+                    DESTACADO
                   </div>
                 )}
                 <div className="list-tag2 rounded-0 fz12">FOR SALE</div>
@@ -42,7 +42,7 @@ const Listing6 = () => {
 
             <div className="list-content">
               <div className="list-price">
-                {listing.price} / <span>mo</span>
+                {listing.price} / <span>mes</span>
               </div>
               <h6 className="list-title my-1">
                 <Link href={`/single-v2/${listing.id}`}>{listing.title}</Link>

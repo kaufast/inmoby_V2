@@ -20,7 +20,7 @@ const FeaturedListings = ({data}) => {
                 {listing.featured && (
                   <div className="list-tag rounded-0 fz12">
                     <span className="flaticon-electricity" />
-                    FEATURED
+                    DESTACADO
                   </div>
                 )}
                 <div className="list-tag2 rounded-0 fz12">FOR SALE</div>
@@ -56,7 +56,7 @@ const FeaturedListings = ({data}) => {
                   </a>
                 </div>
                 <div className="list-price">
-                  {listing.price} / <span>mo</span>
+                  {listing.price} / <span>mes</span>
                 </div>
               </div>
             </div>

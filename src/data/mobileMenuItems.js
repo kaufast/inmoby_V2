@@ -13,26 +13,13 @@ module.exports = [
         label: "Vista",
         subMenu: [
           { label: "Vista", path: "/grid-default" },
+          { label: "Mapa", path: "/map-v1" },
+          { label: "Lista v1", path: "/list-v1" },
 
         ],
       },
-      {
-        label: "Mapa",
-        subMenu: [
-          {
-            label: "Estilo de Mapa con Encabezado",
-            path: "/header-map-style",
-          },
-          { label: "Mapa", path: "/map-v1" },
-  
-        ],
-      },
-      {
-        label: "Vista de Listado",
-        subMenu: [
-          { label: "Lista v1", path: "/list-v1" },
-        ],
-      },
+
+
     ],
   },
   {

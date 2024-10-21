@@ -40,7 +40,7 @@ const PropertyDetails = ({id}) => {
         value: data.yearBuilding,
       },
       {
-        label: "Property Type",
+        label: "Tipo de Propiedad",
         value: data.propertyType,
       },
       {

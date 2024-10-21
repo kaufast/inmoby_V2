@@ -5,7 +5,7 @@ import Slider, { Range } from "rc-slider";
 const PriceRange = ({ filterFunctions }) => {
   const [price, setPrice] = useState([20, 70987]);
 
-  // price range handler
+  // Rango de Precio handler
   const handleOnChange = (value) => {
     setPrice(value);
     filterFunctions?.handlepriceRange(value);

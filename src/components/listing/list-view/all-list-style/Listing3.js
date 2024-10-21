@@ -22,7 +22,7 @@ const Listing3 = () => {
                 {!listing.forRent && (
                   <div className="list-tag fz12">
                     <span className="flaticon-electricity me-2" />
-                    FEATURED
+                    DESTACADO
                   </div>
                 )}
               </div>

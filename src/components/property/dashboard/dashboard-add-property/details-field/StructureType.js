@@ -3,9 +3,9 @@ import React from "react";
 import Select from "react-select";
 
 const structureTypeOptions = [
-  { value: "Apartments", label: "Apartments" },
+  { value: "Apartments", label: "Pisos" },
   { value: "Bungalow", label: "Bungalow" },
-  { value: "Houses", label: "Houses" },
+  { value: "Houses", label: "Casas" },
   { value: "Loft", label: "Loft" },
 ];
 

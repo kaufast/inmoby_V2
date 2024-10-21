@@ -3,13 +3,14 @@ import Select from "react-select";
 
 const InqueryForm = () => {
   const inqueryType = [
-    { value: "Apartments", label: "Apartments" },
-    { value: "Bungalow", label: "Bungalow" },
-    { value: "Houses", label: "Houses" },
-    { value: "Loft", label: "Loft" },
-    { value: "Office", label: "Office" },
-    { value: "Townhome", label: "Townhome" },
-    { value: "Villa", label: "Villa" },
+{ value: "Apartments", label: "Apartamentos" },
+{ value: "Bungalow", label: "Bungalow" },
+{ value: "Houses", label: "Casas" },
+{ value: "Loft", label: "Loft" },
+{ value: "Office", label: "Oficina" },
+{ value: "Townhome", label: "Casa Adosada" },
+{ value: "Villa", label: "Villa" },
+
   ];
   const personalRole = [
     { value: "Mr", label: "Mr." },
@@ -130,7 +131,7 @@ const InqueryForm = () => {
 
         <div className="col-md-6">
           <div className="mb20">
-            <label className="form-label fw600 dark-color">Max Price</label>
+            <label className="form-label fw600 dark-color">Max Precio</label>
             <input type="text" className="form-control" placeholder="$90" />
           </div>
         </div>

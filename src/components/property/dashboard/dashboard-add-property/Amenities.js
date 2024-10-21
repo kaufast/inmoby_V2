@@ -4,7 +4,7 @@ const amenitiesData = {
   column1: [
     { label: "Ático", defaultChecked: false },
     { label: "Pista de Tenis", defaultChecked: true },
-    { label: "Aire Acondicionado", defaultChecked: true },
+    { label: "Aire Acond...", defaultChecked: true },
     { label: "Cesped", defaultChecked: true },
     { label: "Swimming Pool", defaultChecked: false },
     { label: "Barbeque", defaultChecked: false },

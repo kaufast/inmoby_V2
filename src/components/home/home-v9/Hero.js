@@ -113,7 +113,7 @@ const Hero = () => {
                         <div className="listing-style1 at-home9-hero banner-content">
                           <div className="list-content">
                             <div className="list-price bgc-thm">
-                              ${item.price} / <span>mo</span>
+                              ${item.price} / <span>mes</span>
                             </div>
                             <h6 className="list-title">
                               <a href="page-property-single-v1.html">
@@ -137,7 +137,7 @@ const Hero = () => {
                             </div>
                             <hr className="mt-2 mb-2" />
                             <div className="list-meta2 d-flex justify-content-between align-items-center">
-                              <span className="for-what">For Rent</span>
+                              <span className="for-what">Para Renta</span>
                               <div className="icons d-flex align-items-center">
                                 <a href="#">
                                   <span className="flaticon-fullscreen" />

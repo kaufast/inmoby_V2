@@ -121,7 +121,7 @@ const AdvanceFilterModal = () => {
 
             <div className="col-sm-6">
               <div className="widget-wrapper">
-                <h6 className="list-title">Baños</h6>
+                <h6 className="list-title">Recámaras</h6>
                 <div className="d-flex">
                   <Bathroom />
                 </div>
@@ -152,14 +152,14 @@ const AdvanceFilterModal = () => {
 
             <div className="col-sm-6">
               <div className="widget-wrapper">
-                <h6 className="list-title">Mts2</h6>
+                <h6 className="list-title">Tamaño</h6>
                 <div className="space-area">
                   <div className="d-flex align-items-center justify-content-between">
                     <div className="form-style1">
                       <input
                         type="text"
                         className="form-control"
-                        placeholder="Min."
+                        placeholder="Mín"
                       />
                     </div>
                     <span className="dark-color">-</span>
@@ -167,7 +167,7 @@ const AdvanceFilterModal = () => {
                       <input
                         type="text"
                         className="form-control"
-                        placeholder="Max"
+                        placeholder="Máx"
                       />
                     </div>
                   </div>
