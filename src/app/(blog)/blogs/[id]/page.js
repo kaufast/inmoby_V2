@@ -13,69 +13,66 @@ import MobileMenu from "@/components/common/mobile-menu";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Blog Single  || Homez - Real Estate NextJS Template",
+  title: "Blog Individual || Inmonbi - Plantilla NextJS de Bienes Raíces",
 };
 
 const BlogSingle = ({params}) => {
   return (
     <>
-      {/* Main Header Nav */}
+      {/* Menú Principal */}
       <DefaultHeader />
-      {/* End Main Header Nav */}
+      {/* Fin del Menú Principal */}
 
-      {/* Mobile Nav  */}
+      {/* Menú Móvil */}
       <MobileMenu />
-      {/* End Mobile Nav  */}
+      {/* Fin del Menú Móvil */}
 
-      {/* Blog Section Area */}
+      {/* Sección del Blog */}
       <section className="our-blog pt50">
 
-        <Details  id={params.id} />
-       
-
+        <Details id={params.id} />
 
         <div className="container">
           <div className="roww" data-aos="fade-up" data-aos-delay="500">
             <div className="col-xl-8 offset-xl-2">
               <div className="ui-content mt40 mb60">
-                <h4 className="mb10">1. Reduce the clutter</h4>
+                <h4 className="mb10">1. Reduce el desorden</h4>
                 <p className="mb25 ff-heading">
-                  It doesn’t matter how organized you are — a surplus of toys
-                  will always ensure your house is a mess waiting to happen.
-                  Fortunately, getting kids on board with the idea of ditching
-                  their stuff is a lot easier than it sounds.
+                  No importa lo organizado que estés, un exceso de juguetes
+                  siempre garantizará que tu casa sea un desorden esperando ocurrir.
+                  Afortunadamente, lograr que los niños se deshagan de sus cosas
+                  es más fácil de lo que parece.
                 </p>
                 <p className="ff-heading">
-                  The trick is to make it an opportunity for them to define
-                  themselves and their interests. Encourage kids to make a pile
-                  of ”baby toys” to donate, and have them set aside any toys
-                  that no longer interest them, such as action figures from a
-                  forgotten TV show. Separating these toys will help them
-                  appreciate how much they’ve grown and rediscover the toys they
-                  love.
+                  El truco es hacer de esto una oportunidad para que definan
+                  quiénes son y sus intereses. Anímalos a hacer una pila de
+                  "juguetes de bebé" para donar, y a apartar cualquier juguete
+                  que ya no les interese, como figuras de acción de un programa
+                  de TV olvidado. Separar estos juguetes les ayudará a apreciar
+                  cuánto han crecido y redescubrir los que más les gustan.
                 </p>
               </div>
 
               <div className="blockquote-style1 mb60">
                 <blockquote className="blockquote">
                   <p className="fst-italic fz15 fw500 ff-heading">
-                    Aliquam hendrerit sollicitudin purus, quis rutrum mi
-                    accumsan nec. Quisque bibendum orci ac nibh facilisis, at
-                    malesuada orci congue.
+                  Anímalos a hacer una pila de
+                  "juguetes de bebé" para donar, y a apartar cualquier juguete
+                  que ya no les interese...
                   </p>
                   <h6 className="quote-title">Luis Pickford</h6>
                 </blockquote>
               </div>
-              {/* End  blockquote*/}
+              {/* Fin de blockquote */}
 
               <div className="col-12 ui-content">
-                <h4 className="title">2. Choose toys wisely</h4>
+                <h4 className="title">2. Elige juguetes sabiamente</h4>
               </div>
 
               <div className="row">
                 <Features />
               </div>
-              {/* End .row */}
+              {/* Fin de .row */}
 
               <div className="col-lg-12 mt40">
                 <Image
@@ -87,56 +84,59 @@ const BlogSingle = ({params}) => {
                   className="bdrs12 post-img-2 w-100 h-100 cover"
                 />
               </div>
-              {/* End .col-12 */}
+              {/* Fin de .col-12 */}
 
               <div className="ui-content mt40 mb30">
-                <h4 className="mb10">3.Leave some toys out of reach</h4>
+                <h4 className="mb10">3. Deja algunos juguetes fuera de su alcance</h4>
                 <div className="custom_bsp_grid">
                   <ul className="list-style-type-bullet p-0 ml20">
                     <li>
-                      We do not require any previous experience or pre-defined
-                      skills to take this course. A great orientation would be
-                      enough to master UI/UX design.
+                      Guarda algunos juguetes para ocasiones especiales y así mantener el interés.
                     </li>
-                    <li>A computer with a good internet connection.</li>
-                    <li>Adobe Photoshop (OPTIONAL)</li>
+                    <li>
+                      Coloca los juguetes frágiles o difíciles de limpiar fuera de su alcance.
+                    </li>
+                    <li>
+                      Mantén fuera los juguetes que no usen a diario para evitar el desorden.
+                    </li>
+
                   </ul>
                 </div>
               </div>
-              {/* End .i-content */}
+              {/* Fin de .ui-content */}
 
               <div className="bdrt1 bdrb1 d-block d-sm-flex justify-content-between pt50 pt30-sm pb50 pb30-sm">
                 <div className="blog_post_share d-flex align-items-center mb10-sm">
-                  <span className="mr30">Share this post</span>
+                  <span className="mr30">Comparte esta publicación</span>
                   <Social />
                 </div>
                 <div className="bsp_tags d-flex">
                   <Tags />
                 </div>
               </div>
-              {/* End share social and tags */}
+              {/* Fin compartir en redes y etiquetas */}
 
               <TopComments />
-              {/* End TopComments */}
+              {/* Fin TopComments */}
 
               <Pagination />
-              {/* End Blog Single pagination */}
+              {/* Fin de la paginación del blog individual */}
 
               <AllReviews />
-              {/* End  AllReviews */}
+              {/* Fin de AllReviews */}
 
               <div className="bsp_reveiw_wrt">
-                <h6 className="fz17">Leave A Review</h6>
+                <h6 className="fz17">Deja una Reseña</h6>
                 <ReviewBoxForm />
               </div>
-              {/* End ReviewBoxForm */}
+              {/* Fin de ReviewBoxForm */}
             </div>
           </div>
         </div>
       </section>
-      {/* End Blog Details */}
+      {/* Fin de Detalles del Blog */}
 
-      {/* Related Blog Post */}
+      {/* Publicaciones Relacionadas */}
       <section className="pb90 pb20-md pt-0">
         <div className="container">
           <div className="row">
@@ -146,27 +146,27 @@ const BlogSingle = ({params}) => {
               data-aos-delay="0"
             >
               <div className="main-title text-start text-md-center">
-                <h2 className="title">Related Posts</h2>
+                <h2 className="title">Publicaciones Relacionadas</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Explora más contenido sobre este tema.
                 </p>
               </div>
             </div>
           </div>
-          {/* End .row */}
+          {/* Fin de .row */}
 
           <div className="row" data-aos="fade-up" data-aos-delay="300">
             <Blog />
           </div>
         </div>
       </section>
-      {/* end Related Blog Post */}
+      {/* Fin de Publicaciones Relacionadas */}
 
-      {/* Start Our Footer */}
+      {/* Inicio de Nuestro Footer */}
       <section className="footer-style1 pt60 pb-0">
         <Footer />
       </section>
-      {/* End Our Footer */}
+      {/* Fin de Nuestro Footer */}
     </>
   );
 };

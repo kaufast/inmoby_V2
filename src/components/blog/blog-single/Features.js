@@ -3,22 +3,23 @@ import React from "react";
 const featuresData = [
   {
     points: [
-      "Become a UI/UX designer.",
-      "You will be able to start earning money Figma skills.",
-      "Build a UI project from beginning to end.",
-      "Work with colors & fonts.",
-      "You will create your own UI Kit.",
+      "Prefiere juguetes creativos.",
+      "Elige juguetes fáciles de guardar.",
+      "Selecciona juguetes según el espacio.",
+      "Involucra a los niños en la elección.",
+      "Rota juguetes para mantener el orden.",
     ],
   },
   {
     points: [
-      "Build & test a complete mobile app.",
-      "Learn to design mobile apps & websites.",
-      "Design 3 different logos.",
-      "Create low-fidelity wireframe.",
-      "Downloadable exercise files.",
+      "Guarda juguetes por tipo.",
+      "Usa muebles que combinen con el hogar.",
+      "Elige juguetes que también decoren.",
+      "Utiliza cajas para organizar.",
+      "Aprovecha estantes altos.",
     ],
   },
+  
 ];
 
 const Features = () => {

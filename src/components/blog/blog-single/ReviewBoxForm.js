@@ -3,11 +3,11 @@ import Select from "react-select";
 
 const ReviewBoxForm = () => {
   const inqueryType = [
-    { value: "Five Star", label: "Five Star" },
-    { value: "Four Star", label: "Four Star" },
-    { value: "Three Sta", label: "Three Star" },
-    { value: "Two Sta", label: "Two Star" },
-    { value: "One Sta", label: "One Star" },
+    { value: "Five Star", label: "Cinco Estrellas" },
+    { value: "Four Star", label: "Cuatro Estrellas" },
+    { value: "Three Star", label: "Tres Estrellas" },
+    { value: "Two Star", label: "Dos Estrellas" },
+    { value: "One Star", label: "Una Estrella" },
   ];
 
   const customStyles = {
@@ -26,8 +26,8 @@ const ReviewBoxForm = () => {
   };
 
   const handleSubmit = (event) => {
-    event.preventDefault(); // Prevents the default form submission behavior
-    // Additional logic or API calls can be added here
+    event.preventDefault(); // Evita el comportamiento predeterminado de envío del formulario
+    // Aquí se puede añadir lógica adicional o llamadas a API
   };
 
   return (
@@ -35,11 +35,11 @@ const ReviewBoxForm = () => {
       <div className="row">
         <div className="col-md-12">
           <div className="mb-4">
-            <label className="fw600 ff-heading mb-2">Email</label>
+            <label className="fw600 ff-heading mb-2">Correo Electrónico</label>
             <input
               type="email"
               className="form-control"
-              placeholder="ibthemes21@gmail.com"
+              placeholder="correo@ejemplo.com"
               required
             />
           </div>
@@ -48,11 +48,11 @@ const ReviewBoxForm = () => {
 
         <div className="col-md-6">
           <div className="mb-4">
-            <label className="fw600 ff-heading mb-2">Title</label>
+            <label className="fw600 ff-heading mb-2">Título</label>
             <input
               type="text"
               className="form-control"
-              placeholder="Enter Title"
+              placeholder="Introduce el Título"
               required
             />
           </div>
@@ -61,11 +61,11 @@ const ReviewBoxForm = () => {
 
         <div className="col-md-6">
           <div className="widget-wrapper sideborder-dropdown mb-4">
-            <label className="fw600 ff-heading mb-2">Rating</label>
+            <label className="fw600 ff-heading mb-2">Calificación</label>
             <div className="form-style2 input-group">
               <Select
                 defaultValue={[inqueryType[0]]}
-                name="colors"
+                name="rating"
                 options={inqueryType}
                 styles={customStyles}
                 className="custom-react_select"
@@ -80,17 +80,17 @@ const ReviewBoxForm = () => {
 
         <div className="col-md-12">
           <div className="mb-4">
-            <label className="fw600 ff-heading mb-2">Review</label>
+            <label className="fw600 ff-heading mb-2">Reseña</label>
             <textarea
               className="pt15"
               rows={6}
-              placeholder="Write a Review"
+              placeholder="Escribe una reseña"
               defaultValue={""}
               required
             />
           </div>
           <button type="submit" className="ud-btn btn-white2">
-            Submit Review
+            Enviar Reseña
             <i className="fal fa-arrow-right-long" />
           </button>
         </div>

@@ -5,7 +5,7 @@ const SearchBox = () => {
         <input
           type="text"
           className="form-control"
-          placeholder="What are you looking for?"
+          placeholder="¿Qué estás buscando?"
         />
         <label>
           <span className="flaticon-search" />

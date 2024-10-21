@@ -9,7 +9,7 @@ const SearchBox = ({filterFunctions}) => {
       <input
         type="text"
         className="form-control"
-        placeholder="What are you looking for?"
+        placeholder="¿Qué estás buscando?"
         onChange={(e)=>filterFunctions?.setSearchQuery(e.target.value)}
       />
       <label>

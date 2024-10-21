@@ -8,11 +8,12 @@ const Pagination = () => {
           <div className="pag_prev">
             <a href="#">
               <h6>
-                <span className="fas fa-chevron-left pe-2" /> Previous Post
+                <span className="fas fa-chevron-left pe-2" /> Publicación Anterior
               </h6>
               <p className="fz13 text mb-0">
-                Given Set was without from god divide rule Hath
+                La propiedad anterior destacaba por su ubicación 
               </p>
+
             </a>
           </div>
         </div>
@@ -22,12 +23,13 @@ const Pagination = () => {
           <div className="pag_next">
             <a href="#" className="text-end">
               <h6>
-                Next Post
+                Publicación Siguiente
                 <span className="fas fa-chevron-right ps-2" />
               </h6>
               <p className="fz13 text mb-0">
-                Tree earth fowl given moveth deep lesser After
+                La siguiente propiedad destaca por su amplio terreno 
               </p>
+
             </a>
           </div>
         </div>

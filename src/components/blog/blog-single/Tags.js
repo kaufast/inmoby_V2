@@ -1,6 +1,6 @@
 import React from "react";
 
-const tags = ["Figma", "Sketch", "HTML5"];
+const tags = ["Facebook", "Twitter", "Instagram"];
 
 const Tags = () => {
   return (
