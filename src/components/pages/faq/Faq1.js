@@ -2,27 +2,27 @@ const Faq1 = () => {
   const faqItems = [
     {
       id: "headingOne",
-      question: "Can a home depreciate in value?",
+      question: "¿Puede una vivienda depreciarse en valor?",
       answer:
-        "It doesn’t matter how organized you are — a surplus of toys will always ensure your house",
+        "En España, una vivienda puede depreciarse dependiendo del mercado inmobiliario, la ubicación y el estado de conservación. Sin embargo, los inmuebles en zonas urbanas y con buena demanda tienden a mantener o incrementar su valor.",
     },
     {
       id: "headingTwo",
-      question: "Is an older home as good a value as a new home?",
+      question: "¿Una vivienda antigua tiene el mismo valor que una nueva?",
       answer:
-        "It doesn’t matter how organized you are — a surplus of toys will always ensure your house",
+        "Las viviendas antiguas pueden ser tan valiosas como las nuevas, dependiendo de su estado, ubicación y características. Además, algunas casas antiguas tienen valor histórico o arquitectónico que incrementa su precio.",
     },
     {
       id: "headingThree",
-      question: "What is a broker?",
+      question: "¿Qué es un agente inmobiliario?",
       answer:
-        "It doesn’t matter how organized you are — a surplus of toys will always ensure your house is a mess waiting to happen. Fortunately, getting kids on board with the idea of ditching their stuff is a lot easier than it sounds. <br /><br /> The trick is to make it an opportunity for them to define themselves and their interests. Encourage kids to make a pile of ”baby toys” to donate, and have them set aside any toys that no longer interest them, such as action figures from a forgotten TV show. Separating these toys will help them appreciate how much they’ve grown and rediscover the toys they love.",
+        "Un agente inmobiliario es un profesional autorizado que se encarga de mediar en la compra, venta o alquiler de propiedades. En España, deben estar registrados en el Colegio Oficial de Agentes de la Propiedad Inmobiliaria para garantizar un servicio profesional.",
     },
     {
       id: "headingFour",
-      question: "Can I pay my own taxes and insurance?",
+      question: "¿Puedo pagar mis propios impuestos y seguro?",
       answer:
-        "It doesn’t matter how organized you are — a surplus of toys will always ensure your house",
+        "Sí, en España puedes encargarte directamente del pago de tus impuestos de propiedad (IBI) y de tu seguro de hogar. Sin embargo, algunas hipotecas incluyen estos pagos como parte del acuerdo.",
     },
   ];
 

@@ -5,7 +5,7 @@ const professionalInfoData = [
   { label: "Office", content: "(484) 524-3699" },
   { label: "Mobile", content: "(484) 524-7963" },
   { label: "Fax", content: "(484) 524-1023" },
-  { label: "Websites", content: "www.realton.com" },
+  { label: "Websites", content: "inmobi.mobi" },
   { label: "Member since", content: "10-01-2022" },
 ];
 

@@ -11,7 +11,7 @@ const PrintInvoice = () => {
       className="ud-btn btn-dark invoice_down_print"
       onClick={handlePrint}
     >
-      Print Invoice
+      Imprimir Factura
       <i className="fal fa-arrow-right-long" />
     </button>
   );

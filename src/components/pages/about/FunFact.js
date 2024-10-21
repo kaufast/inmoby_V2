@@ -10,17 +10,17 @@ const FunFact = () => {
     {
       number: "4",
       unit: "M",
-      text: "Awward Winning",
+      text: "Certificaciones",
     },
     {
       number: "12",
       unit: "K",
-      text: "Property Ready",
+      text: "Propiedades Disponibles",
     },
     {
       number: "20",
       unit: "M",
-      text: "Happy Customer",
+      text: "Clientes Satisfechos",
     },
   ];
 

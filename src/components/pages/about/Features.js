@@ -3,21 +3,21 @@ const Features = () => {
   const features = [
     {
       icon: "flaticon-security",
-      title: "Property Management",
+      title: "Gestión de Propiedades",
       description:
-        "Nullam sollicitudin blandit eros eu pretium. Nullam maximus ultricies auctor.",
+        "Brindamos un servicio completo para la administración de propiedades, asegurando su buen estado y rendimiento.",
     },
     {
       icon: "flaticon-keywording",
-      title: "Mortgage Services",
+      title: "Servicios Hipotecarios",
       description:
-        "Nullam sollicitudin blandit eros eu pretium. Nullam maximus ultricies auctor.",
+        "Te ayudamos a encontrar la hipoteca ideal para tu hogar con las mejores condiciones del mercado.",
     },
     {
       icon: "flaticon-investment",
-      title: "Currency Services",
+      title: "Servicios de Divisas",
       description:
-        "Nullam sollicitudin blandit eros eu pretium. Nullam maximus ultricies auctor.",
+        "Ofrecemos servicios de cambio de divisas con tasas competitivas y transacciones seguras.",
     },
   ];
 

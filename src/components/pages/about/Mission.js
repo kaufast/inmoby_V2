@@ -2,12 +2,12 @@ const Mission = () => {
   const missionData = [
     {
       icon: "flaticon-garden",
-      title: "Modern Villa",
+      title: "Piso Moderno",
       description: "Nullam sollicitudin blandit Nullam maximus.",
     },
     {
       icon: "flaticon-secure-payment",
-      title: "Secure Payment",
+      title: "Tu Pago Seguro",
       description: "Nullam sollicitudin blandit Nullam maximus.",
     },
   ];
@@ -22,8 +22,9 @@ const Mission = () => {
               <div className="list-content flex-grow-1">
                 <h6 className="mb-1">{item.title}</h6>
                 <p className="text mb-0 fz14">
-                  Nullam sollicitudin blandit{" "}
-                  <br className="d-none d-sm-block" /> Nullam maximus.
+                  Diseñada con los más altos estándares de lujo y confort. 
+                  <br className="d-none d-sm-block" /> Espacios amplios y acabados de primera calidad, en una ubicación privilegiada.
+                  {" "}
                 </p>
               </div>
             </div>

@@ -48,15 +48,13 @@ const NotFound = () => {
                   <span className="text-thm">40</span>4
                 </div>
                 <div className="h2 error_title">
-                  Oops! It looks like you&apos;re lost.
+                ¡Vaya! No encontramos la página que buscas."
                 </div>
                 <p className="text fz15 mb20">
-                  The page you&apos;re looking for isn&apos;t available. Try to
-                  search again <br className="d-none d-lg-block" /> or use the
-                  go to.
+                La página que buscas no está disponible. Intenta buscar de<br className="d-none d-lg-block" /> nuevo, o usa el botón para continuar...
                 </p>
                 <Link href="/" className="ud-btn btn-dark">
-                  Go Back To Homepages
+                  Volver a la página de inicio
                   <i className="fal fa-arrow-right-long" />
                 </Link>
               </div>

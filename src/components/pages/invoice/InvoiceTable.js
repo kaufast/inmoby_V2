@@ -3,22 +3,22 @@ import React from "react";
 const InvoiceTable = () => {
   const tableData = [
     {
-      description: "Standard Plan",
-      price: "$443.00",
-      vat: "$921.80",
-      total: "$9243",
+      description: "Plan Estándar",
+      price: "443,00 €",
+      vat: "921,80 €",
+      total: "9.243,00 €",
     },
     {
-      description: "Extra Plan",
-      price: "$443.00",
-      vat: "$921.80",
-      total: "$9243",
+      description: "Plan Extra",
+      price: "443,00 €",
+      vat: "921,80 €",
+      total: "9.243,00 €",
     },
     {
-      description: "Total Due",
+      description: "Total a Pagar",
       price: "",
       vat: "",
-      total: "$9,750",
+      total: "9.750,00 €",
     },
   ];
 
@@ -27,13 +27,13 @@ const InvoiceTable = () => {
       <thead className="thead-light">
         <tr className="tblh_row">
           <th className="tbleh_title" scope="col">
-            Description
+            Descripción
           </th>
           <th className="tbleh_title" scope="col">
-            Price
+            Precio
           </th>
           <th className="tbleh_title" scope="col">
-            VAT (20%)
+            IVA (21%)
           </th>
           <th className="tbleh_title" scope="col">
             Total

@@ -3,25 +3,25 @@ import React from "react";
 const InvoiceTopData = () => {
   const invoiceData = [
     {
-      title: "Invoice date:",
-      date: "22 April 2022",
-      heading: "Supplier",
-      name: "Realton LLC",
+      title: "Fecha de la factura:",
+      date: "15 Octubre 2023",
+      heading: "Proveedor",
+      name: "Inmonbi Ltd.",
       address: (
         <>
-          2301 Ravenswood Rd Madison, <br /> WI 53711
+          Calle Gran Vía, 28, <br /> 28013 Madrid, España
         </>
       ),
       columns: "col-sm-6 col-lg-7",
     },
     {
-      title: "Due date:",
-      date: "22 April 2022",
-      heading: "Customer",
-      name: "John Doe",
+      title: "Fecha de vencimiento:",
+      date: "30 Octubre 2023",
+      heading: "Cliente",
+      name: "José Pérez",
       address: (
         <>
-          329 Queensberry Street, North Melbourne VIC <br /> 3051, Australia.
+          Calle Serrano, 45, <br /> 28006 Madrid, España
         </>
       ),
       columns: "col-sm-6 col-lg-5",

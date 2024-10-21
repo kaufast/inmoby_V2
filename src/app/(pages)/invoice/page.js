@@ -42,8 +42,8 @@ const Invoice = () => {
 
                     <div className="col-lg-5">
                       <div className="invoice_deails">
-                        <h4 className="float-start">Invoice #</h4>
-                        <h6 className="float-end">0043128641</h6>
+                        <h4 className="float-start">Factura #</h4>
+                        <h6 className="float-end">02010</h6>
                       </div>
                     </div>
                     {/* End .col-lg-5 */}

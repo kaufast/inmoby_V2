@@ -3,16 +3,16 @@ import React from "react";
 const InvoiceFooter = () => {
   const footerData = [
     {
-      text: "www.realton.com",
-      link: "https://www.realton.com",
+      text: "inmobi.mobi",
+      link: "https://inmobi.mobi",
     },
     {
-      text: "invoice@realton.com",
-      link: "mailto:invoice@realton.com",
+      text: "info@inmobi.mobi",
+      link: "mailto:info@inmobi.mobi",
     },
     {
-      text: "(123) 123-456",
-      link: "tel:+1123123456",
+      text: "(+34) 679 680 000",
+      link: "tel:+34679680000",
     },
   ];
 
