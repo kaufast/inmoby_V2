@@ -7,21 +7,22 @@ import Amenities from "./Amenities";
 
 const AdvanceFilterModal = ({ filterFunctions }) => {
   const catOptions = [
-    { value: "Houses", label: "Houses" },
-    { value: "Office", label: "Office" },
-    { value: "Apartments", label: "Apartments" },
+    { value: "Houses", label: "Casas" },
+    { value: "Office", label: "Oficina" },
+    { value: "Apartments", label: "Apartamentos" },
     { value: "Villa", label: "Villa" },
+    
   ];
 
   const locationOptions = [
-    { value: "All Cities", label: "All Cities" },
-    { value: "California", label: "California" },
-    { value: "Los Angeles", label: "Los Angeles" },
-    { value: "New Jersey", label: "New Jersey" },
-    { value: "New York", label: "New York" },
-    { value: "San Diego", label: "San Diego" },
-    { value: "San Francisco", label: "San Francisco" },
-    { value: "Texas", label: "Texas" },
+    { value: "All Cities", label: "Todas" },
+    { value: "California", label: "Barcelona" },
+    { value: "Los Angeles", label: "Chihuahua" },
+    { value: "New Jersey", label: "Cd. de México" },
+    { value: "New York", label: "Londres" },
+    { value: "San Diego", label: "Austin" },
+    { value: "San Francisco", label: "Madrid" },
+    { value: "Texas", label: "Nueva York" },
   ];
 
   const customStyles = {
@@ -59,7 +60,7 @@ const AdvanceFilterModal = ({ filterFunctions }) => {
           <div className="row">
             <div className="col-lg-12">
               <div className="widget-wrapper">
-                <h6 className="list-title mb20">Price Range</h6>
+                <h6 className="list-title mb20">Rango de Precios</h6>
                 <div className="range-slider-style modal-version">
                   <PriceRange filterFunctions={filterFunctions} />
                 </div>
@@ -92,7 +93,7 @@ const AdvanceFilterModal = ({ filterFunctions }) => {
 
             <div className="col-sm-6">
               <div className="widget-wrapper">
-                <h6 className="list-title">Property ID</h6>
+                <h6 className="list-title">Num. de Propiedad</h6>
                 <div className="form-style2">
                   <input
                     type="text"
@@ -109,7 +110,7 @@ const AdvanceFilterModal = ({ filterFunctions }) => {
           <div className="row">
             <div className="col-sm-6">
               <div className="widget-wrapper">
-                <h6 className="list-title">Bedrooms</h6>
+                <h6 className="list-title">Recámaras</h6>
                 <div className="d-flex">
                   <Bedroom filterFunctions={filterFunctions} />
                 </div>
@@ -119,7 +120,7 @@ const AdvanceFilterModal = ({ filterFunctions }) => {
 
             <div className="col-sm-6">
               <div className="widget-wrapper">
-                <h6 className="list-title">Bathrooms</h6>
+                <h6 className="list-title">Baños</h6>
                 <div className="d-flex">
                   <Bathroom filterFunctions={filterFunctions} />
                 </div>
@@ -132,7 +133,7 @@ const AdvanceFilterModal = ({ filterFunctions }) => {
           <div className="row">
             <div className="col-sm-6">
               <div className="widget-wrapper">
-                <h6 className="list-title">Location</h6>
+                <h6 className="list-title">Úbicacion</h6>
                 <div className="form-style2 input-group">
                   <Select
                     defaultValue={[locationOptions[0]]}
@@ -155,7 +156,7 @@ const AdvanceFilterModal = ({ filterFunctions }) => {
 
             <div className="col-sm-6">
               <div className="widget-wrapper">
-                <h6 className="list-title">Square Feet</h6>
+                <h6 className="list-title">Mts2</h6>
                 <div className="space-area">
                   <div className="d-flex align-items-center justify-content-between">
                     <div className="form-style1">
@@ -198,7 +199,7 @@ const AdvanceFilterModal = ({ filterFunctions }) => {
           <div className="row">
             <div className="col-lg-12">
               <div className="widget-wrapper mb0">
-                <h6 className="list-title mb10">Amenities</h6>
+                <h6 className="list-title mb10">Servicios</h6>
               </div>
             </div>
             <Amenities filterFunctions={filterFunctions} />
@@ -212,12 +213,12 @@ const AdvanceFilterModal = ({ filterFunctions }) => {
             onClick={() => filterFunctions?.resetFilter()}
           >
             <span className="flaticon-turn-back" />
-            <u>Reset all filters</u>
+            <u>Restablecer filtros</u>
           </button>
           <div className="btn-area">
             <button type="submit" className="ud-btn btn-thm">
               <span className="flaticon-search align-text-top pr10" />
-              Search
+              Buscar
             </button>
           </div>
         </div>

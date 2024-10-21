@@ -2,9 +2,9 @@ import React from "react";
 
 const PropertyFeaturesAminites = () => {
   const featuresAmenitiesData = [
-    ["Air Conditioning", "Barbeque", "Dryer", "Gym"],
-    ["Lawn", "Microwave", "Outdoor Shower", "Refrigerator"],
-    ["Swimming Pool", "TV Cable", "Washer", "WiFi6"],
+    ["Aire Acondicionado", "Barbeque", "Secadora", "Gym"],
+    ["Cesped", "Microwave", "Ducha Exterior", "Frígorifico"],
+    ["Swimming Pool", "TV / Cable", "Lavadora", "WiFi6"],
   ];
 
   return (

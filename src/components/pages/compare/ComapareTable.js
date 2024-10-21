@@ -185,7 +185,7 @@ const ComapareTable = () => {
 
         <tr>
           <th className="text-end" scope="row">
-            Air Conditioning
+            Aire Acondicionado
           </th>
           <td>
             <a className="check_circle" href="#">
@@ -273,7 +273,7 @@ const ComapareTable = () => {
 
         <tr>
           <th className="text-end" scope="row">
-            TV Cable
+            TV / Cable
           </th>
           <td>
             <a className="check_circle" href="#">

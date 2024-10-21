@@ -8,7 +8,7 @@ const SignUp = () => {
         <input
           type="email"
           className="form-control"
-          placeholder="Enter Email"
+          placeholder="Introduce tu correo electrónico"
           required
         />
       </div>
@@ -19,7 +19,7 @@ const SignUp = () => {
         <input
           type="text"
           className="form-control"
-          placeholder="Enter Password"
+          placeholder="Contraseña"
           required
         />
       </div>
@@ -27,33 +27,33 @@ const SignUp = () => {
 
       <div className="d-grid mb20">
         <button className="ud-btn btn-thm" type="submit">
-          Create account <i className="fal fa-arrow-right-long" />
+          Crear cuenta <i className="fal fa-arrow-right-long" />
         </button>
       </div>
       <div className="hr_content mb20">
         <hr />
-        <span className="hr_top_text">OR</span>
+        <span className="hr_top_text">o</span>
       </div>
 
       <div className="d-grid mb10">
         <button className="ud-btn btn-white" type="button">
-          <i className="fab fa-google" /> Continue Google
+          <i className="fab fa-google" /> Acceder con Google
         </button>
       </div>
       <div className="d-grid mb10">
         <button className="ud-btn btn-fb" type="button">
-          <i className="fab fa-facebook-f" /> Continue Facebook
+          <i className="fab fa-facebook-f" /> Acceder con Facebook
         </button>
       </div>
       <div className="d-grid mb20">
         <button className="ud-btn btn-apple" type="button">
-          <i className="fab fa-apple" /> Continue Apple
+          <i className="fab fa-apple" /> Acceder con Apple
         </button>
       </div>
       <p className="dark-color text-center mb0 mt10">
-        Already Have an Account?{" "}
+      ¿Ya tienes una cuenta?{" "}
         <Link className="dark-color fw600" href="/login">
-          Login
+          Iniciar Sesión
         </Link>
       </p>
     </form>
