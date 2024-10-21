@@ -3,7 +3,7 @@ const Amenities = () => {
     [
       { label: "Ático" },
       { label: "Pista de Tenis", defaultChecked: true },
-      { label: "Aire Acondicionado", defaultChecked: true },
+      { label: "Aire Acond...", defaultChecked: true },
       { label: "Cesped", defaultChecked: true },
     ],
     [

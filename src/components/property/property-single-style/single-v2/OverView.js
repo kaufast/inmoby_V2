@@ -32,7 +32,7 @@ const OverView = ({id}) => {
     },
     {
       icon: "flaticon-home-1",
-      label: "Property Type",
+      label: "Tipo de Propiedad",
       value: data.propertyType,
     },
   ]  

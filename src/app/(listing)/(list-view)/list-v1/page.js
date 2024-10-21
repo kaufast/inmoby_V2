@@ -26,10 +26,12 @@ const ListV1 = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="breadcumb-style1">
-                <h2 className="title">List View</h2>
+                <h2 className="title">Propiedades</h2>
                 <div className="breadcumb-list">
-                  <a href="#">Home</a>
-                  <a href="#">For Rent</a>
+                                                      <a href="#">Inicio</a>
+<a href="#">En Alquiler</a>
+
+
                 </div>
                 <a
                   className="filter-btn-left mobile-filter-btn d-block d-lg-none"

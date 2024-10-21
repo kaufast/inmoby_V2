@@ -4,10 +4,10 @@ import React from "react";
 import Location from "./Location";
 
 const propertyTypes = [
-  { label: "Houses" },
+  { label: "Casas" },
 
-  { label: "Apartments",},
-  { label: "Office" },
+  { label: "Pisos",},
+  { label: "Oficinas" },
   { label: "Villa" },
 ];
 
@@ -81,7 +81,7 @@ const TopFilter = ({filterFunctions}) => {
                 data-bs-toggle="dropdown"
                 data-bs-auto-close="outside"
               >
-                All Cities <i className="fa fa-angle-down ms-2" />
+                Todas las Ciudade <i className="fa fa-angle-down ms-2" />
               </button>
               <div className="dropdown-menu">
                 <div className="widget-wrapper bdrb1 pb25 mb0 p20">
@@ -108,16 +108,17 @@ const TopFilter = ({filterFunctions}) => {
       <div className="col-md-3">
         <div className="page_control_shorting text-start text-md-end mb20">
           <div className="pcs_dropdown d-flex align-items-center justify-content-end">
-            <span style={{ minWidth: "50px", textAlign: "left" }}>Sort by</span>
+            <span style={{ minWidth: "50px", textAlign: "left" }}>Ordenar</span>
             <select
               style={{ width: "120px" }}
               className="selectpicker form-select"
             >
-              <option>Newest</option>
-              <option>Best Seller</option>
-              <option>Best Match</option>
-              <option>Price Low</option>
-              <option>Price High</option>
+    <option>Más Reciente</option>
+<option>Más Vendido</option>
+<option>Mejor Coincidencia</option>
+<option>Precio Bajo</option>
+<option>Precio Alto</option>
+
             </select>
           </div>
         </div>

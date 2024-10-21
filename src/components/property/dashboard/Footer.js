@@ -24,7 +24,7 @@ const Footer = () => {
                 >
                   ib-themes
                 </a>{" "}
-                - All rights reserved
+                - Derechos Reservados
               </p>
             </div>
           </div>

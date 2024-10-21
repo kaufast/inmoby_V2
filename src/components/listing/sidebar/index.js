@@ -16,13 +16,13 @@ const ListingSidebar = ({filterFunctions}) => {
   return (
     <div className="list-sidebar-style1">
       <div className="widget-wrapper">
-        <h6 className="list-title">Find your home</h6>
+        <h6 className="list-title">Encuentra tu vivienda</h6>
         <SearchBox filterFunctions={filterFunctions} />
       </div>
       {/* End .widget-wrapper */}
 
       <div className="widget-wrapper">
-        <h6 className="list-title">Listing Status</h6>
+        <h6 className="list-title">Tipo</h6>
         <div className="radio-element">
           <ListingStatus filterFunctions={filterFunctions} />
         </div>
@@ -30,7 +30,7 @@ const ListingSidebar = ({filterFunctions}) => {
       {/* End .widget-wrapper */}
 
       <div className="widget-wrapper">
-        <h6 className="list-title">Property Type</h6>
+        <h6 className="list-title">Tipo de Propiedad</h6>
         <div className="checkbox-style1">
           <PropertyType filterFunctions={filterFunctions} />
         </div>
@@ -39,7 +39,7 @@ const ListingSidebar = ({filterFunctions}) => {
       {/* End .widget-wrapper */}
 
       <div className="widget-wrapper">
-        <h6 className="list-title">Price Range</h6>
+        <h6 className="list-title">Rango de Precio</h6>
         {/* Range Slider Desktop Version */}
         <div className="range-slider-style1">
           <PriceSlider filterFunctions={filterFunctions} />
@@ -48,7 +48,8 @@ const ListingSidebar = ({filterFunctions}) => {
       {/* End .widget-wrapper */}
 
       <div className="widget-wrapper">
-        <h6 className="list-title">Bedrooms</h6>
+        <h6 className="list-title">Recámaras</h6>
+
         <div className="d-flex">
           <Bedroom filterFunctions={filterFunctions} />
         </div>
@@ -56,7 +57,7 @@ const ListingSidebar = ({filterFunctions}) => {
       {/* End .widget-wrapper */}
 
       <div className="widget-wrapper">
-        <h6 className="list-title">Bathrooms</h6>
+        <h6 className="list-title">Baños</h6>
         <div className="d-flex">
           <Bathroom filterFunctions={filterFunctions}  />
         </div>
@@ -64,7 +65,7 @@ const ListingSidebar = ({filterFunctions}) => {
       {/* End .widget-wrapper */}
 
       <div className="widget-wrapper advance-feature-modal">
-        <h6 className="list-title">Location</h6>
+        <h6 className="list-title">Ubicación</h6>
         <div className="form-style2 input-group">
           <Location filterFunctions={filterFunctions} />
         </div>
@@ -72,13 +73,13 @@ const ListingSidebar = ({filterFunctions}) => {
       {/* End .widget-wrapper */}
 
       <div className="widget-wrapper">
-        <h6 className="list-title">Square Feet</h6>
+        <h6 className="list-title">Metros Cuadrados</h6>
         <SquareFeet filterFunctions={filterFunctions}/>
       </div>
       {/* End .widget-wrapper */}
 
       <div className="widget-wrapper">
-        <h6 className="list-title">Year Built</h6>
+        <h6 className="list-title">Año construido</h6>
         <YearBuilt filterFunctions={filterFunctions}/>
       </div>
       {/* End .widget-wrapper */}
@@ -96,7 +97,7 @@ const ListingSidebar = ({filterFunctions}) => {
                   aria-expanded="true"
                   aria-controls="collapseOne"
                 >
-                  <span className="flaticon-settings" /> Other Features
+                  <span className="flaticon-settings" /> Otras Opciones
                 </button>
               </h2>
               <div
@@ -119,7 +120,7 @@ const ListingSidebar = ({filterFunctions}) => {
         <div className="btn-area d-grid align-items-center">
           <button className="ud-btn btn-thm">
             <span className="flaticon-search align-text-top pr10" />
-            Search
+            Buscar
           </button>
         </div>
       </div>
@@ -128,11 +129,11 @@ const ListingSidebar = ({filterFunctions}) => {
       <div className="reset-area d-flex align-items-center justify-content-between">
         <div onClick={()=>filterFunctions.resetFilter()} className="reset-button cursor" href="#">
           <span className="flaticon-turn-back" />
-          <u>Reset all filters</u>
+          <u>Nueva Búsqueda</u>
         </div>
         <a className="reset-button" href="#">
           <span className="flaticon-favourite" />
-          <u>Save Search</u>
+          <u>Guardar Busqueda</u>
         </a>
       </div>
     </div>

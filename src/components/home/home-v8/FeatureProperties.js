@@ -78,7 +78,7 @@ const FeatureProperties = () => {
                     {property.featured && (
                       <span className="flaticon-electricity me-2" />
                     )}
-                    {property.featured && "FEATURED"}
+                    {property.featured && "DESTACADO"}
                   </div>
                   <div className="list-tag2 fz12">{property.status}</div>
                 </div>

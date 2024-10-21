@@ -154,7 +154,7 @@ const Home_V5 = () => {
             <div className="col-lg-3">
               <div className="text-start text-lg-end mb-3">
                 <Link className="ud-btn2" href="/map-v4">
-                  See All Cities
+                  Ver más opciones
                   <i className="fal fa-arrow-right-long" />
                 </Link>
               </div>

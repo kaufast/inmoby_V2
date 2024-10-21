@@ -44,7 +44,7 @@ export default function PropertyListing() {
                 >
                   <li className="nav-item" role="presentation" onClick={()=>setCurrentType('rent')} >
                     <button className={`nav-link ${currentType == 'rent' ? 'active':''} `} type="button">
-                      For Rent
+                      Para Renta
                     </button>
                   </li>
                   <li className="nav-item" role="presentation" onClick={()=>setCurrentType('sale')}>

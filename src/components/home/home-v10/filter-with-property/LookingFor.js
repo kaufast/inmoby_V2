@@ -3,12 +3,13 @@ import Select from "react-select";
 
 const LookingFor = () => {
   const inqueryType = [
-    { value: "Apartments", label: "Apartments" },
+    { value: "Apartments", label: "Apartamentos" },
     { value: "Bungalow", label: "Bungalow" },
-    { value: "Houses", label: "Houses" },
-    { value: "Office", label: "Office" },
-    { value: "TownHome", label: "TownHome" },
+    { value: "Houses", label: "Casas" },
+    { value: "Office", label: "Oficina" },
+    { value: "TownHome", label: "Casa Adosada" },
     { value: "Villa", label: "Villa" },
+    
   ];
 
   const customStyles = {

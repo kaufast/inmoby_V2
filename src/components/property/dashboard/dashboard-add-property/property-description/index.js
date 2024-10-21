@@ -3,13 +3,14 @@ import Select from "react-select";
 
 const PropertyDescription = () => {
   const catergoryOptions = [
-    { value: "Apartments", label: "Apartments" },
-    { value: "Bungalow", label: "Bungalow" },
-    { value: "Houses", label: "Houses" },
-    { value: "Loft", label: "Loft" },
-    { value: "Office", label: "Office" },
-    { value: "Townhome", label: "Townhome" },
-    { value: "Villa", label: "Villa" },
+{ value: "Apartments", label: "Apartamentos" },
+{ value: "Bungalow", label: "Bungalow" },
+{ value: "Houses", label: "Casas" },
+{ value: "Loft", label: "Loft" },
+{ value: "Office", label: "Oficina" },
+{ value: "Townhome", label: "Casa Adosada" },
+{ value: "Villa", label: "Villa" },
+
   ];
   const listedIn = [
     { value: "All Listing", label: "All Listing" },
@@ -18,7 +19,7 @@ const PropertyDescription = () => {
     { value: "Processing", label: "Processing" },
   ];
   const PropertyStatus = [
-    { value: "All Cities", label: "All Cities" },
+    { value: "All Cities", label: "Todas las Ciudades" },
     { value: "Pending", label: "Pending" },
     { value: "Processing", label: "Processing" },
     { value: "Published", label: "Published" },
@@ -135,7 +136,7 @@ const PropertyDescription = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb30">
             <label className="heading-color ff-heading fw600 mb10">
-              Price in $
+              Price in €
             </label>
             <input
               type="text"

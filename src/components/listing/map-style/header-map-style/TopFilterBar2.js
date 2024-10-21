@@ -25,11 +25,11 @@ const TopFilterBar2 = ({filterFunctions} ) => {
           data-bs-toggle="dropdown"
           data-bs-auto-close="outside"
         >
-          For Sale <i className="fa fa-angle-down ms-2" />
+         Para Venta <i className="fa fa-angle-down ms-2" />
         </button>
         <div className="dropdown-menu">
           <div className="widget-wrapper bdrb1 pb25 mb0 pl20">
-            <h6 className="list-title">Listing Status</h6>
+            <h6 className="list-title">Tipo</h6>
             <div className="radio-element">
               <ListingStatus  filterFunctions={filterFunctions} />
             </div>
@@ -41,7 +41,7 @@ const TopFilterBar2 = ({filterFunctions} ) => {
           </div>
         </div>
       </li>
-      {/* End li Listing Status */}
+      {/* End li Tipo */}
 
       <li className="list-inline-item position-relative">
         <button
@@ -50,11 +50,11 @@ const TopFilterBar2 = ({filterFunctions} ) => {
           data-bs-toggle="dropdown"
           data-bs-auto-close="outside"
         >
-          Property Type <i className="fa fa-angle-down ms-2" />
+          Tipo de Propiedad <i className="fa fa-angle-down ms-2" />
         </button>
         <div className="dropdown-menu">
           <div className="widget-wrapper bdrb1 pb25 mb0 pl20">
-            <h6 className="list-title">Property Type</h6>
+            <h6 className="list-title">Tipo de Propiedad</h6>
             <div className="checkbox-style1">
               <PropertyType  filterFunctions={filterFunctions} />
             </div>
@@ -69,7 +69,7 @@ const TopFilterBar2 = ({filterFunctions} ) => {
           </div>
         </div>
       </li>
-      {/* End li Property Type */}
+      {/* End li Tipo de Propiedad */}
 
       <li className="list-inline-item position-relative">
         <button
@@ -78,12 +78,12 @@ const TopFilterBar2 = ({filterFunctions} ) => {
           data-bs-toggle="dropdown"
           data-bs-auto-close="outside"
         >
-          Price <i className="fa fa-angle-down ms-2" />
+          Precio <i className="fa fa-angle-down ms-2" />
         </button>
 
         <div className="dropdown-menu dd3">
           <div className="widget-wrapper bdrb1 pb25 mb0 pl20 pr20">
-            <h6 className="list-title">Price Range</h6>
+            <h6 className="list-title">Rango de Precio</h6>
             {/* Range Slider Desktop Version */}
             <div className="range-slider-style1">
               <PriceRange  filterFunctions={filterFunctions} />
@@ -105,7 +105,7 @@ const TopFilterBar2 = ({filterFunctions} ) => {
           data-bs-toggle="dropdown"
           data-bs-auto-close="outside"
         >
-          Beds / Baths <i className="fa fa-angle-down ms-2" />
+          Habitaciones <i className="fa fa-angle-down ms-2" />
         </button>
         <div className="dropdown-menu dd4 pb20">
           <div className="widget-wrapper pl20 pr20">
@@ -116,7 +116,7 @@ const TopFilterBar2 = ({filterFunctions} ) => {
           </div>
 
           <div className="widget-wrapper bdrb1 pb25 mb0 pl20 pr20">
-            <h6 className="list-title">Bathrooms</h6>
+            <h6 className="list-title">Baños</h6>
             <div className="d-flex">
               <Bathroom  filterFunctions={filterFunctions} />
             </div>
@@ -138,7 +138,7 @@ const TopFilterBar2 = ({filterFunctions} ) => {
           data-bs-toggle="modal"
           data-bs-target="#advanceSeachModal"
         >
-          <i className="flaticon-settings me-2" /> More Filter
+          <i className="flaticon-settings me-2" /> Más Filtros
         </button>
       </li>
     </>

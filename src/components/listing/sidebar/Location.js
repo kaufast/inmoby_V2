@@ -3,14 +3,14 @@ import Select from "react-select";
 
 const Location = ({filterFunctions}) => {
   const locationOptions = [
-    { value: "All Cities", label: "All Cities" },
-    { value: "California", label: "California" },
-    { value: "Los Angeles", label: "Los Angeles" },
-    { value: "New Jersey", label: "New Jersey" },
-    { value: "New York", label: "New York" },
-    { value: "San Diego", label: "San Diego" },
-    { value: "San Francisco", label: "San Francisco" },
-    { value: "Texas", label: "Texas" },
+    { value: "All Cities", label: "Todas las Ciudades" },
+    { value: "California", label: "Barcelona" },
+    { value: "Los Angeles", label: "Madrid" },
+    { value: "New Jersey", label: "Cd. de México" },
+    { value: "New York", label: "Chihuahua" },
+    { value: "San Diego", label: "Londres" },
+    { value: "San Francisco", label: "Monterrey" },
+    { value: "Texas", label: "Nueva York" },
   ];
 
   const customStyles = {

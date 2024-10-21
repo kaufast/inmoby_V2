@@ -33,7 +33,7 @@ const About = () => {
               <div className="breadcumb-style1">
                 <h2 className="title">About Us</h2>
                 <div className="breadcumb-list">
-                  <a href="#">Home</a>
+                  Para Renta
                   <a href="#">About</a>
                 </div>
               </div>

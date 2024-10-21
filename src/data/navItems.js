@@ -8,26 +8,11 @@ export const listingItems = [
     title: "Vista",
     submenu: [
       { label: "Vista v1", href: "/grid-default" },
-
-    ],
-  },
-  {
-    title: "Mapa",
-    submenu: [
-      {
-        label: "Estilo de Mapa con Encabezado",
-        href: "/header-map-style",
-      },
       { label: "Mapa Versión 1", href: "/map-v1" },
-    ],
-    
-  },
-  {
-    title: "Vista de Listado",
-    submenu: [
       { label: "Listado Versión 1", href: "/list-v1" },
     ],
   },
+  
   
 ];
 

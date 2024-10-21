@@ -3,7 +3,7 @@ import Select from "react-select";
 
 const Location = ({filterFunctions}) => {
   const locationOptions = [
-    { value: "All Cities", label: "All Cities" },
+    { value: "All Cities", label: "Todas las Ciudades" },
     { value: "California", label: "California" },
     { value: "Los Angeles", label: "Los Angeles" },
    

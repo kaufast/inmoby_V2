@@ -20,7 +20,7 @@ const FeaturedListings = ({cities}) => {
                 {listing.featured && (
                   <div className="list-tag fz12">
                     <span className="flaticon-electricity me-2" />
-                    FEATURED
+                    DESTACADO
                   </div>
                 )}
               </div>
@@ -38,7 +38,7 @@ const FeaturedListings = ({cities}) => {
             </div>
             <div className="list-content">
               <div className="list-price mb-2">
-                {listing.price} / <span>mo</span>
+                {listing.price} / <span>mes</span>
               </div>
               <h6 className="list-title">
                 <Link href={`/single-v3/${listing.id}`}>{listing.title}</Link>

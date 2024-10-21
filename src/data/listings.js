@@ -17,7 +17,7 @@ module.exports = [
         long: -74.07152705896405,
     features:[
       
-      "Aire Acondicionado",
+      "Aire Acond...",
       "Cesped",
       "TV / Cable",
       "Secadora",
@@ -78,7 +78,7 @@ module.exports = [
     features:[
       "Ático",
       "Pista de Tenis",
-      "Aire Acondicionado",
+      "Aire Acond...",
       "Cesped",
       
       "Ducha Exterior",
@@ -108,7 +108,7 @@ module.exports = [
     features:[
       "Ático",
       "Pista de Tenis",
-      "Aire Acondicionado",
+      "Aire Acond...",
       "Cesped",
       "TV / Cable",
       "Secadora",
@@ -137,7 +137,7 @@ module.exports = [
     features:[
       "Ático",
       "Pista de Tenis",
-      "Aire Acondicionado",
+      "Aire Acond...",
       "Cesped",
       "TV / Cable",
       "Secadora",
@@ -166,7 +166,7 @@ module.exports = [
     features:[
       "Ático",
       "Pista de Tenis",
-      "Aire Acondicionado",
+      "Aire Acond...",
       "Cesped",
       "TV / Cable",
       "Secadora",
@@ -222,7 +222,7 @@ module.exports = [
     features:[
       "Ático",
       "Pista de Tenis",
-      "Aire Acondicionado",
+      "Aire Acond...",
       "Cesped",
      
       "Vista al Mar",
@@ -248,7 +248,7 @@ module.exports = [
     features:[
       "Ático",
       "Pista de Tenis",
-      "Aire Acondicionado",
+      "Aire Acond...",
       "Cesped",
       
       "Vista al Mar",
@@ -275,7 +275,7 @@ module.exports = [
     features:[
       "Ático",
       "Pista de Tenis",
-      "Aire Acondicionado",
+      "Aire Acond...",
       "Cesped",
       "TV / Cable",
       "Secadora",
@@ -328,7 +328,7 @@ module.exports = [
     tags: ["house", "office"],
     features:[
       
-      "Aire Acondicionado",
+      "Aire Acond...",
       "Cesped",
       "TV / Cable",
       "Secadora",
@@ -385,7 +385,7 @@ module.exports = [
     features:[
       "Ático",
       "Pista de Tenis",
-      "Aire Acondicionado",
+      "Aire Acond...",
       "Cesped",
       "TV / Cable",
    
@@ -413,7 +413,7 @@ module.exports = [
     features:[
       "Ático",
       "Pista de Tenis",
-      "Aire Acondicionado",
+      "Aire Acond...",
       "Cesped",
       "TV / Cable",
       "Secadora",
@@ -441,7 +441,7 @@ module.exports = [
     features:[
       "Ático",
       "Pista de Tenis",
-      "Aire Acondicionado",
+      "Aire Acond...",
       "Cesped",
       "TV / Cable",
       "Secadora",
@@ -526,7 +526,7 @@ module.exports = [
     features:[
       "Ático",
       "Pista de Tenis",
-      "Aire Acondicionado",
+      "Aire Acond...",
       "Cesped",
       "TV / Cable",
       "Secadora",
@@ -554,7 +554,7 @@ module.exports = [
     features:[
       "Ático",
       "Pista de Tenis",
-      "Aire Acondicionado",
+      "Aire Acond...",
       "Cesped",
       "TV / Cable",
       "Secadora",
@@ -582,7 +582,7 @@ module.exports = [
     features:[
       "Ático",
       "Pista de Tenis",
-      "Aire Acondicionado",
+      "Aire Acond...",
       "Cesped",
       "TV / Cable",
       "Secadora",
@@ -611,7 +611,7 @@ module.exports = [
     features:[
       "Ático",
       "Pista de Tenis",
-      "Aire Acondicionado",
+      "Aire Acond...",
       "Cesped",
       "TV / Cable",
       "Secadora",
@@ -640,7 +640,7 @@ module.exports = [
     features:[
       "Ático",
       "Pista de Tenis",
-      "Aire Acondicionado",
+      "Aire Acond...",
 
       "TV / Cable",
       "Secadora",
@@ -697,7 +697,7 @@ module.exports = [
     features:[
       "Ático",
       "Pista de Tenis",
-      "Aire Acondicionado",
+      "Aire Acond...",
       "Cesped",
       
       "Ducha Exterior",

@@ -29,8 +29,9 @@ const GridFull1ColV1 = () => {
               <div className="breadcumb-style1">
                 <h2 className="title">New York Homes for Sale</h2>
                 <div className="breadcumb-list">
-                  <a href="#">Home</a>
-                  <a href="#">For Rent</a>
+                                    <a href="#">Inicio</a>
+<a href="#">En Alquiler</a>
+
                 </div>
                 <a
                   className="filter-btn-left mobile-filter-btn d-block d-lg-none"

@@ -22,7 +22,7 @@ const AllReviews = () => {
               </h6>
               <div className="page_control_shorting d-flex align-items-center justify-content-center justify-content-sm-end">
                 <div className="pcs_dropdown mb15 d-flex align-items-center">
-                  <span style={{ minWidth: "60px" }}>Sort by</span>
+                  <span style={{ minWidth: "60px" }}>Ordenar</span>
                   <select className="form-select">
                     {sortOptions.map((option, index) => (
                       <option key={index}>{option}</option>

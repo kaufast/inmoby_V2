@@ -28,8 +28,8 @@ const BlogV3 = () => {
               <div className="breadcumb-style1">
                 <h2 className="title">Blog</h2>
                 <div className="breadcumb-list">
-                  <a href="#">Home</a>
-                  <a href="#">Blog</a>
+                  <a href="#">Inicio</a>
+<a href="#">Blog</a>
                 </div>
               </div>
             </div>

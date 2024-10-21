@@ -6,10 +6,10 @@ const PropertyType = ({filterFunctions}) => {
 
   const options = [
 
-    { label: "Houses" },
+    { label: "Casas" },
 
-    { label: "Apartments", defaultChecked: true },
-    { label: "Office" },
+    { label: "Pisos", defaultChecked: true },
+    { label: "Oficinas" },
     { label: "Villa" },
    
   ];
@@ -17,7 +17,7 @@ const PropertyType = ({filterFunctions}) => {
   return (
     <>
     <label className="custom_checkbox"  >
-          All
+          
           <input type="checkbox"
           checked={!filterFunctions?.propertyTypes.length}
           onChange={(e=>{filterFunctions?.setPropertyTypes([])})}

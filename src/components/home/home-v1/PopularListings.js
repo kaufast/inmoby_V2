@@ -49,7 +49,7 @@ const PopularListings = ({data = listings }) => {
                   </div>
 
                   <div className="list-price">
-                    {listing.price} / <span>mo</span>
+                    {listing.price} / <span>mes</span>
                   </div>
                 </div>
                 <div className="list-content">
@@ -65,7 +65,7 @@ const PopularListings = ({data = listings }) => {
                       <span className="flaticon-shower" /> {listing.bath} baños
                     </a>
                     <a href="#">
-                      <span className="flaticon-expand" /> {listing.sqft} mts2
+                      <span className="flaticon-expand" /> {listing.sqft} Tamaño
                     </a>
                   </div>
                   <hr className="mt-2 mb-2" />

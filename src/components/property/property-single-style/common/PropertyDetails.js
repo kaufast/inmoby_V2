@@ -38,7 +38,7 @@ const PropertyDetails = () => {
         value: "2022",
       },
       {
-        label: "Property Type",
+        label: "Tipo de Propiedad",
         value: "Apartment",
       },
       {
