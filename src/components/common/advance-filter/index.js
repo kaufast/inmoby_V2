@@ -9,24 +9,25 @@ import { useRouter } from "next/navigation";
 const AdvanceFilterModal = () => {
   const router = useRouter();
   const catOptions = [
-    { value: "Banking", label: "Apartments" },
+    { value: "Banking", label: "Apartamentos" },
     { value: "Bungalow", label: "Bungalow" },
-    { value: "Houses", label: "Houses" },
+    { value: "Houses", label: "Casas" },
     { value: "Loft", label: "Loft" },
-    { value: "Office", label: "Office" },
-    { value: "Townhome", label: "Townhome" },
+    { value: "Office", label: "Oficina" },
+    { value: "Townhome", label: "Casa Adosada" },
     { value: "Villa", label: "Villa" },
   ];
   const locationOptions = [
-    { value: "All Cities", label: "All Cities" },
-    { value: "California", label: "California" },
-    { value: "Los Angeles", label: "Los Angeles" },
-    { value: "New Jersey", label: "New Jersey" },
-    { value: "New York", label: "New York" },
-    { value: "San Diego", label: "San Diego" },
-    { value: "San Francisco", label: "San Francisco" },
-    { value: "Texas", label: "Texas" },
+    { value: "All Cities", label: "Todas" },
+    { value: "California", label: "Barcelona" },
+    { value: "Los Angeles", label: "Chihuahua" },
+    { value: "New Jersey", label: "Cd. de México" },
+    { value: "New York", label: "Londres" },
+    { value: "San Diego", label: "Austin" },
+    { value: "San Francisco", label: "Madrid" },
+    { value: "Texas", label: "Nueva York" },
   ];
+
 
   const customStyles = {
     option: (styles, { isFocused, isSelected, isHovered }) => {
@@ -48,7 +49,7 @@ const AdvanceFilterModal = () => {
       <div className="modal-content">
         <div className="modal-header pl30 pr30">
           <h5 className="modal-title" id="exampleModalLabel">
-            More Filter
+             Filtrado avanzados
           </h5>
           <button
             type="button"
@@ -63,7 +64,7 @@ const AdvanceFilterModal = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="widget-wrapper">
-                <h6 className="list-title mb20">Price Range</h6>
+                <h6 className="list-title mb20">Rango de Precios</h6>
                 <div className="range-slider-style modal-version">
                   <PriceRange />
                 </div>
@@ -75,7 +76,7 @@ const AdvanceFilterModal = () => {
           <div className="row">
             <div className="col-sm-6">
               <div className="widget-wrapper">
-                <h6 className="list-title">Type</h6>
+                <h6 className="list-title">Tipo</h6>
                 <div className="form-style2 input-group">
                   <Select
                     defaultValue={[catOptions[1]]}
@@ -93,7 +94,7 @@ const AdvanceFilterModal = () => {
 
             <div className="col-sm-6">
               <div className="widget-wrapper">
-                <h6 className="list-title">Property ID</h6>
+                <h6 className="list-title">Num. de Propiedad</h6>
                 <div className="form-style2">
                   <input
                     type="text"
@@ -110,7 +111,7 @@ const AdvanceFilterModal = () => {
           <div className="row">
             <div className="col-sm-6">
               <div className="widget-wrapper">
-                <h6 className="list-title">Bedrooms</h6>
+                <h6 className="list-title">Recámaras</h6>
                 <div className="d-flex">
                   <Bedroom />
                 </div>
@@ -120,7 +121,7 @@ const AdvanceFilterModal = () => {
 
             <div className="col-sm-6">
               <div className="widget-wrapper">
-                <h6 className="list-title">Bathrooms</h6>
+                <h6 className="list-title">Baños</h6>
                 <div className="d-flex">
                   <Bathroom />
                 </div>
@@ -133,7 +134,7 @@ const AdvanceFilterModal = () => {
           <div className="row">
             <div className="col-sm-6">
               <div className="widget-wrapper">
-                <h6 className="list-title">Location</h6>
+                <h6 className="list-title">Ubicación</h6>
                 <div className="form-style2 input-group">
                   <Select
                     defaultValue={[locationOptions[0]]}
@@ -151,7 +152,7 @@ const AdvanceFilterModal = () => {
 
             <div className="col-sm-6">
               <div className="widget-wrapper">
-                <h6 className="list-title">Square Feet</h6>
+                <h6 className="list-title">Mts2</h6>
                 <div className="space-area">
                   <div className="d-flex align-items-center justify-content-between">
                     <div className="form-style1">
@@ -180,7 +181,7 @@ const AdvanceFilterModal = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="widget-wrapper mb0">
-                <h6 className="list-title mb10">Amenities</h6>
+                <h6 className="list-title mb10">Servicios</h6>
               </div>
             </div>
             <Amenities />
@@ -191,12 +192,12 @@ const AdvanceFilterModal = () => {
         <div className="modal-footer justify-content-between">
           <button className="reset-button">
             <span className="flaticon-turn-back" />
-            <u>Reset all filters</u>
+            <u>Restablecer filtros</u>
           </button>
           <div className="btn-area">
             <button data-bs-dismiss="modal" type="submit" className="ud-btn btn-thm" onClick={() => router.push("/map-v1")} >
               <span className="flaticon-search align-text-top pr10" />
-              Search
+              Buscar
             </button>
           </div>
         </div>

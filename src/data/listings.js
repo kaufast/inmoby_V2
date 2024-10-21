@@ -17,16 +17,16 @@ module.exports = [
         long: -74.07152705896405,
     features:[
       
-      "Air Conditioning",
-      "Lawn",
-      "TV Cable",
-      "Dryer",
-      "Outdoor Shower",
-      "Washer",
-      "Lake view",
-      "Wine cellar",
-      "Front yard",
-      "Refrigerator"
+      "Aire Acondicionado",
+      "Cesped",
+      "TV / Cable",
+      "Secadora",
+      "Ducha Exterior",
+      "Lavadora",
+      "Vista al Mar",
+      "Bodega de vinos",
+      "Patio delantero",
+      "Frígorifico"
   ],
   },
   {
@@ -47,17 +47,17 @@ module.exports = [
    
     tags: ["house", "villa", "apartments"],
     features:[
-      "Attic",
-      "Basketball court",
+      "Ático",
+      "Pista de Tenis",
       
-      "TV Cable",
-      "Dryer",
-      "Outdoor Shower",
-      "Washer",
-      "Lake view",
-      "Wine cellar",
-      "Front yard",
-      "Refrigerator"
+      "TV / Cable",
+      "Secadora",
+      "Ducha Exterior",
+      "Lavadora",
+      "Vista al Mar",
+      "Bodega de vinos",
+      "Patio delantero",
+      "Frígorifico"
   ],
   },
   {
@@ -76,17 +76,17 @@ module.exports = [
     forRent: false,
     tags: ["house", "apartments", "house"],
     features:[
-      "Attic",
-      "Basketball court",
-      "Air Conditioning",
-      "Lawn",
+      "Ático",
+      "Pista de Tenis",
+      "Aire Acondicionado",
+      "Cesped",
       
-      "Outdoor Shower",
-      "Washer",
-      "Lake view",
-      "Wine cellar",
-      "Front yard",
-      "Refrigerator"
+      "Ducha Exterior",
+      "Lavadora",
+      "Vista al Mar",
+      "Bodega de vinos",
+      "Patio delantero",
+      "Frígorifico"
   ],
   },
   {
@@ -106,17 +106,17 @@ module.exports = [
     tags: ["villa", "apartments", "house"],
     featured:true,
     features:[
-      "Attic",
-      "Basketball court",
-      "Air Conditioning",
-      "Lawn",
-      "TV Cable",
-      "Dryer",
+      "Ático",
+      "Pista de Tenis",
+      "Aire Acondicionado",
+      "Cesped",
+      "TV / Cable",
+      "Secadora",
       
-      "Lake view",
-      "Wine cellar",
-      "Front yard",
-      "Refrigerator"
+      "Vista al Mar",
+      "Bodega de vinos",
+      "Patio delantero",
+      "Frígorifico"
   ],
   },
   {
@@ -135,17 +135,17 @@ module.exports = [
     forRent: false,
     tags: ["villa", "office"],
     features:[
-      "Attic",
-      "Basketball court",
-      "Air Conditioning",
-      "Lawn",
-      "TV Cable",
-      "Dryer",
-      "Outdoor Shower",
-      "Washer",
-      "Lake view",
+      "Ático",
+      "Pista de Tenis",
+      "Aire Acondicionado",
+      "Cesped",
+      "TV / Cable",
+      "Secadora",
+      "Ducha Exterior",
+      "Lavadora",
+      "Vista al Mar",
     
-      "Refrigerator"
+      "Frígorifico"
   ],
   },
   {
@@ -164,16 +164,16 @@ module.exports = [
     tags: ["house", "villa", "office"],
     featured:true,
     features:[
-      "Attic",
-      "Basketball court",
-      "Air Conditioning",
-      "Lawn",
-      "TV Cable",
-      "Dryer",
-      "Outdoor Shower",
-      "Washer",
-      "Lake view",
-      "Wine cellar",
+      "Ático",
+      "Pista de Tenis",
+      "Aire Acondicionado",
+      "Cesped",
+      "TV / Cable",
+      "Secadora",
+      "Ducha Exterior",
+      "Lavadora",
+      "Vista al Mar",
+      "Bodega de vinos",
       
   ],
   },
@@ -193,15 +193,15 @@ module.exports = [
     tags: ["house", "apartments"],
     features:[
      
-      "Lawn",
-      "TV Cable",
-      "Dryer",
-      "Outdoor Shower",
-      "Washer",
-      "Lake view",
-      "Wine cellar",
-      "Front yard",
-      "Refrigerator"
+      "Cesped",
+      "TV / Cable",
+      "Secadora",
+      "Ducha Exterior",
+      "Lavadora",
+      "Vista al Mar",
+      "Bodega de vinos",
+      "Patio delantero",
+      "Frígorifico"
   ],
   },
   {
@@ -220,15 +220,15 @@ module.exports = [
     tags: ["house", "office"],
     featured:true,
     features:[
-      "Attic",
-      "Basketball court",
-      "Air Conditioning",
-      "Lawn",
+      "Ático",
+      "Pista de Tenis",
+      "Aire Acondicionado",
+      "Cesped",
      
-      "Lake view",
-      "Wine cellar",
-      "Front yard",
-      "Refrigerator"
+      "Vista al Mar",
+      "Bodega de vinos",
+      "Patio delantero",
+      "Frígorifico"
   ],
   },
   {
@@ -246,15 +246,15 @@ module.exports = [
      propertyType:'Villa',yearBuilding:2017,
     tags: ["house", "office"],
     features:[
-      "Attic",
-      "Basketball court",
-      "Air Conditioning",
-      "Lawn",
+      "Ático",
+      "Pista de Tenis",
+      "Aire Acondicionado",
+      "Cesped",
       
-      "Lake view",
-      "Wine cellar",
-      "Front yard",
-      "Refrigerator"
+      "Vista al Mar",
+      "Bodega de vinos",
+      "Patio delantero",
+      "Frígorifico"
   ],
   },
   {
@@ -273,15 +273,15 @@ module.exports = [
     featured:true,
      propertyType:'Apartments',yearBuilding:2021,
     features:[
-      "Attic",
-      "Basketball court",
-      "Air Conditioning",
-      "Lawn",
-      "TV Cable",
-      "Dryer",
-      "Outdoor Shower",
-      "Washer",
-      "Lake view",
+      "Ático",
+      "Pista de Tenis",
+      "Aire Acondicionado",
+      "Cesped",
+      "TV / Cable",
+      "Secadora",
+      "Ducha Exterior",
+      "Lavadora",
+      "Vista al Mar",
     
   ],
   },
@@ -301,15 +301,15 @@ module.exports = [
     tags: ["house", "office"],
     features:[
      
-      "Lawn",
-      "TV Cable",
-      "Dryer",
-      "Outdoor Shower",
-      "Washer",
-      "Lake view",
-      "Wine cellar",
-      "Front yard",
-      "Refrigerator"
+      "Cesped",
+      "TV / Cable",
+      "Secadora",
+      "Ducha Exterior",
+      "Lavadora",
+      "Vista al Mar",
+      "Bodega de vinos",
+      "Patio delantero",
+      "Frígorifico"
   ],
   },
   {
@@ -328,16 +328,16 @@ module.exports = [
     tags: ["house", "office"],
     features:[
       
-      "Air Conditioning",
-      "Lawn",
-      "TV Cable",
-      "Dryer",
-      "Outdoor Shower",
-      "Washer",
-      "Lake view",
-      "Wine cellar",
-      "Front yard",
-      "Refrigerator"
+      "Aire Acondicionado",
+      "Cesped",
+      "TV / Cable",
+      "Secadora",
+      "Ducha Exterior",
+      "Lavadora",
+      "Vista al Mar",
+      "Bodega de vinos",
+      "Patio delantero",
+      "Frígorifico"
   ],
   },
   {
@@ -357,15 +357,15 @@ module.exports = [
     featured:true,
     tags: ["house", "office"],
     features:[
-      "Attic",
-      "Basketball court",
+      "Ático",
+      "Pista de Tenis",
       
-      "Outdoor Shower",
-      "Washer",
-      "Lake view",
-      "Wine cellar",
-      "Front yard",
-      "Refrigerator"
+      "Ducha Exterior",
+      "Lavadora",
+      "Vista al Mar",
+      "Bodega de vinos",
+      "Patio delantero",
+      "Frígorifico"
   ],
   },
   {
@@ -383,16 +383,16 @@ module.exports = [
      propertyType:'Apartments',yearBuilding:2023,
     tags: ["house", "office"],
     features:[
-      "Attic",
-      "Basketball court",
-      "Air Conditioning",
-      "Lawn",
-      "TV Cable",
+      "Ático",
+      "Pista de Tenis",
+      "Aire Acondicionado",
+      "Cesped",
+      "TV / Cable",
    
-      "Lake view",
-      "Wine cellar",
-      "Front yard",
-      "Refrigerator"
+      "Vista al Mar",
+      "Bodega de vinos",
+      "Patio delantero",
+      "Frígorifico"
   ],
   },
   {
@@ -411,17 +411,17 @@ module.exports = [
     featured:true,
     tags: ["house", "office"],
     features:[
-      "Attic",
-      "Basketball court",
-      "Air Conditioning",
-      "Lawn",
-      "TV Cable",
-      "Dryer",
+      "Ático",
+      "Pista de Tenis",
+      "Aire Acondicionado",
+      "Cesped",
+      "TV / Cable",
+      "Secadora",
      
-      "Lake view",
-      "Wine cellar",
-      "Front yard",
-      "Refrigerator"
+      "Vista al Mar",
+      "Bodega de vinos",
+      "Patio delantero",
+      "Frígorifico"
   ],
   },
   {
@@ -439,16 +439,16 @@ module.exports = [
     tags: ["house", "office"],
     propertyType:'Houses',yearBuilding:2018,
     features:[
-      "Attic",
-      "Basketball court",
-      "Air Conditioning",
-      "Lawn",
-      "TV Cable",
-      "Dryer",
-      "Outdoor Shower",
-      "Washer",
-      "Lake view",
-      "Wine cellar",
+      "Ático",
+      "Pista de Tenis",
+      "Aire Acondicionado",
+      "Cesped",
+      "TV / Cable",
+      "Secadora",
+      "Ducha Exterior",
+      "Lavadora",
+      "Vista al Mar",
+      "Bodega de vinos",
 
   ],
   },
@@ -468,17 +468,17 @@ module.exports = [
     tags: ["house", "office"],
      propertyType:'Villa',yearBuilding:2018,
     features:[
-      "Attic",
-      "Basketball court",
+      "Ático",
+      "Pista de Tenis",
       
-      "TV Cable",
-      "Dryer",
-      "Outdoor Shower",
-      "Washer",
-      "Lake view",
-      "Wine cellar",
-      "Front yard",
-      "Refrigerator"
+      "TV / Cable",
+      "Secadora",
+      "Ducha Exterior",
+      "Lavadora",
+      "Vista al Mar",
+      "Bodega de vinos",
+      "Patio delantero",
+      "Frígorifico"
   ],
   },
   {
@@ -497,16 +497,16 @@ module.exports = [
     forRent: false,
     tags: ["house", "office"],
     features:[
-      "Attic",
-      "Basketball court",
+      "Ático",
+      "Pista de Tenis",
   
-      "Dryer",
-      "Outdoor Shower",
-      "Washer",
-      "Lake view",
-      "Wine cellar",
-      "Front yard",
-      "Refrigerator"
+      "Secadora",
+      "Ducha Exterior",
+      "Lavadora",
+      "Vista al Mar",
+      "Bodega de vinos",
+      "Patio delantero",
+      "Frígorifico"
   ],
   },
   {
@@ -524,17 +524,17 @@ module.exports = [
     forRent: true,
     tags: ["house", "office"],
     features:[
-      "Attic",
-      "Basketball court",
-      "Air Conditioning",
-      "Lawn",
-      "TV Cable",
-      "Dryer",
-      "Outdoor Shower",
-      "Washer",
-      "Lake view",
+      "Ático",
+      "Pista de Tenis",
+      "Aire Acondicionado",
+      "Cesped",
+      "TV / Cable",
+      "Secadora",
+      "Ducha Exterior",
+      "Lavadora",
+      "Vista al Mar",
       
-      "Refrigerator"
+      "Frígorifico"
   ],
   },
   {
@@ -552,17 +552,17 @@ module.exports = [
     propertyType:'Houses',yearBuilding:2019,
     tags: ["house", "office"],
     features:[
-      "Attic",
-      "Basketball court",
-      "Air Conditioning",
-      "Lawn",
-      "TV Cable",
-      "Dryer",
-      "Outdoor Shower",
-      "Washer",
-      "Lake view",
+      "Ático",
+      "Pista de Tenis",
+      "Aire Acondicionado",
+      "Cesped",
+      "TV / Cable",
+      "Secadora",
+      "Ducha Exterior",
+      "Lavadora",
+      "Vista al Mar",
       
-      "Refrigerator"
+      "Frígorifico"
   ],
   },
   {
@@ -580,17 +580,17 @@ module.exports = [
      propertyType:'Office',yearBuilding:2020,
     tags: ["house", "office"],
     features:[
-      "Attic",
-      "Basketball court",
-      "Air Conditioning",
-      "Lawn",
-      "TV Cable",
-      "Dryer",
-      "Outdoor Shower",
-      "Washer",
-      "Lake view",
+      "Ático",
+      "Pista de Tenis",
+      "Aire Acondicionado",
+      "Cesped",
+      "TV / Cable",
+      "Secadora",
+      "Ducha Exterior",
+      "Lavadora",
+      "Vista al Mar",
 
-      "Refrigerator"
+      "Frígorifico"
   ],
   },
   {
@@ -609,17 +609,17 @@ module.exports = [
      propertyType:'Villa',yearBuilding:2021,
     tags: ["house", "office"],
     features:[
-      "Attic",
-      "Basketball court",
-      "Air Conditioning",
-      "Lawn",
-      "TV Cable",
-      "Dryer",
-      "Outdoor Shower",
-      "Washer",
+      "Ático",
+      "Pista de Tenis",
+      "Aire Acondicionado",
+      "Cesped",
+      "TV / Cable",
+      "Secadora",
+      "Ducha Exterior",
+      "Lavadora",
      
-      "Front yard",
-      "Refrigerator"
+      "Patio delantero",
+      "Frígorifico"
   ],
   },
   {
@@ -638,18 +638,18 @@ module.exports = [
      propertyType:'Apartments',yearBuilding:2017,
     tags: ["house", "office"],
     features:[
-      "Attic",
-      "Basketball court",
-      "Air Conditioning",
+      "Ático",
+      "Pista de Tenis",
+      "Aire Acondicionado",
 
-      "TV Cable",
-      "Dryer",
-      "Outdoor Shower",
-      "Washer",
-      "Lake view",
-      "Wine cellar",
-      "Front yard",
-      "Refrigerator"
+      "TV / Cable",
+      "Secadora",
+      "Ducha Exterior",
+      "Lavadora",
+      "Vista al Mar",
+      "Bodega de vinos",
+      "Patio delantero",
+      "Frígorifico"
   ],
   },
   {
@@ -667,17 +667,17 @@ module.exports = [
     propertyType:'Houses',yearBuilding:2016,
     tags: ["house", "office"],
     features:[
-      "Attic",
-      "Basketball court",
+      "Ático",
+      "Pista de Tenis",
      
-      "TV Cable",
-      "Dryer",
-      "Outdoor Shower",
-      "Washer",
-      "Lake view",
-      "Wine cellar",
-      "Front yard",
-      "Refrigerator"
+      "TV / Cable",
+      "Secadora",
+      "Ducha Exterior",
+      "Lavadora",
+      "Vista al Mar",
+      "Bodega de vinos",
+      "Patio delantero",
+      "Frígorifico"
   ],
   },
   {
@@ -695,17 +695,17 @@ module.exports = [
     forRent: true,
     tags: ["house", "office"],
     features:[
-      "Attic",
-      "Basketball court",
-      "Air Conditioning",
-      "Lawn",
+      "Ático",
+      "Pista de Tenis",
+      "Aire Acondicionado",
+      "Cesped",
       
-      "Outdoor Shower",
-      "Washer",
-      "Lake view",
-      "Wine cellar",
-      "Front yard",
-      "Refrigerator"
+      "Ducha Exterior",
+      "Lavadora",
+      "Vista al Mar",
+      "Bodega de vinos",
+      "Patio delantero",
+      "Frígorifico"
   ],
   },
 ];

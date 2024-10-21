@@ -59,11 +59,11 @@ const ExploreCities = () => {
             <div className="feature-content">
               <div className="top-area">
                 <h6 className="title mb-1">{apartment.city}</h6>
-                <p className="text">{apartment.propertyCount} Properties</p>
+                <p className="text">{apartment.propertyCount} Propiedades</p>
               </div>
               <div className="bottom-area">
                 <Link className="ud-btn2" href="/map-v2">
-                  See All Cities
+                  Ver todas las ciudades
                   <i className="fal fa-arrow-right-long" />
                 </Link>
               </div>

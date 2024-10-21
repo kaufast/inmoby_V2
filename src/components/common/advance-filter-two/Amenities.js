@@ -3,22 +3,22 @@
 const Amenities = ({filterFunctions}) => {
   const amenities = [
     [
-      { label: "Attic" },
-    { label: "Basketball court", defaultChecked: true },
-    { label: "Air Conditioning", defaultChecked: true },
-    { label: "Lawn", defaultChecked: true },
+      { label: "Ático" },
+    { label: "Pista de Tenis", defaultChecked: true },
+    { label: "Aire Acondicionado", defaultChecked: true },
+    { label: "Cesped", defaultChecked: true },
     ],
     [
-      { label: "TV Cable" },
-      { label: "Dryer" },
-      { label: "Outdoor Shower" },
-    { label: "Washer" },
+      { label: "TV / Cable" },
+      { label: "Secadora" },
+      { label: "Ducha Exterior" },
+    { label: "Lavadora" },
     ],
     [
-      { label: "Lake view" },
-      { label: "Wine cellar" },
-      { label: "Front yard" },
-      { label: "Refrigerator" },
+      { label: "Vista al Mar" },
+      { label: "Bodega de vinos" },
+      { label: "Patio delantero" },
+      { label: "Frígorifico" },
     ],
   ];
 

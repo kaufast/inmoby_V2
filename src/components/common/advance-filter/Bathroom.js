@@ -1,6 +1,6 @@
 const Bathroom = () => {
   const bathOptions = [
-    { id: "yany", label: "any" },
+    { id: "yany", label: "todos" },
     { id: "yoneplus", label: "1+" },
     { id: "ytwoplus", label: "2+" },
     { id: "ythreeplus", label: "3+" },

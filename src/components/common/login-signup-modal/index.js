@@ -6,7 +6,7 @@ const LoginSignupModal = () => {
     <div className="modal-content">
       <div className="modal-header">
         <h5 className="modal-title" id="exampleModalToggleLabel">
-          Welcome to Realton
+          Bienvenido a Inmobi
         </h5>
         <button
           type="button"
@@ -32,7 +32,7 @@ const LoginSignupModal = () => {
                   aria-controls="nav-home"
                   aria-selected="true"
                 >
-                  Sign In
+                  Iniciar sesión
                 </button>
                 <button
                   className="nav-link fw600"
@@ -44,7 +44,7 @@ const LoginSignupModal = () => {
                   aria-controls="nav-profile"
                   aria-selected="false"
                 >
-                  New Account
+                  Abrir Cuenta
                 </button>
               </div>
             </nav>

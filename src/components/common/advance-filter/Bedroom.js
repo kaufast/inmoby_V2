@@ -1,6 +1,6 @@
 const Bedroom = () => {
   const bedOptions = [
-    { id: "xany", label: "any" },
+    { id: "xany", label: "todos" },
     { id: "xoneplus", label: "1+" },
     { id: "xtwoplus", label: "2+" },
     { id: "xthreeplus", label: "3+" },
