@@ -21,7 +21,7 @@ const FilterProperties = () => {
         <div className="col-lg-6">
           <div className="main-title2">
             <h2 className="title">Discover Popular Properties</h2>
-            <p className="paragraph">Aliquam lacinia diam quis lacus euismod</p>
+            <p className="paragraph">Un hogar ideal entre nuestras propiedades seleccionadas</p>
           </div>
         </div>
         <div className="col-lg-6">

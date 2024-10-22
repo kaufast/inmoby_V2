@@ -12,7 +12,7 @@ const listingsData = [
     title: "Studio on Grand Avenue",
     beds: "32 Beds",
     baths: "91 Baths",
-    sqFt: "1500 sq ft",
+    sqFt: "1500 m²",
   },
   {
     imageUrl: "/images/listings/slider-home7-2.jpg",
@@ -20,7 +20,7 @@ const listingsData = [
     title: "New apartment nice view",
     beds: "32 Beds",
     baths: "91 Baths",
-    sqFt: "1500 sq ft",
+    sqFt: "1500 m²",
   },
   {
     imageUrl: "/images/listings/slider-home7-3.jpg",
@@ -28,7 +28,7 @@ const listingsData = [
     title: "New apartment nice view",
     beds: "32 Beds",
     baths: "91 Baths",
-    sqFt: "1500 sq ft",
+    sqFt: "1500 m²",
   },
 ];
 

@@ -8,7 +8,7 @@ const PropertyViews = () => {
     <div className="col-md-12">
       <div className="navtab-style1">
         <div className="d-sm-flex align-items-center justify-content-between">
-          <h4 className="title fz17 mb20">Property Views</h4>
+          <h4 className="title fz17 mb20">Visitas anteriores</h4>
           <ul
             className="nav nav-tabs border-bottom-0 mb30"
             id="myTab"

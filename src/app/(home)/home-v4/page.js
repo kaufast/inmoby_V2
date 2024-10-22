@@ -56,7 +56,7 @@ const Home_V4 = () => {
               <div className="main-title2">
                 <h2 className="title">Properties by Cities</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Un hogar ideal entre nuestras propiedades seleccionadas
                 </p>
               </div>
             </div>
@@ -148,7 +148,7 @@ const Home_V4 = () => {
               >
                 <h2 className="title">Explore Apartment Types</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Un hogar ideal entre nuestras propiedades seleccionadas
                 </p>
               </div>
             </div>
@@ -210,7 +210,7 @@ const Home_V4 = () => {
               >
                 <h2 className="title">People Love Living with Realton</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Un hogar ideal entre nuestras propiedades seleccionadas
                 </p>
               </div>
             </div>
@@ -288,7 +288,7 @@ const Home_V4 = () => {
               <div className="main-title text-start text-md-center">
                 <h2 className="title">From Our Blog</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Un hogar ideal entre nuestras propiedades seleccionadas
                 </p>
               </div>
             </div>

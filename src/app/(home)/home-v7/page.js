@@ -219,7 +219,7 @@ const Home_V7 = () => {
                   Discover Popular Properties
                 </h2>
                 <p className="paragraph text-white">
-                  Aliquam lacinia diam quis lacus euismod
+                  Un hogar ideal entre nuestras propiedades seleccionadas
                 </p>
               </div>
             </div>
@@ -281,7 +281,7 @@ const Home_V7 = () => {
               <div className="main-title text-center">
                 <h2 className="title">See How Realton Can Help</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Un hogar ideal entre nuestras propiedades seleccionadas
                 </p>
               </div>
             </div>

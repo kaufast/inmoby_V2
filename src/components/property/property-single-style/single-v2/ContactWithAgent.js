@@ -15,7 +15,7 @@ const ContactWithAgent = () => {
           />
         </div>
         <div className="single-contant ml20 ml0-xs">
-          <h6 className="title mb-1">Arlene McCoy</h6>
+          <h6 className="title mb-1">Alejandra Monteseñor</h6>
           <div className="agent-meta mb10 d-md-flex align-items-center">
             <a className="text fz15" href="#">
               <i className="flaticon-call pe-1" />

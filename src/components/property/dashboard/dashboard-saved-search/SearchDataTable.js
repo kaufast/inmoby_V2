@@ -4,7 +4,7 @@ import { Tooltip as ReactTooltip } from "react-tooltip";
 
 const listingData = [
   {
-    title: "Equestrian Family Home",
+    title: "Casa Familiar Ecuestre",
     date: "December 31, 2022",
   },
   {
@@ -36,7 +36,7 @@ const listingData = [
     date: "December 31, 2022",
   },
   {
-    title: "Equestrian Family Home",
+    title: "Casa Familiar Ecuestre",
     date: "December 31, 2022",
   },
   {

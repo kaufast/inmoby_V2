@@ -7,28 +7,29 @@ const OverView = ({id}) => {
   const overviewData = [
     {
       icon: "flaticon-bed",
-      label: "Bedroom",
+      label: "Habitaciones",
       value: data.bed,
     },
     {
       icon: "flaticon-shower",
-      label: "Bath",
+      label: "Baños",
       value: data.bath,
     },
     {
       icon: "flaticon-event",
-      label: "Year Built",
+      label: "Año Construido",
       value: data.yearBuilding,
     },
     {
       icon: "flaticon-garage",
-      label: "Garage",
+      label: "Garaje",
       value: "2",
       xs: true,
     },
     {
       icon: "flaticon-expand",
-      label: "Sqft",
+      label: "m²"
+,
       value: data.sqft,
       xs: true,
     },

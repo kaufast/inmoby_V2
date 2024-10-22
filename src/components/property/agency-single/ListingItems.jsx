@@ -69,7 +69,7 @@ export default function ListingItemsContainer() {
                           
                           onClick={()=>setCurrentCategory('sale')}
                         >
-                          For Sale
+                          Para Venta
                         </button>
                       </li>
                     </ul>

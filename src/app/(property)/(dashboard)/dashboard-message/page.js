@@ -81,7 +81,7 @@ const DashboardMessage = () => {
                         />
                         <div className="meta d-sm-flex justify-content-sm-between align-items-center">
                           <div className="authors">
-                            <h6 className="name mb-0">Arlene McCoy</h6>
+                            <h6 className="name mb-0">Alejandra Monteseñor</h6>
                             <p className="preview">Active</p>
                           </div>
                           <div>

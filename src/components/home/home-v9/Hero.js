@@ -102,7 +102,7 @@ const Hero = () => {
                             href="/map-v4"
                             className="ud-btn banner-btn fw500 btn-thm mt10 mt0-xs"
                           >
-                            View Details
+                            Mostra Detalles
                             <i className="fal fa-arrow-right-long" />
                           </Link>
                         </div>
@@ -124,15 +124,15 @@ const Hero = () => {
                             <div className="list-meta d-flex align-items-center">
                               <a href="#">
                                 <span className="flaticon-bed" />
-                                {item.bed} bed
+                                {item.bed} habitaciones
                               </a>
                               <a href="#">
                                 <span className="flaticon-shower" />
-                                {item.bath} bath
+                                {item.bath} baño
                               </a>
                               <a href="#">
                                 <span className="flaticon-expand" />
-                                {item.sqft} sqft
+                                {item.sqft} m²
                               </a>
                             </div>
                             <hr className="mt-2 mb-2" />

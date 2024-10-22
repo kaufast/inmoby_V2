@@ -27,7 +27,8 @@ const OverView = ({id}) => {
     },
     {
       icon: "flaticon-expand",
-      label: "Sqft",
+      label: "m²"
+,
       value: data.sqft,
     },
     {

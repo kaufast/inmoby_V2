@@ -4,31 +4,32 @@ import Image from "next/image";
 const floorPlanData = [
   {
     id: "first-floor",
-    title: "First Floor",
-    size: "1267 Sqft",
+    title: "Primera Planta",
+    size: "118 m²",  // Conversión aproximada de 1267 Sqft a m²
     bedrooms: "2",
     bathrooms: "2",
-    price: "$920,99",
+    price: "920,99 €",
     imageSrc: "/images/listings/listing-single-1.png",
   },
   {
     id: "second-floor",
-    title: "Second Floor",
-    size: "1267 Sqft",
+    title: "Segunda Planta",
+    size: "118 m²",
     bedrooms: "2",
     bathrooms: "2",
-    price: "$920,99",
+    price: "920,99 €",
     imageSrc: "/images/listings/listing-single-1.png",
   },
   {
     id: "third-floor",
-    title: "Third Floor",
-    size: "1267 Sqft",
+    title: "Tercera Planta",
+    size: "118 m²",
     bedrooms: "2",
     bathrooms: "2",
-    price: "$920,99",
+    price: "920,99 €",
     imageSrc: "/images/listings/listing-single-1.png",
   },
+  
 ];
 
 const FloorPlans = () => {
@@ -52,19 +53,19 @@ const FloorPlans = () => {
                 <span className="mr10-sm">{floorPlan.title}</span>
                 <span className="ms-auto d-md-flex align-items-center justify-content-end">
                   <span className="me-2 me-md-4">
-                    <span className="fw600">Size:</span>
+                    <span className="fw600">Tamaño: </span>
                     <span className="text">{floorPlan.size}</span>
                   </span>
                   <span className="me-2 me-md-4">
-                    <span className="fw600">Bedrooms</span>
+                    <span className="fw600">Cuartos: </span>
                     <span className="text">{floorPlan.bedrooms}</span>
                   </span>
                   <span className="me-2 me-md-4">
-                    <span className="fw600">Bathrooms</span>
+                    <span className="fw600">Baños: </span>
                     <span className="text">{floorPlan.bathrooms}</span>
                   </span>
                   <span>
-                    <span className="fw600">Price</span>
+                    <span className="fw600">Precio: </span>
                     <span className="text">{floorPlan.price}</span>
                   </span>
                 </span>

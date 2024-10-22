@@ -24,7 +24,7 @@ const FeaturedListings = ({data,colstyle}) => {
                     DESTACADO
                   </div>
                 )}
-                <div className="list-tag2 fz12">FOR SALE</div>
+                <div className="list-tag2 fz12">PARA VENTA</div>
               </div>
               <div className="list-meta">
                 <a href="#" className="mr5">
