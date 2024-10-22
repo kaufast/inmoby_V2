@@ -7,49 +7,50 @@ const PropertyNearby = () => {
       details: [
         {
           rating: "4",
-          schoolName: "South Londonderry Elementary School",
+          schoolName: "Escola Superior de Música de Catalunya",
           grades: "PK-6",
-          distance: "3.7 mi",
+          distance: "5.9 km", // Conversión de millas a kilómetros
         },
         {
           rating: "5",
-          schoolName: "Londonderry Senior High School",
+          schoolName: "Colegio Alemán de Barcelona",
           grades: "PK-6",
-          distance: "3.7 mi",
+          distance: "5.9 km",
         },
         {
           rating: "5",
-          schoolName: "Londonderry Middle School",
+          schoolName: "Escuela The British School of Barcelona",
           grades: "PK-6",
-          distance: "3.7 mi",
+          distance: "5.9 km",
         },
+        
       ],
     },
     {
-      title: "Health & Medical",
+      title: "Salud y Medicina",
       details: [
-        { rating: "4", facilityName: "Health Facility 1", distance: "3.7 mi" },
-        { rating: "5", facilityName: "Health Facility 2", distance: "3.7 mi" },
-        { rating: "5", facilityName: "Health Facility 3", distance: "3.7 mi" },
+        { rating: "4", facilityName: "Hospital de la Santa Creu i Sant Pau", distance: "3.7 km" },
+        { rating: "5", facilityName: "Hospital Clínic", distance: "3.7 km" },
+        { rating: "5", facilityName: "Hospital Universitario Vall d'Hebron", distance: "3.7 km" },
       ],
     },
     {
-      title: "Transportation",
+      title: "Transporte",
       details: [
         {
           rating: "4",
-          transportationName: "Transportation 1",
-          distance: "3.7 mi",
+          transportationName: "Metro",
+          distance: "1.3 km",
         },
         {
           rating: "5",
-          transportationName: "Transportation 2",
-          distance: "3.7 mi",
+          transportationName: "Bus",
+          distance: "0.7 km",
         },
         {
           rating: "5",
-          transportationName: "Transportation 3",
-          distance: "3.7 mi",
+          transportationName: "Taxi",
+          distance: "1.2 km",
         },
       ],
     },

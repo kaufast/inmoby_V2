@@ -4,7 +4,7 @@ const ScheduleTour = () => {
   const tabs = [
     {
       id: "inperson",
-      label: "In Person",
+      label: "En Persona",
     },
     {
       id: "videochat",
@@ -54,7 +54,7 @@ const ScheduleTour = () => {
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="Time"
+                      placeholder="Hora"
                       required
                     />
                   </div>
@@ -66,7 +66,7 @@ const ScheduleTour = () => {
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="Name"
+                      placeholder="Nombre"
                       required
                     />
                   </div>
@@ -78,7 +78,7 @@ const ScheduleTour = () => {
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="Phone"
+                      placeholder="Teléfono"
                       required
                     />
                   </div>
@@ -90,7 +90,7 @@ const ScheduleTour = () => {
                     <input
                       type="email"
                       className="form-control"
-                      placeholder="Email"
+                      placeholder="Correo eléctronico"
                       required
                     />
                   </div>
@@ -102,7 +102,7 @@ const ScheduleTour = () => {
                     <textarea
                       cols={30}
                       rows={4}
-                      placeholder="Enter Your Messages"
+                      placeholder="Escriba su mensaje"
                       defaultValue={""}
                     />
                   </div>
@@ -112,7 +112,7 @@ const ScheduleTour = () => {
                 <div className="col-md-12">
                   <div className="d-grid">
                     <button type="submit" className="ud-btn btn-thm">
-                      Submit a Tour Request
+                    Enviar Solicitud de Visita
                       <i className="fal fa-arrow-right-long" />
                     </button>
                   </div>

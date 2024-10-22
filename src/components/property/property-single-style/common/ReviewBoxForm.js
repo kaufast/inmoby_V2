@@ -3,11 +3,12 @@ import Select from "react-select";
 
 const ReviewBoxForm = () => {
   const inqueryType = [
-    { value: "Five Star", label: "Five Star" },
-    { value: "Four Star", label: "Four Star" },
-    { value: "Three Sta", label: "Three Star" },
-    { value: "Two Sta", label: "Two Star" },
-    { value: "One Sta", label: "One Star" },
+    { value: "Five Star", label: "Cinco Estrellas" },
+    { value: "Four Star", label: "Cuatro Estrellas" },
+    { value: "Three Sta", label: "Tres Estrellas" },
+    { value: "Two Sta", label: "Dos Estrellas" },
+    { value: "One Sta", label: "Una Estrella" },
+    
   ];
 
   const customStyles = {
@@ -39,7 +40,7 @@ const ReviewBoxForm = () => {
             <input
               type="email"
               className="form-control"
-              placeholder="ibthemes21@gmail.com"
+              placeholder="correo eléctronico"
               required
             />
           </div>
@@ -48,11 +49,11 @@ const ReviewBoxForm = () => {
 
         <div className="col-md-6">
           <div className="mb-4">
-            <label className="fw600 ff-heading mb-2">Title</label>
+            <label className="fw600 ff-heading mb-2">Título</label>
             <input
               type="text"
               className="form-control"
-              placeholder="Enter Title"
+              placeholder="Escriba el Título"
               required
             />
           </div>
@@ -80,17 +81,17 @@ const ReviewBoxForm = () => {
 
         <div className="col-md-12">
           <div className="mb-4">
-            <label className="fw600 ff-heading mb-2">Review</label>
+            <label className="fw600 ff-heading mb-2">Reseña</label>
             <textarea
               className="pt15"
               rows={6}
-              placeholder="Write a Review"
+              placeholder="Escriba una reseña"
               defaultValue={""}
               required
             />
           </div>
           <button type="submit" className="ud-btn btn-white2">
-            Submit Review
+            Enviar reseña
             <i className="fal fa-arrow-right-long" />
           </button>
         </div>

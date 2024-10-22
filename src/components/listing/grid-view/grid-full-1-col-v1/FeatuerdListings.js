@@ -47,13 +47,13 @@ const FeaturedListings = ({data,colstyle}) => {
               <p className="list-text">{listing.location}</p>
               <div className="list-meta d-flex align-items-center">
                 <a href="#">
-                  <span className="flaticon-bed" /> {listing.bed} bed
+                  <span className="flaticon-bed" /> {listing.bath} habitaciones
                 </a>
                 <a href="#">
-                  <span className="flaticon-shower" /> {listing.bath} bath
+                  <span className="flaticon-shower" /> {listing.bath} baños
                 </a>
                 <a href="#">
-                  <span className="flaticon-expand" /> {listing.sqft} sqft
+                  <span className="flaticon-expand" /> {listing.sqft} m²
                 </a>
               </div>
               <hr className="mt-2 mb-2" />

@@ -14,7 +14,7 @@ const properties = [
     location: "California City, CA, USA",
     bed: "3 bed",
     bath: "4 bath",
-    sqft: "1200 sqft",
+    sqft: "1200 m²",
     price: "$14,000 / mo",
     imageSrc: "/images/listings/property_slide_1.jpg",
   },
@@ -26,7 +26,7 @@ const properties = [
     location: "California City, CA, USA",
     bed: "3 bed",
     bath: "4 bath",
-    sqft: "1200 sqft",
+    sqft: "1200 m²",
     price: "$2,800 / mo",
   },
   {
@@ -37,7 +37,7 @@ const properties = [
     location: "California City, CA, USA",
     bed: "3 bed",
     bath: "4 bath",
-    sqft: "1200 sqft",
+    sqft: "1200 m²",
     price: "$14,000 / mo",
   },
   {
@@ -48,7 +48,7 @@ const properties = [
     location: "California City, CA, USA",
     bed: "3 bed",
     bath: "4 bath",
-    sqft: "1200 sqft",
+    sqft: "1200 m²",
     price: "$2,800 / mo",
   },
 ];

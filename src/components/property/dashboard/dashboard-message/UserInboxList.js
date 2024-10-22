@@ -15,7 +15,7 @@ const users = [
     notificationStatus: "none",
   },
   {
-    name: "Arlene McCoy",
+    name: "Alejandra Monteseñor",
     position: "Head of Development",
     imageUrl: "/images/inbox/ms3.png",
     notificationStatus: "away",
@@ -42,7 +42,7 @@ const users = [
     imageUrl: "/images/inbox/ms2.png",
   },
   {
-    name: "Arlene McCoy",
+    name: "Alejandra Monteseñor",
     position: "Head of Development",
     imageUrl: "/images/inbox/ms3.png",
   },
@@ -58,7 +58,7 @@ const users = [
     imageUrl: "/images/inbox/ms2.png",
   },
   {
-    name: "Arlene McCoy",
+    name: "Alejandra Monteseñor",
     position: "Head of Development",
     imageUrl: "/images/inbox/ms3.png",
   },

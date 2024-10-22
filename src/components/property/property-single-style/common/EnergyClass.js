@@ -3,25 +3,26 @@ import React from "react";
 
 const energyMetrics = [
   {
-    label: "Global Energy Performance Index",
+    label: "Índice Global de Desempeño Energético",
     value: "A+",
   },
   {
-    label: "Renewable energy performance index",
+    label: "Índice de desempeño de energía renovable",
     value: "92.42 kWh / m²a",
   },
   {
-    label: "Energy performance of the building",
+    label: "Desempeño energético del edificio",
     value: "00.00 kWh / m²a",
   },
   {
-    label: "EPC Current Rating",
+    label: "Calificación Actual del EPC",
     value: "92",
   },
   {
-    label: "EPC Potential Rating",
+    label: "Calificación Potencial del EPC",
     value: "80+",
   },
+    
 ];
 
 const EnergyClass = () => {

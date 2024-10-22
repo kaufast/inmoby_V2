@@ -4,22 +4,23 @@ const WalkScore = () => {
   const scores = [
     {
       icon: "flaticon-walking",
-      type: "Walk Score",
+      type: "Índice de Caminabilidad",
       score: "57",
-      description: "Somewhat Walkable",
+      description: "Algo Caminable",
     },
     {
       icon: "flaticon-bus",
-      type: "Transit Score",
+      type: "Índice de Transporte",
       score: "27",
-      description: "Some Transit",
+      description: "Algo de Transporte",
     },
     {
       icon: "flaticon-bike",
-      type: "Bike Score",
+      type: "Índice de Ciclabilidad",
       score: "45",
-      description: "Somewhat Bikeable",
+      description: "Algo Apta para Bicicletas",
     },
+    
   ];
 
   return (

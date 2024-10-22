@@ -68,11 +68,11 @@ const SingleV7 = ({ params }) => {
           <div className="row wrap">
             <div className="col-lg-8">
               <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 overflow-hidden position-relative">
-                <h4 className="title fz17 mb30">Property Description</h4>
+                <h4 className="title fz17 mb30">Descripción de la Propiedad</h4>
                 <ProperytyDescriptions />
                 {/* End property description */}
 
-                <h4 className="title fz17 mb30 mt50">Property Details</h4>
+                <h4 className="title fz17 mb30 mt50">Detalles Propiedad</h4>
                 <div className="row">
                   <PropertyDetails />
                 </div>
@@ -80,7 +80,7 @@ const SingleV7 = ({ params }) => {
               {/* End .ps-widget */}
 
               <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 overflow-hidden position-relative">
-                <h4 className="title fz17 mb30 mt30">Address</h4>
+                <h4 className="title fz17 mb30 mt30">Dirección</h4>
                 <div className="row">
                   <PropertyAddress />
                 </div>
@@ -88,7 +88,7 @@ const SingleV7 = ({ params }) => {
               {/* End .ps-widget */}
 
               <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 overflow-hidden position-relative">
-                <h4 className="title fz17 mb30">Features &amp; Amenities</h4>
+                <h4 className="title fz17 mb30">Características y Servicios</h4>
                 <div className="row">
                   <PropertyFeaturesAminites />
                 </div>
@@ -96,7 +96,7 @@ const SingleV7 = ({ params }) => {
               {/* End .ps-widget */}
 
               <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 overflow-hidden position-relative">
-                <h4 className="title fz17 mb30">Energy Class</h4>
+                <h4 className="title fz17 mb30">Clase Energética</h4>
                 <div className="row">
                   <EnergyClass />
                 </div>
@@ -104,7 +104,7 @@ const SingleV7 = ({ params }) => {
               {/* End .ps-widget */}
 
               <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 overflow-hidden position-relative">
-                <h4 className="title fz17 mb30">Floor Plans</h4>
+                <h4 className="title fz17 mb30">Planos Propiedad</h4>
                 <div className="row">
                   <div className="col-md-12">
                     <div className="accordion-style1 style2">
@@ -168,7 +168,7 @@ const SingleV7 = ({ params }) => {
               {/* End .ps-widget */}
 
               <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 overflow-hidden position-relative">
-                <h4 className="title fz17 mb30">Home Value</h4>
+                <h4 className="title fz17 mb30">Valor de la propiedad</h4>
                 <div className="row">
                   <HomeValueChart />
                 </div>
@@ -176,7 +176,7 @@ const SingleV7 = ({ params }) => {
               {/* End .ps-widget */}
 
               <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 overflow-hidden position-relative">
-                <h4 className="title fz17 mb30">Get More Information</h4>
+                <h4 className="title fz17 mb30">Obtenga más informes</h4>
                 <InfoWithForm />
               </div>
               {/* End .ps-widget */}
@@ -202,15 +202,15 @@ const SingleV7 = ({ params }) => {
             <div className="col-lg-4">
               <div className="column">
                 <div className="default-box-shadow1 bdrs12 bdr1 p30 mb30-md bgc-white position-relative">
-                  <h4 className="form-title mb5">Schedule a tour</h4>
-                  <p className="text">Choose your preferred day</p>
+                  <h4 className="form-title mb5">Programar visita</h4>
+                  <p className="text">Escoge el día</p>
                   <ScheduleTour />
                 </div>
                 {/* End .Schedule a tour */}
 
                 <div className="agen-personal-info position-relative bgc-white default-box-shadow1 bdrs12 p30 mt30">
                   <div className="widget-wrapper mb-0">
-                    <h6 className="title fz17 mb30">Get More Information</h6>
+                    <h6 className="title fz17 mb30">Obterner mas Información</h6>
                     <ContactWithAgent />
                   </div>
                 </div>
@@ -222,9 +222,9 @@ const SingleV7 = ({ params }) => {
           <div className="row mt30 align-items-center justify-content-between">
             <div className="col-auto">
               <div className="main-title">
-                <h2 className="title">Discover Our Featured Listings</h2>
+                <h2 className="title">Descubre Propiedades Destacadas</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Un hogar ideal entre nuestras propiedades seleccionadas
                 </p>
               </div>
             </div>

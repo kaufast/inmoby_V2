@@ -29,7 +29,7 @@ export default function PropertyByCitiesWrapper() {
           <div className="main-title2">
             <h2 className="title">Discover Popular Properties</h2>
             <p className="paragraph">
-              Aliquam lacinia diam quis lacus euismod
+              Un hogar ideal entre nuestras propiedades seleccionadas
             </p>
           </div>
         </div>
@@ -49,7 +49,7 @@ export default function PropertyByCitiesWrapper() {
               </li>
               <li className="nav-item" role="presentation" onClick={()=>setCurrentType('sale')}>
                 <button className={`nav-link me-0 ${currentType == 'sale' ? 'active':''} `} type="button">
-                  For Sale
+                  Para Venta
                 </button>
               </li>
             </ul>

@@ -65,9 +65,9 @@ const Home_V2 = () => {
           <div className="row align-items-center" data-aos="fade-up">
             <div className="col-lg-9">
               <div className="main-title2">
-                <h2 className="title">Discover Our Featured Listings</h2>
+                <h2 className="title">Descubre Propiedades Destacadas</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Un hogar ideal entre nuestras propiedades seleccionadas
                 </p>
               </div>
             </div>
@@ -105,7 +105,7 @@ const Home_V2 = () => {
               >
                 <h2 className="title">Explore Cities</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Un hogar ideal entre nuestras propiedades seleccionadas
                 </p>
               </div>
             </div>
@@ -161,7 +161,7 @@ const Home_V2 = () => {
                 <div className="main-title text-center">
                   <h2 className="title">See How Realton Can Help</h2>
                   <p className="paragraph">
-                    Aliquam lacinia diam quis lacus euismod
+                    Un hogar ideal entre nuestras propiedades seleccionadas
                   </p>
                 </div>
               </div>
@@ -230,7 +230,7 @@ const Home_V2 = () => {
               >
                 <h2 className="title">Agentes Exclusivos</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Un hogar ideal entre nuestras propiedades seleccionadas
                 </p>
               </div>
             </div>

@@ -4,21 +4,21 @@ const InvoiceTable = () => {
   const tableData = [
     {
       description: "Plan Estándar",
-      price: "443,00 €",
-      vat: "921,80 €",
-      total: "9.243,00 €",
+      price: "443,00 ",
+      vat: "921,80 ",
+      total: "9.243,00 ",
     },
     {
       description: "Plan Extra",
-      price: "443,00 €",
-      vat: "921,80 €",
-      total: "9.243,00 €",
+      price: "443,00 ",
+      vat: "921,80 ",
+      total: "9.243,00 ",
     },
     {
       description: "Total a Pagar",
       price: "",
       vat: "",
-      total: "9.750,00 €",
+      total: "9.750,00 ",
     },
   ];
 

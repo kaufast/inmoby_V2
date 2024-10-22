@@ -24,7 +24,7 @@ const Listing6 = () => {
                     DESTACADO
                   </div>
                 )}
-                <div className="list-tag2 rounded-0 fz12">FOR SALE</div>
+                <div className="list-tag2 rounded-0 fz12">PARA VENTA</div>
               </div>
 
               <div className="list-meta">
@@ -49,13 +49,13 @@ const Listing6 = () => {
               </h6>
               <div className="list-meta2 d-flex align-items-center">
                 <a href="#" className="mr10">
-                  <span className="flaticon-bed mr5" /> {listing.bed} bed
+                  <span className="flaticon-bed mr5" /> {listing.bath} habitaciones
                 </a>
                 <a href="#" className="mr10">
-                  <span className="flaticon-shower mr5" /> {listing.bath} bath
+                  <span className="flaticon-shower mr5" /> {listing.bath} baños
                 </a>
                 <a href="#">
-                  <span className="flaticon-expand mr5" /> {listing.sqft} sqft
+                  <span className="flaticon-expand mr5" /> {listing.sqft} m²
                 </a>
               </div>
             </div>

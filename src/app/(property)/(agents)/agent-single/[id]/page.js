@@ -71,17 +71,10 @@ const AgentSingle = ({params}) => {
                 <div className="col-lg-12">
                   <div className="agent-single-details mt30 pb30 bdrb1">
                     <h6 className="fz17 mb30">About Agents</h6>
-                    <p className="text">
-                      This 3-bed with a loft, 2-bath home in the gated community
-                      of The Hideout has it all. From the open floor plan to the
-                      abundance of light from the windows, this home is perfect
-                      for entertaining. The living room and dining room have
-                      vaulted ceilings and a beautiful fireplace. You will love
-                      spending time on the deck taking in the beautiful views.
-                      In the kitchen, you&apos;ll find stainless steel
-                      appliances and a tile backsplash, as well as a breakfast
-                      bar.
-                    </p>
+                    <p className="text mb10">
+  Esta casa de 3 habitaciones con un altillo y 2 baños en la comunidad cerrada de The Hideout lo tiene todo. Desde el plano de planta abierto hasta la abundancia de luz que entra por las ventanas, esta casa es perfecta para recibir invitados. La sala de estar y el comedor cuentan con techos abovedados y una hermosa chimenea. Te encantará pasar tiempo en la terraza disfrutando de las hermosas vistas. En la cocina, encontrarás electrodomésticos de acero inoxidable, un salpicadero de azulejos, así como una barra de desayuno.
+</p>
+
                     <div className="agent-single-accordion">
                       <div
                         className="accordion accordion-flush"
@@ -119,7 +112,7 @@ const AgentSingle = ({params}) => {
                               aria-expanded="false"
                               aria-controls="flush-collapseOne"
                             >
-                              Show more
+                              Mostrar más
                             </button>
                           </h2>
                         </div>

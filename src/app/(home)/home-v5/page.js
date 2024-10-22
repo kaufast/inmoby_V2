@@ -57,9 +57,9 @@ const Home_V5 = () => {
           <div className="row align-items-center" data-aos="fade-up">
             <div className="col-lg-9">
               <div className="main-title2">
-                <h2 className="title">Discover Our Featured Listings</h2>
+                <h2 className="title">Descubre Propiedades Destacadas</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Un hogar ideal entre nuestras propiedades seleccionadas
                 </p>
               </div>
             </div>
@@ -119,7 +119,7 @@ const Home_V5 = () => {
               <div className="main-title text-center">
                 <h2 className="title">See How Realton Can Help</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Un hogar ideal entre nuestras propiedades seleccionadas
                 </p>
               </div>
             </div>
@@ -145,7 +145,7 @@ const Home_V5 = () => {
               <div className="main-title2">
                 <h2 className="title">Properties by Cities</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Un hogar ideal entre nuestras propiedades seleccionadas
                 </p>
               </div>
             </div>
@@ -191,7 +191,7 @@ const Home_V5 = () => {
               >
                 <h2 className="title">People Love Living with Realton</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Un hogar ideal entre nuestras propiedades seleccionadas
                 </p>
               </div>
             </div>
@@ -226,7 +226,7 @@ const Home_V5 = () => {
               <div className="main-title text-start text-md-center">
                 <h2 className="title">From Our Blog</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Un hogar ideal entre nuestras propiedades seleccionadas
                 </p>
               </div>
             </div>

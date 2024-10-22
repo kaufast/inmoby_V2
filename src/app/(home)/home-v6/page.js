@@ -94,9 +94,9 @@ const Home_V6 = () => {
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                <h2 className="title">Discover Our Featured Listings</h2>
+                <h2 className="title">Descubre Propiedades Destacadas</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Un hogar ideal entre nuestras propiedades seleccionadas
                 </p>
               </div>
             </div>
@@ -152,7 +152,7 @@ const Home_V6 = () => {
               >
                 <h2 className="title">Explore Cities</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Un hogar ideal entre nuestras propiedades seleccionadas
                 </p>
               </div>
             </div>
@@ -246,7 +246,7 @@ const Home_V6 = () => {
               <div className="main-title text-center">
                 <h2>Featured Properties</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Un hogar ideal entre nuestras propiedades seleccionadas
                 </p>
               </div>
             </div>
@@ -293,7 +293,7 @@ const Home_V6 = () => {
               >
                 <h2 className="title">Agentes Exclusivos</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Un hogar ideal entre nuestras propiedades seleccionadas
                 </p>
               </div>
             </div>

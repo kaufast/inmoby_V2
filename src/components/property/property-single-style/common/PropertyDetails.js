@@ -4,46 +4,46 @@ const PropertyDetails = () => {
   const columns = [
     [
       {
-        label: "Property ID",
+        label: "ID Propiedad",
         value: "RT48",
       },
       {
-        label: "Price",
-        value: "$252,000",
+        label: "Precio",
+        value: "252.000 ",
       },
       {
-        label: "Property Size",
-        value: "1500 Sq Ft",
+        label: "Tamaño  ",
+        value: "1500 sqft",
       },
       {
-        label: "Bathrooms",
+        label: "Baños",
         value: "3",
       },
       {
-        label: "Bedrooms",
+        label: "Dormitorios",
         value: "2",
       },
     ],
     [
       {
-        label: "Garage",
+        label: "Garaje",
         value: "2",
       },
       {
-        label: "Garage Size",
-        value: "200 SqFt",
+        label: "Tamaño Garaje",
+        value: "200 sqft",
       },
       {
-        label: "Year Built",
+        label: "Año Construcción",
         value: "2022",
       },
       {
-        label: "Tipo de Propiedad",
-        value: "Apartment",
+        label: "Tipo",
+        value: "Apartamento",
       },
       {
-        label: "Property Status",
-        value: "For Sale",
+        label: "Estado",
+        value: "En Venta",
       },
     ],
   ];

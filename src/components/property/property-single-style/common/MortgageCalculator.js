@@ -2,16 +2,16 @@ import React from "react";
 
 const resultItems = [
   {
-    label: "Principal and Interest",
-    value: "$2,412",
+    label: "Índice de Caminabilidad",
+    value: "2.412 €", // Cambiado a euros
   },
   {
-    label: "Property Taxes",
-    value: "$2,412",
+    label: "Impuestos sobre la Propiedad",
+    value: "2.412 €", // Cambiado a euros
   },
   {
-    label: "Homeowners' Insurance",
-    value: "$2,412",
+    label: "Seguro del Propietario",
+    value: "2.412 €", // Cambiado a euros
   },
 ];
 
@@ -40,7 +40,7 @@ const MortgageCalculator = () => {
           <div className="row">
             <div className="col-md-6">
               <div className="mb-4">
-                <label className="fw600 ff-heading mb-2">Total Amount</label>
+                <label className="fw600 ff-heading mb-2">Monto Total</label>
                 <input
                   type="text"
                   className="form-control"
@@ -53,7 +53,7 @@ const MortgageCalculator = () => {
 
             <div className="col-md-6">
               <div className="mb-4">
-                <label className="fw600 ff-heading mb-2">Down Payment</label>
+                <label className="fw600 ff-heading mb-2">Pago Inicial</label>
                 <input
                   type="text"
                   className="form-control"
@@ -66,7 +66,7 @@ const MortgageCalculator = () => {
 
             <div className="col-md-6">
               <div className="mb-4">
-                <label className="fw600 ff-heading mb-2">Interest Rate</label>
+                <label className="fw600 ff-heading mb-2">Tasa de Interés</label>
                 <input
                   type="text"
                   className="form-control"
@@ -80,7 +80,7 @@ const MortgageCalculator = () => {
             <div className="col-md-6">
               <div className="mb-4">
                 <label className="fw600 ff-heading mb-2">
-                  Loan Terms (Years)
+                Plazo del Préstamo (Años)
                 </label>
                 <input type="text" className="form-control" placeholder={12} />
                 required
@@ -90,7 +90,7 @@ const MortgageCalculator = () => {
 
             <div className="col-md-6">
               <div className="mb-4">
-                <label className="fw600 ff-heading mb-2">Property Tax</label>
+                <label className="fw600 ff-heading mb-2">Impuesto sobre la Propiedad</label>
                 <input
                   type="text"
                   className="form-control"
@@ -103,7 +103,7 @@ const MortgageCalculator = () => {
 
             <div className="col-md-6">
               <div className="mb-4">
-                <label className="fw600 ff-heading mb-2">Home Insurance</label>
+                <label className="fw600 ff-heading mb-2">Seguro del Hogar</label>
                 <input
                   type="text"
                   className="form-control"
@@ -116,7 +116,7 @@ const MortgageCalculator = () => {
 
             <div className="col-md-12">
               <button type="submit" className="ud-btn btn-white2">
-                Calculate
+                Calcular
                 <i className="fal fa-arrow-right-long" />
               </button>
             </div>

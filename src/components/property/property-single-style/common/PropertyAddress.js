@@ -3,21 +3,22 @@ import React from "react";
 const PropertyAddress = () => {
   const addresses = [
     {
-      address: "10425 Tabor St",
-      city: "Los Angeles",
-      state: "California",
-      zipCode: "90034",
-      area: "Brookside",
-      country: "United States",
+      address : "C. Mayor 10",
+      city: "Madrid",
+      state: "Madrid",
+      zipCode: "28013",
+      area: "Centro",
+      country: "España",
     },
     {
-      address: "10 Downing Street",
-      city: "London",
-      state: "Greater London",
-      zipCode: "SW1A 2AA",
-      area: "Westminster",
-      country: "United Kingdom",
+      address: "C.de Balmes 35",
+      city: "Barcelona",
+      state: "Cataluña",
+      zipCode: "08007",
+      area: "Eixample",
+      country: "España",
     },
+    
   ];
 
   return (
@@ -29,9 +30,9 @@ const PropertyAddress = () => {
         >
           <div className="d-flex justify-content-between">
             <div className="pd-list">
-              <p className="fw600 mb10 ff-heading dark-color">Address</p>
-              <p className="fw600 mb10 ff-heading dark-color">City</p>
-              <p className="fw600 mb-0 ff-heading dark-color">State/county</p>
+              <p className="fw600 mb10 ff-heading dark-color">Dirección</p>
+              <p className="fw600 mb10 ff-heading dark-color">Ciudad</p>
+              <p className="fw600 mb-0 ff-heading dark-color">Estado</p>
             </div>
             <div className="pd-list">
               <p className="text mb10">{address.address}</p>

@@ -2,11 +2,12 @@ import React from "react";
 import SingleReview from "./SingleReview";
 
 const sortOptions = [
-  "Newest",
-  "Best Seller",
-  "Best Match",
-  "Price Low",
-  "Price High",
+"Más reciente",
+"Más vendido",
+"Mejor coincidencia",
+"Precio bajo",
+"Precio alto",
+
 ];
 
 const AllReviews = () => {

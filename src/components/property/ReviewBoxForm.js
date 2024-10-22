@@ -35,11 +35,11 @@ const ReviewBoxForm = () => {
       <div className="row">
         <div className="col-md-12">
           <div className="mb-4">
-            <label className="fw600 ff-heading mb-2">Email</label>
+            <label className="fw600 ff-heading mb-2">Correo eléctronico</label>
             <input
               type="email"
               className="form-control"
-              placeholder="ibthemes21@gmail.com"
+              placeholder="correo@ejemplo.com"
               required
             />
           </div>
@@ -48,11 +48,11 @@ const ReviewBoxForm = () => {
 
         <div className="col-md-6">
           <div className="mb-4">
-            <label className="fw600 ff-heading mb-2">Title</label>
+            <label className="fw600 ff-heading mb-2">Título</label>
             <input
               type="text"
               className="form-control"
-              placeholder="Enter Title"
+              placeholder="Escriba Título"
               required
             />
           </div>
@@ -80,17 +80,17 @@ const ReviewBoxForm = () => {
 
         <div className="col-md-12">
           <div className="mb-4">
-            <label className="fw600 ff-heading mb-2">Review</label>
+            <label className="fw600 ff-heading mb-2">Reseña</label>
             <textarea
               className="pt15"
               rows={6}
-              placeholder="Write a Review"
+              placeholder="Escriba una reseña"
               defaultValue={""}
               required
             />
           </div>
           <button type="submit" className="ud-btn btn-white2">
-            Submit Review
+            Enviar reseña
             <i className="fal fa-arrow-right-long" />
           </button>
         </div>
