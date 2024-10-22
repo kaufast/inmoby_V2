@@ -12,15 +12,15 @@ const Footer = () => {
         <div className="col-sm-6">
           <div className="text-center text-lg-start">
             <p className="copyright-text ff-heading mb-0">
-              © Homez {getCurrentYear()}{" "}
+              © Inmobi {getCurrentYear()}{" "}
               <a
                 href="https://themeforest.net/user/ib-themes"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                ib-themes
+                kaufast.com
               </a>{" "}
-              - All rights reserved
+              - Derechos reservados
             </p>
           </div>
         </div>

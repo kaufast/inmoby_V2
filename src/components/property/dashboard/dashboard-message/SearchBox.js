@@ -9,7 +9,7 @@ const SearchBox = () => {
       <input
         className="form-control"
         type="search"
-        placeholder="Serach"
+        placeholder="Busqueda"
         aria-label="Search"
         required
       />

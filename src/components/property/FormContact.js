@@ -10,7 +10,7 @@ const FormContact = () => {
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Nombre"
               required
             />
           </div>
@@ -22,7 +22,7 @@ const FormContact = () => {
             <input
               type="text"
               className="form-control"
-              placeholder="Phone"
+              placeholder="Teléfono"
               required
             />
           </div>
@@ -34,7 +34,7 @@ const FormContact = () => {
             <input
               type="email"
               className="form-control"
-              placeholder="Email"
+              placeholder="Correo eléctronico"
               required
             />
           </div>
@@ -46,7 +46,7 @@ const FormContact = () => {
             <textarea
               cols={30}
               rows={4}
-              placeholder="There are many variations of passages."
+              placeholder="Escribir aquí mensaje"
               defaultValue={""}
               required
             />
@@ -57,7 +57,7 @@ const FormContact = () => {
         <div className="col-md-12">
           <div className="d-grid">
             <button type="submit" className="ud-btn btn-thm mb15">
-              Send Message
+              Enviar Mensaje
               <i className="fal fa-arrow-right-long" />
             </button>
             <Link className="ud-btn btn-white2" href="/contact">

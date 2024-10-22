@@ -98,7 +98,7 @@ export default function ListingItemsContainer() {
 
                   <div className="d-grid pb30 bdrb1">
                     <Link href="/single-v1/4" className="ud-btn btn-white2">
-                      Show all 134 property
+                      Ver todas las 56 propiedades
                       <i className="fal fa-arrow-right-long" />
                     </Link>
                   </div>

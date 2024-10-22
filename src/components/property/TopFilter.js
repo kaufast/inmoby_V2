@@ -108,7 +108,7 @@ const TopFilter = ({filterFunctions}) => {
       <div className="col-md-3">
         <div className="page_control_shorting text-start text-md-end mb20">
           <div className="pcs_dropdown d-flex align-items-center justify-content-end">
-            <span style={{ minWidth: "50px", textAlign: "left" }}>Ordenar</span>
+            <span style={{ minWidth: "50px", textAlign: "left" }}>Orden</span>
             <select
               style={{ width: "120px" }}
               className="selectpicker form-select"

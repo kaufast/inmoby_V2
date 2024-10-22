@@ -50,13 +50,14 @@ const ProfileBox = () => {
             style={{ display: "none" }}
           />
           <div className="ud-btn btn-white2 mb30">
-            Upload Profile Files
+            Subir Archivos de Perfil
             <i className="fal fa-arrow-right-long" />
           </div>
         </label>
         <p className="text">
-          Photos must be JPEG or PNG format and at least 2048x768
+          Las fotos deben estar en formato JPEG o PNG y tener al menos 2048x768
         </p>
+
       </div>
     </div>
   );

@@ -8,72 +8,72 @@ const SidebarDashboard = () => {
 
   const sidebarItems = [
     {
-      title: "MAIN",
+      title: "PRINCIPAL",
       items: [
         {
           href: "/dashboard-home",
           icon: "flaticon-discovery",
-          text: "Dashboard",
+          text: "Panel de Control",
         },
         {
           href: "/dashboard-message",
           icon: "flaticon-chat-1",
-          text: "Message",
+          text: "Mensaje",
         },
       ],
     },
     {
-      title: "MANAGE LISTINGS",
+      title: "GESTIONAR LISTADOS",
       items: [
         {
           href: "/dashboard-add-property",
           icon: "flaticon-new-tab",
-          text: "Add New Property",
+          text: "Añadir Propiedad",
         },
         {
           href: "/dashboard-my-properties",
           icon: "flaticon-home",
-          text: "My Properties",
+          text: "Mis Propiedades",
         },
         {
           href: "/dashboard-my-favourites",
           icon: "flaticon-like",
-          text: "My Favorites",
+          text: "Mis Favoritos",
         },
         {
           href: "/dashboard-saved-search",
           icon: "flaticon-search-2",
-          text: "Saved Search",
+          text: "Búsqueda Guardada",
         },
         {
           href: "/dashboard-reviews",
           icon: "flaticon-review",
-          text: "Reviews",
+          text: "Reseñas",
         },
       ],
     },
     {
-      title: "MANAGE ACCOUNT",
+      title: "GESTIONAR CUENTA",
       items: [
         {
           href: "/dashboard-my-package",
           icon: "flaticon-protection",
-          text: "My Package",
+          text: "Mi Paquete",
         },
         {
           href: "/dashboard-my-profile",
           icon: "flaticon-user",
-          text: "My Profile",
+          text: "Mi Perfil",
         },
         {
           href: "/login",
           icon: "flaticon-logout",
-          text: "Logout",
+          text: "Cerrar Sesión",
         },
       ],
     },
   ];
-
+  
   return (
     <div className="dashboard__sidebar d-none d-lg-block">
       <div className="dashboard_sidebar_list">

@@ -14,7 +14,7 @@ const DboardMobileNavigation = () => {
         {
           href: "/dashboard-home",
           icon: "flaticon-discovery",
-          text: "Dashboard",
+          text: "Panel de Control",
         },
         {
           href: "/dashboard-message",

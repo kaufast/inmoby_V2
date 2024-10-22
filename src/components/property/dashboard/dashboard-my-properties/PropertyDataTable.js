@@ -7,49 +7,50 @@ import { Tooltip as ReactTooltip } from "react-tooltip";
 const propertyData = [
   {
     id: 1,
-    title: "Equestrian Family Home",
+    title: "Casa en el Club de Campo",
     imageSrc: "/images/listings/list-1.jpg",
-    location: "California City, CA, USA",
-    price: "$14,000/mo",
-    datePublished: "December 31, 2022",
-    status: "Pending",
+    location: "Madrid, España",
+    price: "14,000/mes",
+    datePublished: "31 de diciembre de 2023",
+    status: "Pendiente",
   },
   {
     id: 2,
-    title: "Luxury villa in Rego Park",
+    title: "Villa de Lujo en Sarrià",
     imageSrc: "/images/listings/list-2.jpg",
-    location: "California City, CA, USA",
-    price: "$14,000/mo",
-    datePublished: "December 31, 2022",
-    status: "Published",
+    location: "Barcelona, España",
+    price: "14,000/mes",
+    datePublished: "31 de diciembre de 2023",
+    status: "Publicado",
   },
   {
     id: 3,
-    title: "Villa on Hollywood Boulevard",
+    title: "Villa en el Paseo de Gracia",
     imageSrc: "/images/listings/list-3.jpg",
-    location: "California City, CA, USA",
-    price: "$14,000/mo",
-    datePublished: "December 31, 2022",
-    status: "Processing",
+    location: "Barcelona, España",
+    price: "14,000/mes",
+    datePublished: "31 de diciembre de 2023",
+    status: "En proceso",
   },
   {
     id: 4,
-    title: "Equestrian Family Home",
+    title: "Casa en el Club de Campo",
     imageSrc: "/images/listings/list-4.jpg",
-    location: "California City, CA, USA",
-    price: "$14,000/mo",
-    datePublished: "December 31, 2022",
-    status: "Pending",
+    location: "Madrid, España",
+    price: "14,000/mes",
+    datePublished: "31 de diciembre de 2023",
+    status: "Pendiente",
   },
   {
     id: 5,
-    title: "Luxury villa in Rego Park",
+    title: "Villa de Lujo en La Moraleja",
     imageSrc: "/images/listings/list-5.jpg",
-    location: "California City, CA, USA",
-    price: "$14,000/mo",
-    datePublished: "December 31, 2022",
-    status: "Published",
+    location: "Madrid, España",
+    price: "14,000/mes",
+    datePublished: "31 de diciembre de 2023",
+    status: "Publicado",
   },
+
 ];
 
 const getStatusStyle = (status) => {
@@ -70,11 +71,11 @@ const PropertyDataTable = () => {
     <table className="table-style3 table at-savesearch">
       <thead className="t-head">
         <tr>
-          <th scope="col">Listing title</th>
-          <th scope="col">Date Published</th>
-          <th scope="col">Status</th>
-          <th scope="col">View</th>
-          <th scope="col">Action</th>
+          <th scope="col">Título del Listado</th>
+          <th scope="col">Fecha de Publicación</th>
+          <th scope="col">Estado</th>
+          <th scope="col">Ver</th>
+          <th scope="col">Acción</th>
         </tr>
       </thead>
       <tbody className="t-body">

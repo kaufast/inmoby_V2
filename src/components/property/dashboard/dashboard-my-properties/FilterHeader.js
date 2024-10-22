@@ -8,7 +8,7 @@ const FilterHeader = () => {
           <input
             type="text"
             className="form-control bdrs12"
-            placeholder="Search"
+            placeholder="Busqueda"
             required
           />
           <label>
@@ -21,18 +21,18 @@ const FilterHeader = () => {
       <div className="page_control_shorting bdr1 bdrs12 py-2 ps-3 pe-2 mx-1 mx-xxl-3 bgc-white mb15-sm maxw160">
         <div className="pcs_dropdown d-flex align-items-center">
           <span style={{ minWidth: "50px" }} className="title-color">
-            Ordenar:
+            Orden:
           </span>
           <select className="form-select show-tick">
-            <option>Best Seller</option>
-            <option>Best Match</option>
-            <option>Price Low</option>
-            <option>Price High</option>
+            <option>Más Vendido</option>
+            <option>Mejor Coincidencia</option>
+            <option>Precio Bajo</option>
+            <option>Precio Alto</option>
           </select>
         </div>
       </div>
       <a href="#" className="ud-btn btn-thm">
-        Add New Property
+        Añadir Nueva Propiedad
         <i className="fal fa-arrow-right-long" />
       </a>
     </div>

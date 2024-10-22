@@ -1,8 +1,8 @@
 import React from "react";
 
 const footerLinks = [
-  { text: "Privacy", href: "#" },
-  { text: "Terms", href: "#" },
+  { text: "Políticas Privacidad", href: "#" },
+  { text: "Terminos", href: "#" },
   { text: "Sitemap", href: "#" },
 ];
 
@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="col-auto">
             <div className="copyright-widget">
               <p className="text">
-                © Homez {currentYear}{" "}
+                © Inmobi {currentYear}{" "}
                 <a
                   href="https://themeforest.net/user/ib-themes"
                   target="_blank"

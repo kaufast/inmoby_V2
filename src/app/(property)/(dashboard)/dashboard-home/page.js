@@ -38,8 +38,8 @@ const DashboardHome = () => {
 
                 <div className="col-lg-12">
                   <div className="dashboard_title_area">
-                    <h2>Howdy, Ali!</h2>
-                    <p className="text">We are glad to see you again!</p>
+                  <h2>¡Hola, Alex!</h2>
+                  <p className="text">¡Nos alegra verte de nuevo!</p>
                   </div>
                 </div>
                 {/* col-lg-12 */}
@@ -63,7 +63,7 @@ const DashboardHome = () => {
 
                 <div className="col-xl-4">
                   <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 overflow-hidden position-relative">
-                    <h4 className="title fz17 mb25">Recent Activities</h4>
+                    <h4 className="title fz17 mb25"> Actividad Reciente</h4>
                     <RecentActivities />
                   </div>
                 </div>

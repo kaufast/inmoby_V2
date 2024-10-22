@@ -6,9 +6,9 @@ const ComapareTable = () => {
       <thead className="t-head">
         <tr>
           <th scope="col" />
-          <th scope="col">Home in Metric Way</th>
-          <th scope="col">Villa on Hollywood Boulevard</th>
-          <th scope="col">Explore Old Barcelona</th>
+          <th scope="col">Casa en Carrer de la Marina</th>
+          <th scope="col">Villa en Paseo de Gracia</th>
+          <th scope="col">Explora el Barrio Gótico</th>
         </tr>
       </thead>
       {/* End thead */}
@@ -28,8 +28,8 @@ const ComapareTable = () => {
                   src="/images/listings/compare-1.jpg"
                   alt="compare-1"
                 />
-                <div className="h6 price mt-1">$14,000 / mo</div>
-                <p className="address mb-0">California City, CA, USA</p>
+                <div className="h6 price mt-1">14.000  / mes</div>
+                <p className="address mb-0">Barcelona, España</p>
               </div>
             </div>
           </th>
@@ -45,8 +45,8 @@ const ComapareTable = () => {
                   src="/images/listings/compare-1.jpg"
                   alt="compare-1"
                 />
-                <div className="h6 price mt-1">$14,000 / mo</div>
-                <p className="address mb-0">California City, CA, USA</p>
+                <div className="h6 price mt-1">14.000  / mes</div>
+                <p className="address mb-0">Barcelona, España</p>
               </div>
             </div>
           </th>
@@ -62,8 +62,8 @@ const ComapareTable = () => {
                   src="/images/listings/compare-1.jpg"
                   alt="compare-1"
                 />
-                <div className="h6 price mt-1">$14,000 / mo</div>
-                <p className="address mb-0">California City, CA, USA</p>
+                <div className="h6 price mt-1">14.000  / mes</div>
+                <p className="address mb-0">Barcelona, España</p>
               </div>
             </div>
           </th>
@@ -77,75 +77,75 @@ const ComapareTable = () => {
           <th className="text-end" scope="row">
             Tipo de Propiedad
           </th>
-          <td>Apartment</td>
-          <td>Studio</td>
+          <td>Apartamento</td>
+          <td>Estudio</td>
           <td>Villa</td>
         </tr>
         {/* End tr */}
 
         <tr>
           <th className="text-end" scope="row">
-            Address
+            Dirección
           </th>
-          <td>Quincy St</td>
-          <td>8100 S Ashland Ave</td>
-          <td>194 Mercer Street</td>
+          <td>Carrer de la Marina</td>
+          <td>Paseo de Gracia</td>
+          <td>Carrer de Montcada</td>
         </tr>
         {/* End tr */}
 
         <tr>
           <th className="text-end" scope="row">
-            City
+            Ciudad
           </th>
-          <td>New York</td>
-          <td>Chicago</td>
-          <td>New York</td>
+          <td>Barcelona</td>
+          <td>Barcelona</td>
+          <td>Barcelona</td>
         </tr>
         {/* End tr */}
 
         <tr>
           <th className="text-end" scope="row">
-            State/county
+            Provincia
           </th>
-          <td>New York</td>
-          <td>New York</td>
-          <td>New York</td>
+          <td>Barcelona</td>
+          <td>Barcelona</td>
+          <td>Barcelona</td>
         </tr>
         {/* End tr */}
 
         <tr>
           <th className="text-end" scope="row">
-            Zip/Postal Code
+            Código Postal
           </th>
-          <td>10013</td>
-          <td>10013</td>
-          <td>10013</td>
+          <td>08025</td>
+          <td>08007</td>
+          <td>08003</td>
         </tr>
         {/* End tr */}
 
         <tr>
           <th className="text-end" scope="row">
-            Country
+            País
           </th>
-          <td>United States</td>
-          <td>United States</td>
-          <td>United States</td>
+          <td>España</td>
+          <td>España</td>
+          <td>España</td>
         </tr>
         {/* End tr */}
 
         <tr>
           <th className="text-end" scope="row">
-            Property Size
+            Tamaño de la Propiedad
           </th>
-          <td>2560 Sq Ft</td>
-          <td>2560 Sq Ft</td>
-          <td>2560 Sq Ft</td>
+          <td>2560 m²</td>
+          <td>2560 m²</td>
+          <td>2560 m²</td>
         </tr>
         {/* End tr */}
 
         <tr>
           <th className="text-end" scope="row">
-            Property ID
+            ID de la Propiedad
           </th>
           <td>R43</td>
           <td>R43</td>
@@ -155,7 +155,7 @@ const ComapareTable = () => {
 
         <tr>
           <th className="text-end" scope="row">
-            Bedrooms
+            Habitaciones
           </th>
           <td>3</td>
           <td>2</td>
@@ -165,7 +165,7 @@ const ComapareTable = () => {
 
         <tr>
           <th className="text-end" scope="row">
-            Bathrooms{" "}
+            Baños
           </th>
           <td>1</td>
           <td>4</td>
@@ -175,7 +175,7 @@ const ComapareTable = () => {
 
         <tr>
           <th className="text-end" scope="row">
-            Garage
+            Garaje
           </th>
           <td>1</td>
           <td>4</td>
@@ -185,7 +185,7 @@ const ComapareTable = () => {
 
         <tr>
           <th className="text-end" scope="row">
-            Aire Acond...
+            Aire Acondicionado
           </th>
           <td>
             <a className="check_circle" href="#">
@@ -207,7 +207,7 @@ const ComapareTable = () => {
 
         <tr>
           <th className="text-end" scope="row">
-            Barbeque
+            Barbacoa
           </th>
           <td>
             <a className="check_circle_close" href="#">
@@ -229,7 +229,7 @@ const ComapareTable = () => {
 
         <tr>
           <th className="text-end" scope="row">
-            Gym
+            Gimnasio
           </th>
           <td>
             <a className="check_circle" href="#">
@@ -251,7 +251,7 @@ const ComapareTable = () => {
 
         <tr>
           <th className="text-end" scope="row">
-            Swimming Pool
+            Piscina
           </th>
           <td>
             <a className="check_circle" href="#">

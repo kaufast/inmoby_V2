@@ -3,10 +3,10 @@ import React from "react";
 
 const reviews = [
   {
-    name: "Bessie Cooper",
-    date: "12 March 2022",
+    name: "María García",
+    date: "12 Marzo 2024",
     rating: 5,
-    text: "The second bedroom is a corner room with double windows. The kitchen has fabulous space, new appliances, and a laundry area. Other features include rich herringbone floors. Fully furnished. Elegantly appointed condominium unit situated on premier location. PS6. The wide entry hall leads to a large living room with dining area.",
+    text: "La experiencia de compra fue excelente. La propiedad tiene un diseño moderno y elegante, con una cocina espaciosa y equipada con electrodomésticos de alta calidad. El jardín es amplio y perfecto para reuniones familiares. Estamos muy contentos con nuestra nueva casa.",
     images: [
       "/images/blog/blog-single-3.jpg",
       "/images/blog/blog-single-4.jpg",
@@ -15,17 +15,17 @@ const reviews = [
     ],
   },
   {
-    name: "Darrell Steward",
-    date: "12 March 2022",
+    name: "Alejandro López",
+    date: "12 Marzo 2024",
     rating: 5,
-    text: "The second bedroom is a corner room with double windows. The kitchen has fabulous space, new appliances, and a laundry area. Other features include rich herringbone floors. Fully furnished. Elegantly appointed condominium unit situated on premier location. PS6. The wide entry hall leads to a large living room with dining area.",
+    text: "Nos enamoramos de la vista desde la terraza de nuestra nueva villa. La ubicación es perfecta, cerca de colegios y supermercados. La atención recibida durante todo el proceso de compra fue impecable. No podríamos estar más satisfechos.",
     images: [],
   },
   {
-    name: "Darrell Steward",
-    date: "12 March 2022",
+    name: "Lucía Fernández",
+    date: "12 Marzo 2024",
     rating: 5,
-    text: "The second bedroom is a corner room with double windows. The kitchen has fabulous space, new appliances, and a laundry area. Other features include rich herringbone floors. Fully furnished. Elegantly appointed condominium unit situated on premier location. PS6. The wide entry hall leads to a large living room with dining area.",
+    text: "La casa es simplemente perfecta. Cada habitación es espaciosa y bien iluminada. Nos encantó el diseño del salón y la cercanía a parques y zonas verdes. El proceso de compra fue muy claro y sin complicaciones. Definitivamente recomendaría esta inmobiliaria.",
     images: [],
   },
 ];
@@ -94,7 +94,7 @@ const SingleReview = () => {
       <div className="col-md-12">
         <div className="position-relative bdrb1 pt30 pb20">
           <a href="#" className="ud-btn btn-white2">
-            Show all 134 reviews
+          Ver todas las 56 propiedades
             <i className="fal fa-arrow-right-long" />
           </a>
         </div>

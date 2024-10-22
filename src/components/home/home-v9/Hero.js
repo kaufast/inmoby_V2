@@ -11,38 +11,37 @@ const Hero = () => {
       image: "/images/home/home-9.jpg",
       title: (
         <>
-          Get your dream <br className="d-none d-lg-block" />
-          home
+          Consigue tu hogar <br className="d-none d-lg-block" />
+          soñado
         </>
       ),
-      description:
-        "From as low as $10 per day with limited time offer discounts.",
-      title: "Equestrian Family Home",
-      location: "New York City, CA, USA",
+      description: "Desde tan solo $10 por día con descuentos por tiempo limitado.",
+      title: "Casa en Club de Campo",
+      location: "Madrid, España",
       bed: "1",
       bath: "2",
       sqft: 1200,
       price: "$14,000",
     },
-
+  
     {
       image: "/images/home/home-5-2.jpg",
       title: (
         <>
-          Buy your future <br className="d-none d-lg-block" />
-          home
+          Compra tu futuro <br className="d-none d-lg-block" />
+          hogar
         </>
       ),
-      description:
-        "From as low as $10 per day with limited time offer discounts.",
-      title: "Villa on Hollywood Boulevard",
-      location: "New York City, CA, USA",
+      description: "Desde tan solo $200 por día con descuentos por tiempo limitado.",
+      title: "Villa en el Paseo de Gracia",
+      location: "Barcelona, España",
       bed: "1",
       bath: "2",
       sqft: 1200,
       price: "$14,000",
     },
   ];
+  
 
   return (
     <>
@@ -102,7 +101,7 @@ const Hero = () => {
                             href="/map-v4"
                             className="ud-btn banner-btn fw500 btn-thm mt10 mt0-xs"
                           >
-                            Mostra Detalles
+                            Mostrar Detalles
                             <i className="fal fa-arrow-right-long" />
                           </Link>
                         </div>

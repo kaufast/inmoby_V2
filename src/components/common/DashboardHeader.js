@@ -16,7 +16,7 @@ const DashboardHeader = () => {
       items: [
         {
           icon: "flaticon-discovery",
-          text: "Dashboard",
+          text: "Panel de Control",
           href: "/dashboard-home",
         },
         {

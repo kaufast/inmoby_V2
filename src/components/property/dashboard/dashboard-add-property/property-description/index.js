@@ -3,26 +3,27 @@ import Select from "react-select";
 
 const PropertyDescription = () => {
   const catergoryOptions = [
-{ value: "Apartments", label: "Apartamentos" },
-{ value: "Bungalow", label: "Bungalow" },
-{ value: "Houses", label: "Casas" },
-{ value: "Loft", label: "Loft" },
-{ value: "Office", label: "Oficina" },
-{ value: "Townhome", label: "Casa Adosada" },
-{ value: "Villa", label: "Villa" },
+    { value: "Apartments", label: "Apartamentos" },
+    { value: "Bungalow", label: "Bungalow" },
+    { value: "Houses", label: "Casas" },
+    { value: "Loft", label: "Loft" },
+    { value: "Office", label: "Oficina" },
+    { value: "Townhome", label: "Casa Adosada" },
+    { value: "Villa", label: "Villa" },
+  ];
 
-  ];
   const listedIn = [
-    { value: "All Listing", label: "All Listing" },
-    { value: "Active", label: "Active" },
-    { value: "Sold", label: "Sold" },
-    { value: "Processing", label: "Processing" },
+    { value: "All Listing", label: "Todos los Listados" },
+    { value: "Active", label: "Activo" },
+    { value: "Sold", label: "Vendido" },
+    { value: "Processing", label: "En Proceso" },
   ];
+
   const PropertyStatus = [
     { value: "All Cities", label: "Todas las Ciudades" },
-    { value: "Pending", label: "Pending" },
-    { value: "Processing", label: "Processing" },
-    { value: "Published", label: "Published" },
+    { value: "Pending", label: "Pendiente" },
+    { value: "Processing", label: "En Proceso" },
+    { value: "Published", label: "Publicado" },
   ];
 
   const customStyles = {
@@ -45,11 +46,11 @@ const PropertyDescription = () => {
       <div className="row">
         <div className="col-sm-12">
           <div className="mb20">
-            <label className="heading-color ff-heading fw600 mb10">Title</label>
+            <label className="heading-color ff-heading fw600 mb10">Título</label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Nombre"
             />
           </div>
         </div>
@@ -58,12 +59,12 @@ const PropertyDescription = () => {
         <div className="col-sm-12">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Description
+              Descripción
             </label>
             <textarea
               cols={30}
               rows={5}
-              placeholder="There are many variations of passages."
+              placeholder="Hay muchas variaciones de pasajes."
               defaultValue={""}
             />
           </div>
@@ -73,7 +74,7 @@ const PropertyDescription = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Select Category
+              Seleccionar Categoría
             </label>
             <div className="location-area">
               <Select
@@ -94,7 +95,7 @@ const PropertyDescription = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Listed in
+              Listado en
             </label>
             <div className="location-area">
               <Select
@@ -115,7 +116,7 @@ const PropertyDescription = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Property Status
+              Estado de la Propiedad
             </label>
             <div className="location-area">
               <Select
@@ -136,12 +137,12 @@ const PropertyDescription = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb30">
             <label className="heading-color ff-heading fw600 mb10">
-              Price in €
+              Precio en
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Nombre"
             />
           </div>
         </div>
@@ -150,12 +151,12 @@ const PropertyDescription = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb30">
             <label className="heading-color ff-heading fw600 mb10">
-              Yearly Tax Rate
+              Tasa Anual de Impuestos
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Nombre"
             />
           </div>
         </div>
@@ -164,12 +165,12 @@ const PropertyDescription = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb30">
             <label className="heading-color ff-heading fw600 mb10">
-              After Price Label
+              Etiqueta de Precio Posterior
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Nombre"
             />
           </div>
         </div>

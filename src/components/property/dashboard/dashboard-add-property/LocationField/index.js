@@ -9,12 +9,12 @@ const LocationField = () => {
         <div className="col-sm-12">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Address
+              Dirección
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Nombre"
             />
           </div>
         </div>
@@ -24,7 +24,7 @@ const LocationField = () => {
 
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
-            <label className="heading-color ff-heading fw600 mb10">Zip</label>
+            <label className="heading-color ff-heading fw600 mb10">Código Postal</label>
             <input type="text" className="form-control" />
           </div>
         </div>
@@ -33,12 +33,12 @@ const LocationField = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Neighborhood
+              Vecindario
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="Neighborhood"
+              placeholder="Vecindario"
             />
           </div>
         </div>
@@ -47,7 +47,7 @@ const LocationField = () => {
         <div className="col-sm-12">
           <div className="mb20 mt30">
             <label className="heading-color ff-heading fw600 mb30">
-              Place the listing pin on the map
+              Coloca el pin del listado en el mapa
             </label>
             <Map />
           </div>
@@ -60,7 +60,7 @@ const LocationField = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb30">
             <label className="heading-color ff-heading fw600 mb10">
-              Latitude
+              Latitud
             </label>
             <input type="text" className="form-control" />
           </div>
@@ -70,7 +70,7 @@ const LocationField = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb30">
             <label className="heading-color ff-heading fw600 mb10">
-              Longitude
+              Longitud
             </label>
             <input type="text" className="form-control" />
           </div>
