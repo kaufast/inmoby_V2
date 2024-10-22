@@ -48,7 +48,7 @@ const NotFound = () => {
                   <span className="text-thm">40</span>4
                 </div>
                 <div className="h2 error_title">
-                ¡Vaya! No encontramos la página que buscas."
+                ¡Vaya! No encontramos la página que buscas.
                 </div>
                 <p className="text fz15 mb20">
                 La página que buscas no está disponible. Intenta buscar de<br className="d-none d-lg-block" /> nuevo, o usa el botón para continuar...
