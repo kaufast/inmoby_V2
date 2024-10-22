@@ -46,7 +46,7 @@ const BlogSingle = ({params}) => {
                 <p className="ff-heading">
                   El truco es hacer de esto una oportunidad para que definan
                   quiénes son y sus intereses. Anímalos a hacer una pila de
-                  "juguetes de bebé" para donar, y a apartar cualquier juguete
+                  juguetes de bebé para donar, y a apartar cualquier juguete
                   que ya no les interese, como figuras de acción de un programa
                   de TV olvidado. Separar estos juguetes les ayudará a apreciar
                   cuánto han crecido y redescubrir los que más les gustan.
@@ -57,7 +57,7 @@ const BlogSingle = ({params}) => {
                 <blockquote className="blockquote">
                   <p className="fst-italic fz15 fw500 ff-heading">
                   Anímalos a hacer una pila de
-                  "juguetes de bebé" para donar, y a apartar cualquier juguete
+                  juguetes de bebé para donar, y a apartar cualquier juguete
                   que ya no les interese...
                   </p>
                   <h6 className="quote-title">Luis Pickford</h6>
