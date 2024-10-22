@@ -31,10 +31,10 @@ const About = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="breadcumb-style1">
-                <h2 className="title">About Us</h2>
+                <h2 className="title">Sobre Inmobi</h2>
                 <div className="breadcumb-list">
-                  Para Renta
-                  <a href="#">About</a>
+                  Inmobiliaria &nbsp;
+                  <a href="#">  Nosotros</a>
                 </div>
               </div>
             </div>

@@ -24,7 +24,7 @@ const PropertyViews = () => {
                 aria-controls="hourly"
                 aria-selected="true"
               >
-                Hours
+                por Horas
               </a>
             </li>
             <li className="nav-item">
@@ -37,7 +37,7 @@ const PropertyViews = () => {
                 aria-controls="weekly"
                 aria-selected="false"
               >
-                Weekly
+                por Semana
               </a>
             </li>
             <li className="nav-item">
@@ -50,7 +50,7 @@ const PropertyViews = () => {
                 aria-controls="monthly"
                 aria-selected="false"
               >
-                Monthly
+                por Mes
               </a>
             </li>
           </ul>

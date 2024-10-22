@@ -28,7 +28,7 @@ const VideoOptionFiled = () => {
       <div className="col-sm-6 col-xl-4">
         <div className="mb30">
           <label className="heading-color ff-heading fw600 mb10">
-            Video from
+            Video desde
           </label>
           <div className="location-area">
             <Select
@@ -47,9 +47,9 @@ const VideoOptionFiled = () => {
       <div className="col-sm-6 col-xl-4">
         <div className="mb30">
           <label className="heading-color ff-heading fw600 mb10">
-            Embed Video id
+            Insertar ID del Video
           </label>
-          <input type="text" className="form-control" placeholder="Your Name" />
+          <input type="text" className="form-control" placeholder="Tu Nombre" />
         </div>
       </div>
     </>
@@ -57,3 +57,4 @@ const VideoOptionFiled = () => {
 };
 
 export default VideoOptionFiled;
+

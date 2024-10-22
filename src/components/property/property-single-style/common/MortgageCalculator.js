@@ -3,15 +3,15 @@ import React from "react";
 const resultItems = [
   {
     label: "Índice de Caminabilidad",
-    value: "2.412 €", // Cambiado a euros
+    value: "2.412 ", // Cambiado a euros
   },
   {
     label: "Impuestos sobre la Propiedad",
-    value: "2.412 €", // Cambiado a euros
+    value: "2.412 ", // Cambiado a euros
   },
   {
     label: "Seguro del Propietario",
-    value: "2.412 €", // Cambiado a euros
+    value: "2.412 ", // Cambiado a euros
   },
 ];
 

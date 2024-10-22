@@ -4,20 +4,20 @@ import React from "react";
 const PropertyAddress = () => {
   const addresses = [
     {
-      address: "10425 Tabor St",
-      city: "Los Angeles",
-      state: "California",
-      zipCode: "90034",
-      area: "Brookside",
-      country: "United States",
+      address : "C. Mayor 10",
+      city: "Madrid",
+      state: "Madrid",
+      zipCode: "28013",
+      area: "Centro",
+      country: "España",
     },
     {
-      address: "10 Downing Street",
-      city: "London",
-      state: "Greater London",
-      zipCode: "SW1A 2AA",
-      area: "Westminster",
-      country: "United Kingdom",
+      address: "C.de Balmes 35",
+      city: "Barcelona",
+      state: "Cataluña",
+      zipCode: "08007",
+      area: "Eixample",
+      country: "España",
     },
   ];
 

@@ -6,12 +6,12 @@ const ChatBoxForm = () => {
       <input
         className="form-control"
         type="search"
-        placeholder="Type a Message"
+        placeholder="Escribir mensaje..."
         aria-label="Search"
         required
       />
       <button type="submit" className="btn ud-btn btn-thm">
-        Send Message
+          Enviar Mensaje
         <i className="fal fa-arrow-right-long" />
       </button>
     </form>

@@ -4,65 +4,66 @@ import React from "react";
 const users = [
   {
     name: "Darlene Robertson",
-    position: "Head of Development",
+    position: "Jefa de Desarrollo",
     imageUrl: "/images/inbox/ms1.png",
-    notificationStatus: "online",
+    notificationStatus: "en línea",
   },
   {
     name: "Jane Cooper",
-    position: "Head of Development",
+    position: "Jefa de Desarrollo",
     imageUrl: "/images/inbox/ms2.png",
-    notificationStatus: "none",
+    notificationStatus: "ninguna",
   },
   {
     name: "Alejandra Monteseñor",
-    position: "Head of Development",
+    position: "Jefa de Desarrollo",
     imageUrl: "/images/inbox/ms3.png",
-    notificationStatus: "away",
+    notificationStatus: "ausente",
   },
   {
     name: "Albert Flores",
-    position: "Head of Development",
+    position: "Jefe de Desarrollo",
     imageUrl: "/images/inbox/ms4.png",
-    notificationStatus: "busy",
+    notificationStatus: "ocupado",
   },
   {
     name: "Darlene Robertson",
-    position: "Head of Development",
+    position: "Jefa de Desarrollo",
     imageUrl: "/images/inbox/ms1.png",
   },
   {
     name: "Darlene Robertson",
-    position: "Head of Development",
+    position: "Jefa de Desarrollo",
     imageUrl: "/images/inbox/ms1.png",
   },
   {
     name: "Jane Cooper",
-    position: "Head of Development",
+    position: "Jefa de Desarrollo",
     imageUrl: "/images/inbox/ms2.png",
   },
   {
     name: "Alejandra Monteseñor",
-    position: "Head of Development",
+    position: "Jefa de Desarrollo",
     imageUrl: "/images/inbox/ms3.png",
   },
   {
     name: "Albert Flores",
-    position: "Head of Development",
+    position: "Jefe de Desarrollo",
     imageUrl: "/images/inbox/ms4.png",
-    notificationStatus: "busy",
+    notificationStatus: "ocupado",
   },
   {
     name: "Jane Cooper",
-    position: "Head of Development",
+    position: "Jefa de Desarrollo",
     imageUrl: "/images/inbox/ms2.png",
   },
   {
     name: "Alejandra Monteseñor",
-    position: "Head of Development",
+    position: "Jefa de Desarrollo",
     imageUrl: "/images/inbox/ms3.png",
   },
 ];
+
 
 const UserItem = ({ user }) => {
   return (

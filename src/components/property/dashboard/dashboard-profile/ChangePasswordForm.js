@@ -7,7 +7,7 @@ const ChangePasswordForm = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Old Password
+               Clave de acceso anterior
             </label>
             <input
               type="text"
@@ -24,7 +24,7 @@ const ChangePasswordForm = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              New Password
+              Nueva clave de acceso
             </label>
             <input
               type="text"
@@ -39,7 +39,7 @@ const ChangePasswordForm = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Confirm New Password
+              Confirmar calve de acceso nuevo
             </label>
             <input
               type="text"
@@ -54,7 +54,7 @@ const ChangePasswordForm = () => {
         <div className="col-md-12">
           <div className="text-end">
             <button type="submit" className="ud-btn btn-dark">
-              Change Password
+              Cambiar Clave de Accesso
               <i className="fal fa-arrow-right-long" />
             </button>
           </div>

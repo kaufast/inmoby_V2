@@ -9,12 +9,12 @@ const DetailsFiled = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Size in ft (only numbers)
+              Tamaño en pies (solo números)
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Nombre"
             />
           </div>
         </div>
@@ -23,12 +23,12 @@ const DetailsFiled = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Lot size in ft (only numbers)
+              Tamaño del lote en pies (solo números)
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Nombre"
             />
           </div>
         </div>
@@ -36,11 +36,11 @@ const DetailsFiled = () => {
 
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
-            <label className="heading-color ff-heading fw600 mb10">Rooms</label>
+            <label className="heading-color ff-heading fw600 mb10">Habitaciones</label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Nombre"
             />
           </div>
         </div>
@@ -49,12 +49,12 @@ const DetailsFiled = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Bedrooms
+              Dormitorios
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Nombre"
             />
           </div>
         </div>
@@ -63,12 +63,12 @@ const DetailsFiled = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Bathrooms
+              Baños
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Nombre"
             />
           </div>
         </div>
@@ -77,12 +77,12 @@ const DetailsFiled = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Custom ID (text)
+              ID personalizado (texto)
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Nombre"
             />
           </div>
         </div>
@@ -91,12 +91,12 @@ const DetailsFiled = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Garages
+              Garajes
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Nombre"
             />
           </div>
         </div>
@@ -105,12 +105,12 @@ const DetailsFiled = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Garage size
+              Tamaño del garaje
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Nombre"
             />
           </div>
         </div>
@@ -119,7 +119,7 @@ const DetailsFiled = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Year built (numeric)
+              Año de construcción (numérico)
             </label>
             <input type="text" className="form-control" />
           </div>
@@ -129,12 +129,12 @@ const DetailsFiled = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Available from (date)
+              Disponible desde (fecha)
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="99.aa.yyyy"
+              placeholder="99.aa.aaaa"
             />
           </div>
         </div>
@@ -143,12 +143,12 @@ const DetailsFiled = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Basement
+              Sótano
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Nombre"
             />
           </div>
         </div>
@@ -157,12 +157,12 @@ const DetailsFiled = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Extra details
+              Detalles adicionales
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Nombre"
             />
           </div>
         </div>
@@ -171,12 +171,12 @@ const DetailsFiled = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Roofing
+              Tejado
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Nombre"
             />
           </div>
         </div>
@@ -185,12 +185,12 @@ const DetailsFiled = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Exterior Material
+              Material exterior
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Nombre"
             />
           </div>
         </div>
@@ -206,12 +206,12 @@ const DetailsFiled = () => {
         <div className="col-sm-12">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Owner/ Agent nots (not visible on front end)
+              Notas del Propietario/Agente (no visible en la parte pública)
             </label>
             <textarea
               cols={30}
               rows={5}
-              placeholder="There are many variations of passages."
+              placeholder="Hay muchas variaciones de pasajes."
               defaultValue={""}
             />
           </div>

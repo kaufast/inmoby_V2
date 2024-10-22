@@ -7,54 +7,52 @@ const chatMessages = [
     imageUrl: "/images/inbox/ms4.png",
     name: "Albert Flores",
     time: "35 mins",
-    message:
-      "How likely are you to recommend our company to your friends and family?",
+    message: "¿Qué tan probable es que recomiendes nuestra empresa a tus amigos y familiares?",
   },
   {
     className: "reply float-end",
     imageUrl: "/images/inbox/ms5.png",
-    name: "You",
+    name: "Tú",
     time: "35 mins",
-    message:
-      "Hey there, we’re just writing to let you know that you’ve been subscribed to a repository on GitHub.",
+    message: "Hola, solo queríamos informarte que te has suscrito a un repositorio en GitHub.",
   },
   {
     className: "reply float-end",
     imageUrl: "/images/inbox/ms3.png",
-    name: "You",
+    name: "Tú",
     time: "35 mins",
-    message: "Are we meeting today?",
+    message: "¿Nos reunimos hoy?",
   },
   {
     className: "reply float-end",
     imageUrl: "/images/inbox/ms3.png",
-    name: "You",
+    name: "Tú",
     time: "35 mins",
-    message: "The project finally complete! Let's go to!",
+    message: "¡El proyecto finalmente está completo! ¡Vamos a celebrarlo!",
   },
   {
     className: "sent float-start",
     imageUrl: "/images/inbox/ms2.png",
     name: "Albert Flores",
     time: "35 mins",
-    message: "Let's go!",
+    message: "¡Vamos!",
   },
   {
     className: "sent float-start",
     imageUrl: "/images/inbox/ms2.png",
     name: "Albert Flores",
     time: "35 mins",
-    message:
-      "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+    message: "simplemente texto de prueba de la industria de la impresión y composición tipográfica. Lorem Ipsum ha sido el estándar de la industria.",
   },
   {
     className: "sent float-start",
     imageUrl: "/images/inbox/ms2.png",
     name: "Albert Flores",
     time: "35 mins",
-    message: "Hello, John!",
+    message: "¡Hola, Juan!",
   },
 ];
+
 
 const ChatMessage = ({ message }) => {
   return (

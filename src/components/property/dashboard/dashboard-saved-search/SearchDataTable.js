@@ -5,47 +5,47 @@ import { Tooltip as ReactTooltip } from "react-tooltip";
 const listingData = [
   {
     title: "Casa Familiar Ecuestre",
-    date: "December 31, 2022",
+    date: "31 de diciembre de 2022",
   },
   {
-    title: "Luxury villa in Rego Park",
-    date: "December 31, 2022",
+    title: "Villa de lujo en Rego Park",
+    date: "31 de diciembre de 2022",
   },
   {
-    title: "Villa on Hollywood Boulevard",
-    date: "December 31, 2022",
+    title: "Villa en Hollywood Boulevard",
+    date: "31 de diciembre de 2022",
   },
   {
-    title: "Triple Story House for Rent",
-    date: "December 31, 2022",
+    title: "Casa de tres pisos en alquiler",
+    date: "31 de diciembre de 2022",
   },
   {
-    title: "Northwest Office Space",
-    date: "December 31, 2022",
+    title: "Espacio de oficina en el noroeste",
+    date: "31 de diciembre de 2022",
   },
   {
-    title: "House on the beverly hills",
-    date: "December 31, 2022",
+    title: "Casa en las colinas de Beverly",
+    date: "31 de diciembre de 2022",
   },
   {
-    title: "Luxury villa called Elvado",
-    date: "December 31, 2022",
+    title: "Villa de lujo llamada Elvado",
+    date: "31 de diciembre de 2022",
   },
   {
-    title: "House on the Northridge",
-    date: "December 31, 2022",
+    title: "Casa en Northridge",
+    date: "31 de diciembre de 2022",
   },
   {
     title: "Casa Familiar Ecuestre",
-    date: "December 31, 2022",
+    date: "31 de diciembre de 2022",
   },
   {
-    title: "Luxury villa in Rego Park",
-    date: "December 31, 2022",
+    title: "Villa de lujo en Rego Park",
+    date: "31 de diciembre de 2022",
   },
   {
-    title: "Villa on Hollywood Boulevard",
-    date: "December 31, 2022",
+    title: "Villa en Hollywood Boulevard",
+    date: "31 de diciembre de 2022",
   },
 ];
 
@@ -54,9 +54,9 @@ const SearchDataTable = () => {
     <table className="table-style3 table at-savesearch">
       <thead className="t-head">
         <tr>
-          <th scope="col">Listing title</th>
-          <th scope="col">Date Created</th>
-          <th scope="col">Action</th>
+          <th scope="col">Título del Listado</th>
+          <th scope="col">Fecha de Creación</th>
+          <th scope="col">Acción</th>
         </tr>
       </thead>
       <tbody className="t-body">

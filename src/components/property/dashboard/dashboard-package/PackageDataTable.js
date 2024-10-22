@@ -2,84 +2,84 @@ import React from "react";
 
 const packageData = [
   {
-    type: "Free",
+    type: "Disponible",
     propertiesRemaining: 3,
     featuredRemaining: 2,
     renewalRemaining: 7,
     storageSpace: "2 MB / 20 MB",
-    expiryDate: "December 31, 2022",
+    expiryDate: "Diciembre 31, 2024",
   },
   {
-    type: "Free",
+    type: "Disponible",
     propertiesRemaining: 3,
     featuredRemaining: 2,
     renewalRemaining: 7,
     storageSpace: "2 MB / 20 MB",
-    expiryDate: "December 31, 2022",
+    expiryDate: "Diciembre 31, 2024",
   },
   {
-    type: "Free",
+    type: "Disponible",
     propertiesRemaining: 3,
     featuredRemaining: 2,
     renewalRemaining: 7,
     storageSpace: "2 MB / 20 MB",
-    expiryDate: "December 31, 2022",
+    expiryDate: "Diciembre 31, 2024",
   },
   {
-    type: "Free",
+    type: "Disponible",
     propertiesRemaining: 3,
     featuredRemaining: 2,
     renewalRemaining: 7,
     storageSpace: "2 MB / 20 MB",
-    expiryDate: "December 31, 2022",
+    expiryDate: "Diciembre 31, 2024",
   },
   {
-    type: "Free",
+    type: "Disponible",
     propertiesRemaining: 3,
     featuredRemaining: 2,
     renewalRemaining: 7,
     storageSpace: "2 MB / 20 MB",
-    expiryDate: "December 31, 2022",
+    expiryDate: "Diciembre 31, 2024",
   },
   {
-    type: "Free",
+    type: "Disponible",
     propertiesRemaining: 3,
     featuredRemaining: 2,
     renewalRemaining: 7,
     storageSpace: "2 MB / 20 MB",
-    expiryDate: "December 31, 2022",
+    expiryDate: "Diciembre 31, 2024",
   },
   {
-    type: "Free",
+    type: "Disponible",
     propertiesRemaining: 3,
     featuredRemaining: 2,
     renewalRemaining: 7,
     storageSpace: "2 MB / 20 MB",
-    expiryDate: "December 31, 2022",
+    expiryDate: "Diciembre 31, 2024",
   },
   {
-    type: "Free",
+    type: "Disponible",
     propertiesRemaining: 3,
     featuredRemaining: 2,
     renewalRemaining: 7,
     storageSpace: "2 MB / 20 MB",
-    expiryDate: "December 31, 2022",
+    expiryDate: "Diciembre 31, 2024",
   },
   {
-    type: "Free",
+    type: "Disponible",
     propertiesRemaining: 3,
     featuredRemaining: 2,
     renewalRemaining: 7,
     storageSpace: "2 MB / 20 MB",
-    expiryDate: "December 31, 2022",
+    expiryDate: "Diciembre 31, 2024",
   },
   {
-    type: "Free",
+    type: "Disponible",
     propertiesRemaining: 3,
     featuredRemaining: 2,
     renewalRemaining: 7,
     storageSpace: "2 MB / 20 MB",
-    expiryDate: "December 31, 2022",
+    expiryDate: "Diciembre 31, 2024",
   },
 ];
 
@@ -88,12 +88,13 @@ const PackageDataTable = () => {
     <table className="table-style3 table">
       <thead className="t-head">
         <tr>
-          <th scope="col">Current Package</th>
-          <th scope="col">Properties remaining</th>
-          <th scope="col">Featured remaining</th>
-          <th scope="col">Renewal remaining</th>
-          <th scope="col">Storage Space</th>
-          <th scope="col">Expiry Date</th>
+          <th scope="col">Paquete Actual</th>
+          <th scope="col">Propiedades Restantes</th>
+          <th scope="col">Destacados Restantes</th>
+          <th scope="col">Renovaciones Restantes</th>
+          <th scope="col">Espacio en Mbs</th>
+          <th scope="col">Fecha de Expiración</th>
+
         </tr>
       </thead>
       <tbody className="t-body">

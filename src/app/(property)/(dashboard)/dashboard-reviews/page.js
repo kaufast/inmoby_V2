@@ -40,8 +40,8 @@ const DashboardReviews = () => {
               <div className="row align-items-center pb40">
                 <div className="col-lg-12">
                   <div className="dashboard_title_area">
-                    <h2>Reviews</h2>
-                    <p className="text">We are glad to see you again!</p>
+                    <h2>Reseñas</h2>
+                    <p className="text">¡Nos alegra verte de nuevo!</p>
                   </div>
                 </div>
               </div>

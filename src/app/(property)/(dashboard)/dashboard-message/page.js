@@ -41,7 +41,7 @@ const DashboardMessage = () => {
                 <div className="col-lg-12">
                   <div className="dashboard_title_area">
                     <h2>Messages</h2>
-                    <p className="text">We are glad to see you again!</p>
+                    <p className="text">¡Nos alegra verte de nuevo!</p>
                   </div>
                 </div>
                 {/* col-lg-12 */}
@@ -82,14 +82,14 @@ const DashboardMessage = () => {
                         <div className="meta d-sm-flex justify-content-sm-between align-items-center">
                           <div className="authors">
                             <h6 className="name mb-0">Alejandra Monteseñor</h6>
-                            <p className="preview">Active</p>
+                            <p className="preview">Activo</p>
                           </div>
                           <div>
                             <a
                               className="text-decoration-underline fz14 fw600 dark-color ff-heading"
                               href="#"
                             >
-                              Delete Conversation
+                              Borrar Conversación
                             </a>
                           </div>
                         </div>

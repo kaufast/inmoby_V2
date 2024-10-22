@@ -12,7 +12,7 @@ const SocialField = () => {
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Enlace"
               required
             />
           </div>
@@ -26,7 +26,7 @@ const SocialField = () => {
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Enlace"
               required
             />
           </div>
@@ -40,7 +40,7 @@ const SocialField = () => {
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Enlace"
               required
             />
           </div>
@@ -54,7 +54,7 @@ const SocialField = () => {
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Enlace"
               required
             />
           </div>
@@ -68,7 +68,7 @@ const SocialField = () => {
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Enlace"
               required
             />
           </div>
@@ -77,12 +77,12 @@ const SocialField = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Website Url (without http)
+              Página Web Url (sin el  http)
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Enlace"
             />
           </div>
         </div>
@@ -90,7 +90,7 @@ const SocialField = () => {
         <div className="col-md-12">
           <div className="text-end">
             <button type="submit" className="ud-btn btn-dark">
-              Update Social
+              Actualizar Social
               <i className="fal fa-arrow-right-long" />
             </button>
           </div>

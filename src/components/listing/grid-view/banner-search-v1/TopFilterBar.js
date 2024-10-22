@@ -15,7 +15,7 @@ const TopFilterBar = ({setCurrentSortingOption,pageContentTrac}) => {
       <div className="col-sm-6">
         <div className="page_control_shorting d-flex align-items-center justify-content-center justify-content-sm-end">
           <div className="pcs_dropdown pr10 d-flex align-items-center">
-            <span style={{ minWidth: "60px" }}>Ordenar</span>
+            <span style={{ minWidth: "60px" }}>Orden</span>
             <select className="form-select"  onChange={(e)=>setCurrentSortingOption && setCurrentSortingOption(e.target.value)}>
     <option>Más Reciente</option>
 <option>Más Vendido</option>

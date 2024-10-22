@@ -19,11 +19,11 @@ const AllReviews = () => {
             <div className="total_review d-flex align-items-center justify-content-between mb20">
               <h6 className="fz17 mb15">
                 <i className="fas fa-star fz12 pe-2" />
-                5.0 · 3 reviews
+                5.0 · 3 reseñas
               </h6>
               <div className="page_control_shorting d-flex align-items-center justify-content-center justify-content-sm-end">
                 <div className="pcs_dropdown mb15 d-flex align-items-center">
-                  <span style={{ minWidth: "60px" }}>Ordenar</span>
+                  <span style={{ minWidth: "60px" }}>Orden</span>
                   <select className="form-select">
                     {sortOptions.map((option, index) => (
                       <option key={index}>{option}</option>

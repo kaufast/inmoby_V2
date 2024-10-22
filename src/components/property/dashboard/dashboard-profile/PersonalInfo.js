@@ -7,12 +7,12 @@ const PersonalInfo = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Username
+              Nombre de Usuario
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Nombre"
               required
             />
           </div>
@@ -21,11 +21,11 @@ const PersonalInfo = () => {
 
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
-            <label className="heading-color ff-heading fw600 mb10">Email</label>
+            <label className="heading-color ff-heading fw600 mb10">Correo Electrónico</label>
             <input
               type="email"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Correo"
               required
             />
           </div>
@@ -34,26 +34,11 @@ const PersonalInfo = () => {
 
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
-            <label className="heading-color ff-heading fw600 mb10">Phone</label>
+            <label className="heading-color ff-heading fw600 mb10">Teléfono</label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
-              required
-            />
-          </div>
-        </div>
-        {/* End .col */}
-
-        <div className="col-sm-6 col-xl-4">
-          <div className="mb20">
-            <label className="heading-color ff-heading fw600 mb10">
-              First Name
-            </label>
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Teléfono"
               required
             />
           </div>
@@ -63,12 +48,12 @@ const PersonalInfo = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Last Name
+              Nombre
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Nombre"
               required
             />
           </div>
@@ -78,12 +63,12 @@ const PersonalInfo = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Position
+              Apellido
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Apellido"
               required
             />
           </div>
@@ -93,12 +78,12 @@ const PersonalInfo = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Language
+              Cargo
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Cargo"
               required
             />
           </div>
@@ -108,12 +93,12 @@ const PersonalInfo = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Company Name
+              Idioma
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Idioma"
               required
             />
           </div>
@@ -123,12 +108,27 @@ const PersonalInfo = () => {
         <div className="col-sm-6 col-xl-4">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Tax Number
+              Nombre de la Empresa
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Nombre de la Empresa"
+              required
+            />
+          </div>
+        </div>
+        {/* End .col */}
+
+        <div className="col-sm-6 col-xl-4">
+          <div className="mb20">
+            <label className="heading-color ff-heading fw600 mb10">
+              Número de Identificación Fiscal
+            </label>
+            <input
+              type="text"
+              className="form-control"
+              placeholder="Número Fiscal"
               required
             />
           </div>
@@ -138,12 +138,12 @@ const PersonalInfo = () => {
         <div className="col-xl-12">
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">
-              Address
+              Dirección
             </label>
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="Tu Dirección"
               required
             />
           </div>
@@ -153,12 +153,12 @@ const PersonalInfo = () => {
         <div className="col-md-12">
           <div className="mb10">
             <label className="heading-color ff-heading fw600 mb10">
-              About me
+              Sobre mí
             </label>
             <textarea
               cols={30}
               rows={4}
-              placeholder="There are many variations of passages."
+              placeholder="Hay muchas variaciones de pasajes."
               defaultValue={""}
             />
           </div>
@@ -168,7 +168,7 @@ const PersonalInfo = () => {
         <div className="col-md-12">
           <div className="text-end">
             <button type="submit" className="ud-btn btn-dark">
-              Update Profile
+              Actualizar Perfil
               <i className="fal fa-arrow-right-long" />
             </button>
           </div>

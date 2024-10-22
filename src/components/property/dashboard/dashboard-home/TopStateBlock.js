@@ -2,26 +2,27 @@ import React from "react";
 
 const statisticsData = [
   {
-    text: "All Properties",
+    text: "Todas las Propiedades",
     title: "583",
     icon: "flaticon-home",
   },
   {
-    text: "Total Views",
+    text: "Vistas Totales",
     title: "192",
     icon: "flaticon-search-chart",
   },
   {
-    text: "Total Visitor Reviews",
+    text: "Total de Reseñas de Visitantes",
     title: "438",
     icon: "flaticon-review",
   },
   {
-    text: "Total Favorites",
+    text: "Total de Favoritos",
     title: "67",
     icon: "flaticon-like",
   },
 ];
+
 
 const TopStateBlock = () => {
   return (

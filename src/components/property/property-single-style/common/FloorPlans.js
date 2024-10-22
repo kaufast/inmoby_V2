@@ -8,7 +8,7 @@ const floorPlanData = [
     size: "118 m²",  // Conversión aproximada de 1267 Sqft a m²
     bedrooms: "2",
     bathrooms: "2",
-    price: "920,99 €",
+    price: "920,99 ",
     imageSrc: "/images/listings/listing-single-1.png",
   },
   {
@@ -17,7 +17,7 @@ const floorPlanData = [
     size: "118 m²",
     bedrooms: "2",
     bathrooms: "2",
-    price: "920,99 €",
+    price: "920,99 ",
     imageSrc: "/images/listings/listing-single-1.png",
   },
   {
@@ -26,7 +26,7 @@ const floorPlanData = [
     size: "118 m²",
     bedrooms: "2",
     bathrooms: "2",
-    price: "920,99 €",
+    price: "920,99 ",
     imageSrc: "/images/listings/listing-single-1.png",
   },
   
