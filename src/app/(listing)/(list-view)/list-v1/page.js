@@ -40,7 +40,7 @@ const ListV1 = () => {
                   role="button"
                   aria-controls="listingSidebarFilter"
                 >
-                  <span className="flaticon-settings" /> Filter
+                  <span className="flaticon-settings" /> Filtrar
                 </a>
               </div>
             </div>

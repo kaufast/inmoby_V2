@@ -59,7 +59,7 @@ const MobileMenu = () => {
             >
               <span className="far fa-times"></span>
             </div>
-            <h4 className="title">Welcome to Homez</h4>
+            <h4 className="title">Welcome to Inmobi</h4>
           </div>
           {/* End header */}
 
@@ -77,7 +77,7 @@ const MobileMenu = () => {
                 <div className="row pt30 pb30 bdrt1">
                   <div className="col-auto">
                     <div className="social-style-sidebar d-flex align-items-center pl30">
-                      <h6 className="me-4 mb-0">Follow us</h6>
+                      <h6 className="me-4 mb-0">Siguenos</h6>
                       <Social />
                     </div>
                   </div>
