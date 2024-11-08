@@ -1,7 +1,8 @@
 {
-  "name": "homez-nextjs",
+  "name": "inmobi",
   "version": "1.8.0",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

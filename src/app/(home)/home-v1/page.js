@@ -6,8 +6,8 @@ import ApartmentType from "@/components/home/home-v1/ApartmentType";
 import CallToActions from "@/components/common/CallToActions";
 import FeaturedListings from "@/components/home/home-v1/FeatuerdListings";
 import Header from "@/components/home/home-v1/Header";
-import Partner from "@/components/common/Partner";
-import PopularListings from "@/components/home/home-v1/PopularListings";
+// import Partner from "@/components/common/Partner";
+// import PopularListings from "@/components/home/home-v1/PopularListings";
 import PropertiesByCities from "@/components/home/home-v1/PropertiesByCities";
 import Testimonial from "@/components/home/home-v1/Testimonial";
 import Hero from "@/components/home/home-v1/hero";
@@ -17,7 +17,8 @@ import Link from "next/link";
 import PopulerProperty from "@/components/home/home-v1/PopulerProperty";
 
 export const metadata = {
-  title: "Inicio v1 || Inmobi - Plantilla de Bienes Raíces",
+  title: "Inmobi - ¡Bienvenido! El Mejor Socio para Bienes Raíces",
+  description: "Explora nuestras propiedades destacadas y encuentra la casa de tus sueños en España con Inmobi.",
 };
 
 
@@ -318,28 +319,7 @@ const Home_V1 = () => {
       </section>
       {/* Explore Blog */}
 
-      {/* Our Partners */}
-      <section className="our-partners pt0">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12" data-aos="fade-up">
-              <div className="main-title text-center">
-                <h6>Respaldado por los mejores del mundo</h6>
-              </div>
-            </div>
-            <div className="col-lg-12 text-center">
-              <div
-                className="dots_none nav_none"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <Partner />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* End Our Partners */}
+
 
       {/* Our CTA */}
       <CallToActions />
