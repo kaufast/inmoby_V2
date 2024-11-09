@@ -6,29 +6,25 @@ import LoginSignupModal from "@/components/common/login-signup-modal";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import { useTranslations } from "@/i18n"; // Import translations
 
-const Header = () => {
+const Header = ({ locale }) => {
+  const t = useTranslations(locale); // Fetch translations based on locale
   const [navbar, setNavbar] = useState(false);
 
   const changeBackground = () => {
-    if (window.scrollY >= 10) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
+    setNavbar(window.scrollY >= 10);
   };
 
   useEffect(() => {
     window.addEventListener("scroll", changeBackground);
-    return () => {
-      window.removeEventListener("scroll", changeBackground);
-    };
+    return () => window.removeEventListener("scroll", changeBackground);
   }, []);
 
   return (
     <>
       <header
-        className={`header-nav nav-homepage-style main-menu  ${
+        className={`header-nav nav-homepage-style main-menu ${
           navbar ? "sticky slideInDown animated" : ""
         }`}
       >
@@ -73,13 +69,15 @@ const Header = () => {
                     role="button"
                   >
                     <i className="far fa-user-circle fz16 me-2" />{" "}
-                    <span className="d-none d-xl-block">Mi cuenta</span>
+                    <span className="d-none d-xl-block">
+                      {t("header.myAccount")}
+                    </span>
                   </a>
                   <Link
                     className="ud-btn add-property menu-btn bdrs60 mx-2 mx-xl-4"
                     href="/dashboard-add-property"
                   >
-                    Anuncio
+                    {t("header.postProperty")}
                     <i className="fal fa-arrow-right-long" />
                   </Link>
                   <a
@@ -94,15 +92,14 @@ const Header = () => {
                       height={9}
                       className="img-1"
                       src="/images/icon/nav-icon-white.svg"
-                      alt="humberger menu"
+                      alt="hamburger menu"
                     />
-
                     <Image
                       width={25}
                       height={9}
                       className="img-2"
                       src="/images/icon/nav-icon-dark.svg"
-                      alt="humberger menu"
+                      alt="hamburger menu"
                     />
                   </a>
                 </div>
@@ -124,14 +121,14 @@ const Header = () => {
           aria-labelledby="loginSignupModalLabel"
           aria-hidden="true"
         >
-          <div className="modal-dialog  modal-dialog-scrollable modal-dialog-centered">
+          <div className="modal-dialog modal-dialog-scrollable modal-dialog-centered">
             <LoginSignupModal />
           </div>
         </div>
       </div>
       {/* End Signup Modal */}
 
-      {/* DesktopSidebarMenu */}
+      {/* Desktop Sidebar Menu */}
       <div
         className="offcanvas offcanvas-end"
         tabIndex="-1"

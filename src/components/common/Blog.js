@@ -1,12 +1,14 @@
-
 import { blogs } from "@/data/blogs";
 import Image from "next/image";
 import Link from "next/link";
 
-const Blog = () => {
+const Blog = ({ limit = 3 }) => {
+  // Use slice to limit the number of blog posts
+  const limitedBlogs = blogs.slice(0, limit);
+
   return (
     <>
-      {blogs.map((blog) => (
+      {limitedBlogs.map((blog) => (
         <div className="col-sm-6 col-lg-4" key={blog.id}>
           <div className="blog-style1">
             <div className="blog-img">

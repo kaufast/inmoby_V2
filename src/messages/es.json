@@ -1,0 +1,58 @@
+{
+  "hero": {
+    "subtitle": "La manera más rápida de encontrar",
+    "title": "El piso de tus sueños",
+    "description": "Tenemos una gran variedad de apartamentos y casas."
+  },
+  "tabs": {
+    "buy": "Compra",
+    "rent": "Renta",
+    "sold": "Vendido"
+  },
+  "buttons": {
+    "advanced": "Avanzado"
+  },
+  "header": {
+    "myAccount": "Mi cuenta",
+    "postProperty": "Anuncio",
+    "menu": {
+      "countries": "Países",
+      "blog": "Blog",
+      "contact": "Contacto",
+      "admin": "Admin"
+    }
+  },
+  "explore": {
+    "buyPropertyTitle": "Comprar una propiedad",
+    "sellPropertyTitle": "Vender una propiedad",
+    "rentPropertyTitle": "Alquilar una propiedad",
+    "exclusiveAgents": "Agentes Exclusivos",
+    "findHome": "Encuentra una vivienda",
+    "postAd": "Publica un anuncio",
+    "findRental": "Encuentra un alquiler"
+  },
+  "welcomeMessage": "¡Bienvenido a Inmobi!",
+  "inspireText": "Inspírate con nuestra amplia selección de más de 1800 propiedades que se adaptan a todos los estilos de vida.",
+  "exploreApartmentTypes": "Explora Tipos de Apartamentos",
+  "howInmobiCanHelp": "Descubre Cómo Inmobi Puede Ayudarte",
+  "personalizedSolutions": "En Inmobi, te ofrecemos soluciones personalizadas para comprar, vender o alquilar propiedades. Nuestro equipo experto está aquí para guiarte en cada paso del proceso.",
+  "featuredProperties": "Descubre Nuestras Propiedades Destacadas",
+  "uniquePropertySelection": "Explora una selección única de inmuebles diseñados para inspirar tu próxima inversión.",
+  "propertiesByCity": "Propiedades por Ciudades",
+  "citySelection": "Explora nuestras mejores propiedades disponibles en las principales ciudades de España y encuentra la ubicación perfecta para ti.",
+  "viewAllCities": "Ver todas las ciudades",
+  "testimonialsTitle": "A la Gente le Encanta Vivir con Inmobi",
+  "testimonialsSubtitle": "Descubre por qué nuestros clientes eligen Inmobi para encontrar su hogar ideal. Nos enorgullece ofrecer una experiencia de vida incomparable.",
+  "fromOurBlog": "De Nuestro Blog",
+  "blogSubtitle": "Descubre las últimas tendencias en pisos y casas para tu hogar ideal.",
+  "newFeatureTitle": "Presentamos Nuestra Nueva Función",
+  "newFeatureDescription": "Descubre cómo nuestra nueva función puede facilitar tu búsqueda de propiedades.",
+  "ctaTitle": "¿Necesitas ayuda? Habla con nuestro experto.",
+  "ctaText": "Habla con nuestros expertos o navega por más propiedades.",
+  "contactUs": "Contáctanos",
+  "blogTags": {
+    "Inmobiliaria": "Inmobiliaria",
+    "Mejora del Hogar": "Mejora del Hogar",
+    "Estilo de Vida": "Estilo de Vida"
+  }
+}

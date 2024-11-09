@@ -1,20 +1,18 @@
 import AdvanceFilterModal from "@/components/common/advance-filter";
 import HeroContent from "./HeroContent";
+import { useTranslations } from "@/i18n"; // Use absolute path
 
-const Hero = () => {
+const Hero = ({ locale }) => {
+  const t = useTranslations(locale); // Fetch translations based on locale
+
   return (
     <>
       <div className="inner-banner-style1 text-center">
-        <h6 className="hero-sub-title animate-up-1">La manera mas rápida de encontrar</h6>
-        <h2 className="hero-title animate-up-2">El piso de tus sueños</h2>
-        <p className="hero-text fz15 animate-up-3">
-        Tenemos más una gran variedad apartamentos y casas.
-        </p>
-        <HeroContent />
+        <h6 className="hero-sub-title animate-up-1">{t("hero.subtitle")}</h6>
+        <h2 className="hero-title animate-up-2">{t("hero.title")}</h2>
+        <p className="hero-text fz15 animate-up-3">{t("hero.description")}</p>
+        <HeroContent locale={locale} />
       </div>
-      {/* End Hero content */}
-
-      {/* <!-- Advance Feature Modal Start --> */}
       <div className="advance-feature-modal">
         <div
           className="modal fade"
@@ -26,7 +24,6 @@ const Hero = () => {
           <AdvanceFilterModal />
         </div>
       </div>
-      {/* <!-- Advance Feature Modal End --> */}
     </>
   );
 };

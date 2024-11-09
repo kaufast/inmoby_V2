@@ -1,49 +1,25 @@
 import Image from "next/image";
-import Link from "next/link";
+import Link from "next/link"; // Import Link from next/link
+import { useTranslations } from '../../i18n'; // Adjust path as needed
 
-const CallToActions = () => {
+const CallToActions = ({ locale }) => {
+  const t = useTranslations(locale);
+
   return (
     <section className="our-cta pt0">
       <div className="cta-banner bgc-f7 mx-auto maxw1600 pt120 pt60-md pb120 pb60-md bdrs12 position-relative mx20-lg">
-        <div className="img-box-5">
-          <Image
-            width={193}
-            height={193}
-            className="img-1 spin-right"
-            src="/images/about/element-1.png"
-            alt="spinner"
-          />
-        </div>
-        <div className="img-box-6">
-          <Image
-            width={193}
-            height={193}
-            className="img-1 spin-left"
-            src="/images/about/element-1.png"
-            alt="spinner"
-          />
-        </div>
-        {/* End image spinner */}
-
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-7 col-xl-6 " data-aos="fade-right">
+            <div className="col-lg-7 col-xl-6" data-aos="fade-right">
               <div className="cta-style1">
-                <h2 className="cta-title">¿Necesitas ayuda? Habla con nuestro experto.</h2>
-                <p className="cta-text mb-0">
-                Habla con nuestros expertos o navega por más propiedades.
-                </p>
+                <h2 className="cta-title">{t('ctaTitle')}</h2>
+                <p className="cta-text mb-0">{t('ctaText')}</p>
               </div>
             </div>
-            {/* End .col-lg-7 */}
-
-            <div className="col-lg-5 col-xl-6 " data-aos="fade-left">
+            <div className="col-lg-5 col-xl-6" data-aos="fade-left">
               <div className="cta-btns-style1 d-block d-sm-flex align-items-center justify-content-lg-end">
-                <Link
-                  href="/contact"
-                  className="ud-btn btn-transparent mr30 mr0-xs"
-                >
-                  Contactános
+                <Link href="/contact" className="ud-btn btn-transparent mr30 mr0-xs">
+                  {t('contactUs')}
                   <i className="fal fa-arrow-right-long" />
                 </Link>
                 <Link href="/contact" className="ud-btn btn-dark">
@@ -52,9 +28,7 @@ const CallToActions = () => {
                 </Link>
               </div>
             </div>
-            {/* End col-lg-5 */}
           </div>
-          {/* End .row */}
         </div>
       </div>
     </section>

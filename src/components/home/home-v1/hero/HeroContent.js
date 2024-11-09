@@ -1,9 +1,11 @@
 "use client";
 import { useRouter } from "next/navigation";
 import React, { useState } from "react";
+import { useTranslations } from "@/i18n"; // Use absolute path
 
-const HeroContent = () => {
+const HeroContent = ({ locale }) => {
   const router = useRouter();
+  const t = useTranslations(locale);
   const [activeTab, setActiveTab] = useState("buy");
 
   const handleTabClick = (tab) => {
@@ -11,9 +13,9 @@ const HeroContent = () => {
   };
 
   const tabs = [
-    { id: "buy", label: "Compra" },
-    { id: "rent", label: "Renta" },
-    { id: "sold", label: "" },
+    { id: "buy", label: t("tabs.buy") },
+    { id: "rent", label: t("tabs.rent") },
+    { id: "sold", label: t("tabs.sold") },
   ];
 
   return (
@@ -30,7 +32,6 @@ const HeroContent = () => {
           </li>
         ))}
       </ul>
-
       <div className="tab-content">
         {tabs.map((tab) => (
           <div
@@ -54,8 +55,6 @@ const HeroContent = () => {
                     </form>
                   </div>
                 </div>
-                {/* End .col-md-8 */}
-
                 <div className="col-md-4 col-lg-3">
                   <div className="d-flex align-items-center justify-content-start justify-content-md-center mt-3 mt-md-0">
                     <button
@@ -64,7 +63,7 @@ const HeroContent = () => {
                       data-bs-toggle="modal"
                       data-bs-target="#advanceSeachModal"
                     >
-                      <span className="flaticon-settings" />Avanzado
+                      <span className="flaticon-settings" />{t("buttons.advanced")}
                     </button>
                     <button
                       className="advance-search-icon ud-btn btn-thm ms-4"
