@@ -7,6 +7,7 @@ import "../../public/scss/main.scss";
 import "rc-slider/assets/index.css";
 import { DM_Sans, Poppins } from "next/font/google";
 import { useEffect } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 if (typeof window !== "undefined") {
   import("bootstrap");
