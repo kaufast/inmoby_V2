@@ -45,7 +45,7 @@ export const blogItems = [
 ];
 
 export const pageItems = [
-  { href: "/contact", label: "Contacto" },
+  { href: "es/contact", label: "Contacto" },
   { href: "/faq", label: "Preguntas Frecuentes" },
   { href: "/about", label: "Acerca de Nosotros" },
 

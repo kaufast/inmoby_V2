@@ -6,8 +6,11 @@ import Social from "./Social";
 import Subscribe from "./Subscribe";
 import MenuWidget from "./MenuWidget";
 import Copyright from "./Copyright";
+import { useTranslations } from '@/i18n';
 
 const Footer = () => {
+  const t = useTranslations();
+  
   return (
     <>
       <div className="container">
@@ -26,8 +29,8 @@ const Footer = () => {
               <ContactMeta />
               <AppWidget />
               <div className="social-widget">
-                <h6 className="text-white mb20">Siguenos en las redes sociales</h6>
-                <Social />
+              <h6 className="text-white mb20">{t('followUs')}</h6>
+              <Social />
               </div>
             </div>
           </div>

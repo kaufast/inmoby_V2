@@ -19,7 +19,7 @@
       "countries": "Countries",
       "blog": "Blog",
       "contact": "Contact",
-      "admin": "Admin"
+      "admin": "Adminis"
     }
   },
   "explore": {
@@ -49,6 +49,7 @@
   "newFeatureDescription": "Discover how our new feature can make your property search easier.",
   "ctaTitle": "Need help? Speak to our expert.",
   "ctaText": "Talk to our experts or browse more properties.",
+  "followUs": "Síguenos en las redes sociales",
   "contactUs": "Contact Us",
   "blogTags": {
     "Inmobiliaria": "Real Estate",
@@ -70,6 +71,67 @@
     "text": "Let us help you find the best buyer for your property",
     "contactUs": "Contact Us",
     "phone": "679 680 000"
+  },
+  "faq1": {
+    "property.depreciation.question": "¿Puede una vivienda depreciarse en valor?",
+    "property.depreciation.answer": "En España, una vivienda puede depreciarse dependiendo del mercado inmobiliario, la ubicación y el estado de conservación. Sin embargo, los inmuebles en zonas urbanas y con buena demanda tienden a mantener o incrementar su valor.",
+    "property.old.question": "¿Una vivienda antigua tiene el mismo valor que una nueva?",
+    "property.old.answer": "Las viviendas antiguas pueden ser tan valiosas como las nuevas, dependiendo de su estado, ubicación y características. Además, algunas casas antiguas tienen valor histórico o arquitectónico que incrementa su precio.",
+    "agent.question": "¿Qué es un agente inmobiliario?",
+    "agent.answer": "Un agente inmobiliario es un profesional autorizado que se encarga de mediar en la compra, venta o alquiler de propiedades. En España, deben estar registrados en el Colegio Oficial de Agentes de la Propiedad Inmobiliaria para garantizar un servicio profesional.",
+    "taxes.question": "¿Puedo pagar mis propios impuestos y seguro?",
+    "taxes.answer": "Sí, en España puedes encargarte directamente del pago de tus impuestos de propiedad (IBI) y de tu seguro de hogar. Sin embargo, algunas hipotecas incluyen estos pagos como parte del acuerdo."
+  },"contact": {
+    "metadata": {
+      "title": "Contact | Realton - Real Estate Services"
+    },
+    "form": {
+      "title": "Have questions? Get in touch!",
+      "submit": "Send Message",
+      "fields": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Your name",
+          "error": "Name is required"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Your email",
+          "error": "Please enter a valid email"
+        },
+        "phone": {
+          "label": "Phone",
+          "placeholder": "Your phone",
+          "error": "Phone is required"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Your message",
+          "error": "Message is required"
+        }
+      }
+    },
+    "hero": {
+      "title": "We'd love to hear from you",
+      "description": "We're here to answer any questions you might have. As a corporate partner, Realton has over 9,000 offices of all sizes with full management potential."
+    },
+    "office": {
+      "title": "Visit Our Offices",
+      "description": "We have fully equipped offices to provide comprehensive management tailored to your needs.",
+      "locations": {
+        "madrid": {
+          "city": "Madrid Office",
+          "address": "Calle Principal 123",
+          "phone": "+34 912 345 678",
+          "email": "madrid@realton.com"
+        },
+        "barcelona": {
+          "city": "Barcelona Office",
+          "address": "Avinguda Diagonal 456",
+          "phone": "+34 933 456 789",
+          "email": "barcelona@realton.com"
+        }
+      }
+    }
   }
-  
 }
