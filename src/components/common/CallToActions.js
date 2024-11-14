@@ -1,6 +1,7 @@
+"use client";
 import Image from "next/image";
-import Link from "next/link"; // Import Link from next/link
-import { useTranslations } from '../../i18n'; // Adjust path as needed
+import Link from "next/link";
+import { useTranslations } from '@/i18n';
 
 const CallToActions = ({ locale }) => {
   const t = useTranslations(locale);
@@ -12,19 +13,25 @@ const CallToActions = ({ locale }) => {
           <div className="row align-items-center">
             <div className="col-lg-7 col-xl-6" data-aos="fade-right">
               <div className="cta-style1">
-                <h2 className="cta-title">{t('ctaTitle')}</h2>
-                <p className="cta-text mb-0">{t('ctaText')}</p>
+                <h2 className="cta-title">{t('cta.title')}</h2>
+                <p className="cta-text mb-0">{t('cta.text')}</p>
               </div>
             </div>
             <div className="col-lg-5 col-xl-6" data-aos="fade-left">
               <div className="cta-btns-style1 d-block d-sm-flex align-items-center justify-content-lg-end">
-                <Link href="/contact" className="ud-btn btn-transparent mr30 mr0-xs">
-                  {t('contactUs')}
+                <Link 
+                  href={`/${locale}/contact`} 
+                  className="ud-btn btn-transparent mr30 mr0-xs"
+                >
+                  {t('cta.contactUs')}
                   <i className="fal fa-arrow-right-long" />
                 </Link>
-                <Link href="/contact" className="ud-btn btn-dark">
+                <Link 
+                  href={`/${locale}/contact`} 
+                  className="ud-btn btn-dark"
+                >
                   <span className="flaticon-call vam pe-2" />
-                  679 680 000
+                  {t('cta.phone')}
                 </Link>
               </div>
             </div>
