@@ -1,13 +1,18 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslations } from '@/i18n';
 
-const About = () => {
+const About = ({ locale }) => {
+  const t = useTranslations(locale);
+
   const featureList = [
-   "Encuentra excelentes ofertas",
-"Anfitrión amigable y soporte rápido",
-"Publica tu propia propiedad",
-
+    t('about.featureList.deals'),
+    t('about.featureList.support'),
+    t('about.featureList.property'),
   ];
+
   return (
     <>
       <div className="row">
@@ -17,10 +22,10 @@ const About = () => {
             data-aos="fade-left"
           >
             <h2 className="title mb30">
-  Encuentra la opción de venta adecuada para ti
-</h2>
+            {t('about.findOption')}
+            </h2>
 <p className="text mb25 fz15">
-  A medida que aumenta la complejidad de los edificios, el campo de la arquitectura
+{t('about.description')}
 </p>
 <div className="list-style1 mb50">
   <ul>
@@ -33,7 +38,7 @@ const About = () => {
   </ul>
 </div>
 <Link href="/grid-gull-3-col" className="ud-btn btn-white2">
-  Más información<i className="fal fa-arrow-right-long"></i>
+{t('about.learnMore')}<i className="fal fa-arrow-right-long"></i>
 </Link>
 
           </div>

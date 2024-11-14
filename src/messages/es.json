@@ -47,12 +47,26 @@
   "blogSubtitle": "Descubre las últimas tendencias en pisos y casas para tu hogar ideal.",
   "newFeatureTitle": "Presentamos Nuestra Nueva Función",
   "newFeatureDescription": "Descubre cómo nuestra nueva función puede facilitar tu búsqueda de propiedades.",
-  "ctaTitle": "¿Necesitas ayuda? Habla con nuestro experto.",
-  "ctaText": "Habla con nuestros expertos o navega por más propiedades.",
   "contactUs": "Contáctanos",
   "blogTags": {
     "Inmobiliaria": "Inmobiliaria",
     "Mejora del Hogar": "Mejora del Hogar",
     "Estilo de Vida": "Estilo de Vida"
+  },
+  "about": {
+    "findOption": "Encuentra la opción de venta adecuada para ti",
+    "description": "A medida que aumenta la complejidad de los edificios, el campo de la arquitectura",
+    "featureList": {
+      "deals": "Encuentra excelentes ofertas",
+      "support": "Anfitrión amigable y soporte rápido",
+      "property": "Publica tu propia propiedad"
+    },
+    "learnMore": "Conoce más sobre nosotros"
+  },
+  "cta": {
+    "title": "¿Listo para vender tu propiedad?",
+    "text": "Permítanos ayudarte a encontrar el mejor comprador para tu propiedad",
+    "contactUs": "Contáctanos",
+    "phone": "679 680 000"
   }
 }

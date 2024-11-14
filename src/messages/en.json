@@ -54,5 +54,22 @@
     "Inmobiliaria": "Real Estate",
     "Mejora del Hogar": "Home Improvement",
     "Estilo de Vida": "Lifestyle"
+  },
+  "about": {
+    "findOption": "Find the right selling option for you",
+    "description": "As the complexity of buildings increases, the field of architecture",
+    "featureList": {
+      "deals": "Find Great Deals",
+      "support": "Friendly Host & Fast Support",
+      "property": "List Your Own Property"
+    },
+    "learnMore": "Learn More About Us"
+  },
+  "cta": {
+    "title": "Ready to sell your property?",
+    "text": "Let us help you find the best buyer for your property",
+    "contactUs": "Contact Us",
+    "phone": "679 680 000"
   }
+  
 }
