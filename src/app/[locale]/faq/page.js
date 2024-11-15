@@ -2,13 +2,14 @@ import CallToActions from "@/components/common/CallToActions";
 import DefaultHeader from "@/components/common/DefaultHeader";
 import Footer from "@/components/common/default-footer";
 import MobileMenu from "@/components/common/mobile-menu";
-import ComapareTable from "@/components/pages/compare/ComapareTable";
+import Faq1 from "@/components/pages/faq/Faq1";
+import Faq2 from "@/components/pages/faq/Faq2";
 
 export const metadata = {
-  title: "Compare  || Homez - Real Estate NextJS Template",
+  title: "Faq  || Inmobi - Real Estate NextJS Template",
 };
 
-const Compare = () => {
+const Faq = () => {
   return (
     <>
       {/* Main Header Nav */}
@@ -20,19 +21,15 @@ const Compare = () => {
       {/* End Mobile Nav  */}
 
       {/* Breadcrumb Sections */}
-      <section className="breadcumb-section3 p-0">
+      <section className="breadcumb-section">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <div className="breadcumb-style1">
-                <h2 className="title text-white">Compare Properties</h2>
+                <h2 className="title">Preguntas Frequentes (FAQ)</h2>
                 <div className="breadcumb-list">
-                  <a className="text-white" href="#">
-                    Home
-                  </a>
-                  <a className="text-white" href="#">
-                    Compare
-                  </a>
+                  <a href="#">Casas</a>
+                  <a href="#">para Rentar</a>
                 </div>
               </div>
             </div>
@@ -41,19 +38,32 @@ const Compare = () => {
       </section>
       {/* End Breadcrumb Sections */}
 
-      {/* Our Compare Area */}
-      <section className="our-compare">
+      {/* FAQ Section Area */}
+      <section className="our-faq pb90 pt-0">
         <div className="container">
           <div className="row wow fadeInUp" data-wow-delay="300ms">
             <div className="col-lg-12">
-              <div className="table-style2 table-responsive">
-                <ComapareTable />
+              <div className="ui-content">
+                <h4 className="title">Pregunta sobre pisos en venta</h4>
+                <div className="accordion-style1 faq-page mb-4 mb-lg-5">
+                  <Faq1 />
+                </div>
               </div>
+              {/* End ui-content */}
+
+              <div className="ui-content">
+                <h4 className="title">Pregunta sobre pisos en alquiler</h4>
+                <div className="accordion-style1 faq-page mb-4 mb-lg-5">
+                  <Faq2 />
+                </div>
+              </div>
+              {/* End ui-content */}
             </div>
+            {/* End .col-lg-12 */}
           </div>
         </div>
       </section>
-      {/* Our Compare Area */}
+      {/* End FAQ Section Area */}
 
       {/* Our CTA */}
       <CallToActions />
@@ -68,4 +78,4 @@ const Compare = () => {
   );
 };
 
-export default Compare;
+export default Faq;

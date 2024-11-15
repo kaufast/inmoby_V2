@@ -2,13 +2,13 @@ import CallToActions from "@/components/common/CallToActions";
 import DefaultHeader from "@/components/common/DefaultHeader";
 import Footer from "@/components/common/default-footer";
 import MobileMenu from "@/components/common/mobile-menu";
-import Pricing from "@/components/pages/pricing/Pricing";
+import ComapareTable from "@/components/pages/compare/ComapareTable";
 
 export const metadata = {
-  title: "Pricing  || Homez - Real Estate NextJS Template",
+  title: "Compare  || Inmobi - Real Estate NextJS Template",
 };
 
-const PricingPlan = () => {
+const Compare = () => {
   return (
     <>
       {/* Main Header Nav */}
@@ -20,15 +20,19 @@ const PricingPlan = () => {
       {/* End Mobile Nav  */}
 
       {/* Breadcrumb Sections */}
-      <section className="breadcumb-section">
+      <section className="breadcumb-section3 p-0">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <div className="breadcumb-style1">
-                <h2 className="title">Membership Plans</h2>
+                <h2 className="title text-white">Compare Properties</h2>
                 <div className="breadcumb-list">
-                  Para Renta
-                  <a href="#">Plans</a>
+                  <a className="text-white" href="#">
+                    Home
+                  </a>
+                  <a className="text-white" href="#">
+                    Compare
+                  </a>
                 </div>
               </div>
             </div>
@@ -37,23 +41,19 @@ const PricingPlan = () => {
       </section>
       {/* End Breadcrumb Sections */}
 
-      {/* Pricing Section Area */}
-      <section className="our-pricing pb90 pt-0">
+      {/* Our Compare Area */}
+      <section className="our-compare">
         <div className="container">
-          <div className="row" data-aos="fade-up" data-aos-delay="100">
-            <div className="col-lg-6 offset-lg-3">
-              <div className="main-title text-center mb30">
-                <h2>Membership Plans</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur.</p>
+          <div className="row wow fadeInUp" data-wow-delay="300ms">
+            <div className="col-lg-12">
+              <div className="table-style2 table-responsive">
+                <ComapareTable />
               </div>
             </div>
           </div>
-          {/* End .row */}
-          <Pricing />
         </div>
-        {/* End .container */}
       </section>
-      {/* End Pricing Section Area */}
+      {/* Our Compare Area */}
 
       {/* Our CTA */}
       <CallToActions />
@@ -68,4 +68,4 @@ const PricingPlan = () => {
   );
 };
 
-export default PricingPlan;
+export default Compare;

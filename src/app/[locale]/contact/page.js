@@ -1,4 +1,4 @@
-import { useTranslations } from '../../../i18n';
+import { useTranslations } from "@/i18n";
 import CallToActions from "@/components/common/CallToActions";
 import DefaultHeader from "@/components/common/DefaultHeader";
 import Footer from "@/components/common/default-footer";

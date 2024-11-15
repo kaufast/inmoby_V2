@@ -145,7 +145,32 @@
       }
     },
     "submitButton": "Enviar mensaje"
-  } 
+  }, 
+  "aboutPage": {
+    "metadata": {
+      "title": "Nosotros || Inmobi - Plantilla NextJS Inmobiliaria"
+    },
+    "breadcrumb": {
+      "title": "Sobre Inmobi",
+      "path": "Inmobiliaria > Nosotros"
+    },
+    "mission": {
+      "heading": "Nuestra misión es cambiar la perspectiva del sector inmobiliario.",
+      "description1": "No importa cuán estructurado esté el mercado, el sector inmobiliario siempre presenta desafíos inesperados. Sin embargo, adaptarse a las nuevas tendencias y mantener un enfoque innovador es más fácil de lo que parece. Nuestro objetivo es transformar la forma en que las personas ven el mundo inmobiliario, ofreciendo soluciones ágiles y personalizadas.",
+      "description2": "Siempre buscamos nuevas formas de mejorar la experiencia de nuestros clientes, brindando servicios de alta calidad que satisfagan sus necesidades. Nuestro compromiso es estar a la vanguardia de la industria, liderando con transparencia, confianza y un profundo conocimiento del mercado inmobiliario."
+    },
+    "agents": {
+      "heading": "Agentes Exclusivos",
+      "description": "Contamos con un equipo de agentes exclusivos que se especializan en ofrecer el mejor servicio personalizado. Nuestro enfoque es conectar a los clientes con las mejores oportunidades del mercado, garantizando un proceso eficiente y transparente."
+    },
+    "cta": {
+      "heading": "Encontremos juntos la mejor opción para ti",
+      "button": "Saber más"
+    }
+  }
+
+
+
 }
 
 

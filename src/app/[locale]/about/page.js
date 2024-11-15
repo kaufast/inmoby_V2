@@ -1,6 +1,7 @@
+import React from "react";
+import { useTranslations } from "@/i18n";
 import CallToActions from "@/components/common/CallToActions";
 import DefaultHeader from "@/components/common/DefaultHeader";
-// import Partner from "@/components/common/Partner";
 import Footer from "@/components/common/default-footer";
 import MobileMenu from "@/components/common/mobile-menu";
 import Agents from "@/components/pages/about/Agents";
@@ -10,20 +11,18 @@ import Mission from "@/components/pages/about/Mission";
 import Image from "next/image";
 import Link from "next/link";
 
-export const metadata = {
-  title: "About  || Homez - Real Estate NextJS Template",
-};
+const About = ({ params: { locale } }) => {
+  const t = useTranslations(locale);
 
-const About = () => {
   return (
     <>
       {/* Main Header Nav */}
       <DefaultHeader />
       {/* End Main Header Nav */}
 
-      {/* Mobile Nav  */}
+      {/* Mobile Nav */}
       <MobileMenu />
-      {/* End Mobile Nav  */}
+      {/* End Mobile Nav */}
 
       {/* Breadcrumb Sections */}
       <section className="breadcumb-section2 p-0">
@@ -31,11 +30,8 @@ const About = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="breadcumb-style1">
-                <h2 className="title">Sobre Inmobi</h2>
-                <div className="breadcumb-list">
-                  Inmobiliaria &nbsp;
-                  <a href="#">  Nosotros</a>
-                </div>
+                <h2 className="title">{t("aboutPage.breadcrumb.title")}</h2>
+                <div className="breadcumb-list">{t("aboutPage.breadcrumb.path")}</div>
               </div>
             </div>
           </div>
@@ -48,18 +44,11 @@ const About = () => {
         <div className="container">
           <div className="row" data-aos="fade-up" data-aos-delay="300">
             <div className="col-lg-6">
-              <h2>
-                 Nuestra misión es cambiar la perspectiva del sector inmobiliario.{" "}
-                <br className="d-none d-lg-block" /> Brindamos una perspectiva eficaz del sector inmobiliario
-              </h2>
+              <h2>{t("aboutPage.mission.heading")}</h2>
             </div>
             <div className="col-lg-6">
-              <p className="text mb25">
-                No importa cuán estructurado esté el mercado, el sector inmobiliario siempre presenta desafíos inesperados. Sin embargo, adaptarse a las nuevas tendencias y mantener un enfoque innovador es más fácil de lo que parece. Nuestro objetivo es transformar la forma en que las personas ven el mundo inmobiliario, ofreciendo soluciones ágiles y personalizadas.
-              </p>
-              <p className="text mb55">
-                Siempre buscamos nuevas formas de mejorar la experiencia de nuestros clientes, brindando servicios de alta calidad que satisfagan sus necesidades. Nuestro compromiso es estar a la vanguardia de la industria, liderando con transparencia, confianza y un profundo conocimiento del mercado inmobiliario.
-              </p>
+              <p className="text mb25">{t("aboutPage.mission.description1")}</p>
+              <p className="text mb55">{t("aboutPage.mission.description2")}</p>
               <div className="row">
                 <Mission />
               </div>
@@ -93,11 +82,7 @@ const About = () => {
       {/* Funfact */}
       <section className="pt-0">
         <div className="container">
-          <div
-            className="row justify-content-center"
-            data-aos="fade-up"
-            data-aos-delay="300"
-          >
+          <div className="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
             <FunFact />
           </div>
         </div>
@@ -107,23 +92,14 @@ const About = () => {
       {/* Exclusive Agents */}
       <section className="pb90">
         <div className="container">
-          <div className="row  justify-content-center">
+          <div className="row justify-content-center">
             <div className="col-auto">
-              <div
-                className="main-title"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                <h2 className="title">Agentes Exclusivos</h2>
-                <p className="paragraph">
-                  Contamos con un equipo de agentes exclusivos que se especializan en ofrecer el mejor servicio personalizado. Nuestro enfoque es conectar a los clientes con las mejores oportunidades del mercado, garantizando un proceso eficiente y transparente.
-                </p>
+              <div className="main-title" data-aos="fade-up" data-aos-delay="100">
+                <h2 className="title">{t("aboutPage.agents.heading")}</h2>
+                <p className="paragraph">{t("aboutPage.agents.description")}</p>
               </div>
             </div>
-            {/* End header */}
           </div>
-          {/* End .row */}
-
           <div className="row">
             <div className="col-lg-12" data-aos="fade-up" data-aos-delay="300">
               <div className="property-city-slider">
@@ -135,27 +111,20 @@ const About = () => {
       </section>
       {/* Exclusive Agents */}
 
-      {/* Abut intro */}
+      {/* About Intro */}
       <section className="pt30 pb-0">
         <div className="cta-banner3 bgc-thm-light mx-auto maxw1600 pt100 pt60-lg pb90 pb60-lg bdrs24 position-relative overflow-hidden mx20-lg">
           <div className="container">
             <div className="row">
-              <div
-                className="col-md-6 col-lg-5 pl30-md pl15-xs"
-                data-aos="fade-left"
-                data-aos-delay="300"
-              >
+              <div className="col-md-6 col-lg-5 pl30-md pl15-xs" data-aos="fade-left" data-aos-delay="300">
                 <div className="mb30">
-                  <h2 className="title text-capitalize">
-                  Encontremos juntos la mejor  <br className="d-none d-md-block" />{" "}
-                  opción para ti
-                  </h2>
+                  <h2 className="title text-capitalize">{t("aboutPage.cta.heading")}</h2>
                 </div>
                 <div className="why-chose-list style2">
                   <Features />
                 </div>
                 <Link href="#" className="ud-btn btn-dark">
-                  Saber más
+                  {t("aboutPage.cta.button")}
                   <i className="fal fa-arrow-right-long" />
                 </Link>
               </div>
@@ -163,9 +132,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      {/* Abut intro */}
-
-
+      {/* About Intro */}
 
       {/* Our CTA */}
       <CallToActions />

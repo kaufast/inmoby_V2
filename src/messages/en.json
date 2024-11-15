@@ -144,6 +144,28 @@
       }
     },
     "submitButton": "Send Message"
+  },
+  "aboutPage": {
+    "metadata": {
+      "title": "About || Inmobi - Real Estate NextJS Template"
+    },
+    "breadcrumb": {
+      "title": "About Inmobi",
+      "path": "Real Estate > About Us"
+    },
+    "mission": {
+      "heading": "Our mission is to change the perspective of the real estate sector.",
+      "description1": "No matter how structured the market is, real estate always presents unexpected challenges. However, adapting to new trends and maintaining an innovative approach is easier than it seems. Our goal is to transform how people view the real estate world, offering agile and personalized solutions.",
+      "description2": "We constantly look for new ways to improve our clients' experience, providing high-quality services that meet their needs. Our commitment is to stay at the forefront of the industry, leading with transparency, trust, and a deep knowledge of the real estate market."
+    },
+    "agents": {
+      "heading": "Exclusive Agents",
+      "description": "We have a team of exclusive agents specializing in providing the best personalized service. Our focus is on connecting clients with the best market opportunities, ensuring an efficient and transparent process."
+    },
+    "cta": {
+      "heading": "Let’s find the best option for you together",
+      "button": "Learn More"
+    }
   }
 
 }

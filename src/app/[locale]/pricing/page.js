@@ -2,14 +2,13 @@ import CallToActions from "@/components/common/CallToActions";
 import DefaultHeader from "@/components/common/DefaultHeader";
 import Footer from "@/components/common/default-footer";
 import MobileMenu from "@/components/common/mobile-menu";
-import Faq1 from "@/components/pages/faq/Faq1";
-import Faq2 from "@/components/pages/faq/Faq2";
+import Pricing from "@/components/pages/pricing/Pricing";
 
 export const metadata = {
-  title: "Faq  || Homez - Real Estate NextJS Template",
+  title: "Pricing  || Inmobi - Real Estate NextJS Template",
 };
 
-const Faq = () => {
+const PricingPlan = () => {
   return (
     <>
       {/* Main Header Nav */}
@@ -26,10 +25,10 @@ const Faq = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="breadcumb-style1">
-                <h2 className="title">Preguntas Frequentes (FAQ)</h2>
+                <h2 className="title">Membership Plans</h2>
                 <div className="breadcumb-list">
-                  <a href="#">Casas</a>
-                  <a href="#">para Rentar</a>
+                  Para Renta
+                  <a href="#">Plans</a>
                 </div>
               </div>
             </div>
@@ -38,32 +37,23 @@ const Faq = () => {
       </section>
       {/* End Breadcrumb Sections */}
 
-      {/* FAQ Section Area */}
-      <section className="our-faq pb90 pt-0">
+      {/* Pricing Section Area */}
+      <section className="our-pricing pb90 pt-0">
         <div className="container">
-          <div className="row wow fadeInUp" data-wow-delay="300ms">
-            <div className="col-lg-12">
-              <div className="ui-content">
-                <h4 className="title">Pregunta sobre pisos en venta</h4>
-                <div className="accordion-style1 faq-page mb-4 mb-lg-5">
-                  <Faq1 />
-                </div>
+          <div className="row" data-aos="fade-up" data-aos-delay="100">
+            <div className="col-lg-6 offset-lg-3">
+              <div className="main-title text-center mb30">
+                <h2>Membership Plans</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur.</p>
               </div>
-              {/* End ui-content */}
-
-              <div className="ui-content">
-                <h4 className="title">Pregunta sobre pisos en alquiler</h4>
-                <div className="accordion-style1 faq-page mb-4 mb-lg-5">
-                  <Faq2 />
-                </div>
-              </div>
-              {/* End ui-content */}
             </div>
-            {/* End .col-lg-12 */}
           </div>
+          {/* End .row */}
+          <Pricing />
         </div>
+        {/* End .container */}
       </section>
-      {/* End FAQ Section Area */}
+      {/* End Pricing Section Area */}
 
       {/* Our CTA */}
       <CallToActions />
@@ -78,4 +68,4 @@ const Faq = () => {
   );
 };
 
-export default Faq;
+export default PricingPlan;
