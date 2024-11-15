@@ -1,3 +1,4 @@
+import { useTranslations } from '../../i18n';
 import DefaultHeader from "@/components/common/DefaultHeader";
 import Footer from "@/components/common/default-footer";
 import MobileMenu from "@/components/common/mobile-menu";
@@ -5,11 +6,10 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-export const metadata = {
-  title: "Not-Found  || Homez - Real Estate NextJS Template",
-};
 
-const NotFound = () => {
+const NotFound = ({ params: { locale } }) => {
+  const t = useTranslations(locale);
+  
   return (
     <>
       {/* Main Header Nav */}
@@ -48,14 +48,13 @@ const NotFound = () => {
                   <span className="text-thm">40</span>4
                 </div>
                 <div className="h2 error_title">
-                ¡Vaya! No encontramos la página que buscas.
-                </div>
+                {t('notFound.title')}                </div>
                 <p className="text fz15 mb20">
-                La página que buscas no está disponible. Intenta buscar de<br className="d-none d-lg-block" /> nuevo, o usa el botón para continuar...
+                {t('notFound.description')}
                 </p>
                 <Link href="/" className="ud-btn btn-dark">
-                  Volver a la página de inicio
-                  <i className="fal fa-arrow-right-long" />
+                {t('notFound.homeButton')}
+                <i className="fal fa-arrow-right-long" />
                 </Link>
               </div>
             </div>

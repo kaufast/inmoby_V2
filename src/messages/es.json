@@ -70,19 +70,10 @@
     "contactUs": "Contáctanos",
     "phone": "679 680 000"
   },
-  "faq1": {
-    "property.depreciation.question": "¿Puede una vivienda depreciarse en valor?",
-    "property.depreciation.answer": "En España, una vivienda puede depreciarse dependiendo del mercado inmobiliario, la ubicación y el estado de conservación. Sin embargo, los inmuebles en zonas urbanas y con buena demanda tienden a mantener o incrementar su valor.",
-    "property.old.question": "¿Una vivienda antigua tiene el mismo valor que una nueva?",
-    "property.old.answer": "Las viviendas antiguas pueden ser tan valiosas como las nuevas, dependiendo de su estado, ubicación y características. Además, algunas casas antiguas tienen valor histórico o arquitectónico que incrementa su precio.",
-    "agent.question": "¿Qué es un agente inmobiliario?",
-    "agent.answer": "Un agente inmobiliario es un profesional autorizado que se encarga de mediar en la compra, venta o alquiler de propiedades. En España, deben estar registrados en el Colegio Oficial de Agentes de la Propiedad Inmobiliaria para garantizar un servicio profesional.",
-    "taxes.question": "¿Puedo pagar mis propios impuestos y seguro?",
-    "taxes.answer": "Sí, en España puedes encargarte directamente del pago de tus impuestos de propiedad (IBI) y de tu seguro de hogar. Sin embargo, algunas hipotecas incluyen estos pagos como parte del acuerdo."
-  },
+ 
   "contact": {
     "metadata": {
-      "title": "Contacto | Realton - Servicios Inmobiliarios"
+      "title": "Contacto | Inmobi - Servicios Inmobiliarios"
     },
     "form": {
       "title": "¿Tienes preguntas? ¡Ponte en contacto!",
@@ -112,7 +103,7 @@
     },
     "hero": {
       "title": "Nos encantaría saber de ti",
-      "description": "Estamos aquí para responder cualquier pregunta que puedas tener. Como socio de corporaciones, Realton cuenta con más de 9,000 oficinas de todos los tamaños y con todo el potencial de gestión."
+      "description": "Estamos aquí para responder cualquier pregunta que puedas tener. Como socio de corporaciones, Inmobi cuenta con más de 9,000 oficinas de todos los tamaños y con todo el potencial de gestión."
     },
     "office": {
       "title": "Visita Nuestras Oficinas",
@@ -122,18 +113,39 @@
           "city": "Oficina Madrid",
           "address": "Calle Principal 123",
           "phone": "+34 912 345 678",
-          "email": "madrid@realton.com"
+          "email": "madrid@inmobi.com"
         },
         "barcelona": {
           "city": "Oficina Barcelona",
           "address": "Avinguda Diagonal 456",
           "phone": "+34 933 456 789",
-          "email": "barcelona@realton.com"
+          "email": "barcelona@inmobi.com"
         }
       }
     }
-  }
-  
+  },
+  "form": {
+    "title": "¿Tienes preguntas? ¡Ponte en contacto!",
+    "fields": {
+      "firstName": {
+        "label": "Nombre",
+        "placeholder": "Su Nombre"
+      },
+      "lastName": {
+        "label": "Apellido",
+        "placeholder": "Su Apellido"
+      },
+      "email": {
+        "label": "Correo electrónico",
+        "placeholder": "Su e-mail"
+      },
+      "comments": {
+        "label": "Comentarios",
+        "placeholder": "Explíquenos aquí cuál es su pregunta..."
+      }
+    },
+    "submitButton": "Enviar mensaje"
+  } 
 }
 
 

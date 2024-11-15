@@ -6,9 +6,7 @@ import MobileMenu from "@/components/common/mobile-menu";
 import Form from "@/components/pages/contact/Form";
 import Office from "@/components/pages/contact/Office";
 
-export const metadata = {
-  title: "Contacto | Realton - Servicios Inmobiliarios",
-};
+
 
 const Contact = ({ params: { locale } }) => {
   const t = useTranslations(locale);
@@ -86,7 +84,7 @@ const Contact = ({ params: { locale } }) => {
       {/* End Visit our Office */}
 
       {/* Our CTA */}
-      <CallToActions />
+      <CallToActions  locale={locale} />
       {/* Our CTA */}
 
       {/* Start Our Footer */}

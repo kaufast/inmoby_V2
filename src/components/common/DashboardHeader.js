@@ -4,7 +4,7 @@ import MainMenu from "@/components/common/MainMenu";
 import SidebarPanel from "@/components/common/sidebar-panel";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { usePathname } from "next/navigation";
 
 const DashboardHeader = () => {
@@ -126,9 +126,9 @@ const DashboardHeader = () => {
                     {/* End email box */}
 
                     <li className="d-none d-sm-block">
-                      <a className="text-center mr20 notif" href="#">
+                      <button className="text-center mr20 notif" type="button">
                         <span className="flaticon-bell" />
-                      </a>
+                      </button>
                     </li>
                     {/* End notification icon */}
 
