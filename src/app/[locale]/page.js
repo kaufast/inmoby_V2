@@ -21,8 +21,8 @@ export const metadata = {
   description: "Explora nuestras propiedades destacadas y encuentra la casa de tus sueños en España con Inmobi.",
 };
 
-const HomePage = ({ params }) => {
-  const locale = params.locale || "es"; // Default to Spanish if locale not provided
+const HomePage = async ({ params }) => {
+  const locale = params?.locale || "es"; // Safely access locale
   const t = useTranslations(locale); // Load translations based on locale
 
   return (

@@ -1,10 +1,12 @@
-// src/middleware.js
-import { NextResponse } from 'next/server';
+import { NextResponse } from "next/server";
 
 export function middleware(request) {
   const pathname = request.nextUrl.pathname;
-  if (pathname === '/') {
-    return NextResponse.redirect(new URL(`/es`, request.url)); // Redirect to default locale
+
+  // Redirect "/" to "/es"
+  if (pathname === "/") {
+    return NextResponse.redirect(new URL(`/es`, request.url));
   }
-  return NextResponse.next(); // Continue to the requested route
+
+  return NextResponse.next();
 }

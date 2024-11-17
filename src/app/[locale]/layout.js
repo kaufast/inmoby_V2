@@ -1,11 +1,13 @@
 // src/app/[locale]/layout.js
-import { useTranslations } from '../../i18n';
+// src/app/[locale]/layout.js
+import { useTranslations } from "../../i18n";
 
-export default function LocaleLayout({ children, params }) {
-  const t = useTranslations(params.locale); // Load translations based on locale
+export default async function LocaleLayout({ children, params }) {
+  const locale = params?.locale || "es"; // Safely access locale
+  const t = useTranslations(locale); // Load translations based on locale
 
   return (
-    <html lang={params.locale}>
+    <html lang={locale}>
       <body>
         {children}
       </body>

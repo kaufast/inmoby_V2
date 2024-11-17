@@ -19,7 +19,7 @@ export const propertyItems = [
 ];
 
 export const blogItems = [
-  { href: "/blog-list-v1", label: "Artículos del Blog" },
+  { href: "/blog-inmobi", label: "Artículos del Blog" },
 ];
 
 export const pageItems = [

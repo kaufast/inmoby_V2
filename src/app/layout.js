@@ -1,3 +1,4 @@
+// src/app/layout/js
 "use client";
 import ScrollToTop from "@/components/common/ScrollTop";
 import Aos from "aos";
@@ -5,29 +6,26 @@ import "../../node_modules/react-modal-video/scss/modal-video.scss";
 import "aos/dist/aos.css";
 import "../../public/scss/main.scss";
 import "rc-slider/assets/index.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { DM_Sans, Poppins } from "next/font/google";
 import { useEffect } from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
 
-if (typeof window !== "undefined") {
-  import("bootstrap");
-}
-
-// DM_Sans font
+// Fonts configuration
 const dmSans = DM_Sans({
   subsets: ["latin"],
   weight: ["400", "500", "700"],
   variable: "--body-font-family",
 });
 
-// Poppins font
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800"],
   variable: "--title-font-family",
 });
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children, params }) {
+  const locale = params?.locale || "es"; // Default locale to "es"
+
   useEffect(() => {
     Aos.init({
       duration: 1200,
@@ -36,13 +34,9 @@ export default function RootLayout({ children }) {
   }, []);
 
   return (
-    <html lang="es">
-      <body
-        className={`body  ${poppins.variable} ${dmSans.variable}`}
-        cz-shortcut-listen="false"
-      >
-        <div className="wrapper ovh">{children}</div>
-
+    <html lang={locale}> 
+      <body className={`body ${poppins.variable} ${dmSans.variable}`}>
+        {children}
         <ScrollToTop />
       </body>
     </html>

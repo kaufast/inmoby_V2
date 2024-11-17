@@ -167,9 +167,13 @@
       "heading": "Encontremos juntos la mejor opción para ti",
       "button": "Saber más"
     }
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "Lo sentimos, la página que buscas no existe.",
+    "homeButton": "Volver al inicio",
+    "imageAlt": "Ilustración de página de error"
   }
-
-
 
 }
 

@@ -1,4 +1,5 @@
-import Home_V1 from "./(home)/home-v1/page";
+// import Home_V1 from "./(home)/home-v1/page";
+import Home_V1 from './[locale]/page';
 import Wrapper from "./layout-wrapper/wrapper";
 import Head from 'next/head'; // Import Head component
 

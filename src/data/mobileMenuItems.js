@@ -59,7 +59,7 @@ module.exports = [
   {
     label: "Blog",
     subMenu: [
-      { path: "/blog-list-v1", label: "Lista de Blog V1" },
+      { path: "/blog-inmobi", label: "Lista de Blog V1" },
       { path: "/blogs/2", label: "Entrada de Blog" },
     ],
   },

@@ -166,6 +166,13 @@
       "heading": "Let’s find the best option for you together",
       "button": "Learn More"
     }
-  }
+  },
+
+    "notFound": {
+      "title": "Page Not Found",
+      "description": "Sorry, the page you are looking for doesn't exist.",
+      "homeButton": "Return to Home",
+      "imageAlt": "Error page illustration"
+    } 
 
 }

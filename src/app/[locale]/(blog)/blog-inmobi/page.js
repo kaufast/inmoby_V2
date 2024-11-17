@@ -1,15 +1,15 @@
 import Pagination from "@/components/blog/Pagination";
-import Blog from "@/components/blog/blog-list-v1/Blog";
+import Blog from "@/components/blog/blog-list-v2/Blog";
 import BlogSidebar from "@/components/blog/sidebar";
 import DefaultHeader from "@/components/common/DefaultHeader";
 import Footer from "@/components/common/default-footer";
 import MobileMenu from "@/components/common/mobile-menu";
 
 export const metadata = {
-  title: "Blog List v1  || Inmobi - Real Estate ",
+  title: "Blog List v2  || Inmobi - Real Estate NextJS Template",
 };
 
-const BlogV1 = () => {
+const BlogInmobiPage = () => {
   return (
     <div className="bgc-f7">
       {/* Main Header Nav */}
@@ -76,4 +76,4 @@ const BlogV1 = () => {
   );
 };
 
-export default BlogV1;
+export default BlogInmobiPage;
